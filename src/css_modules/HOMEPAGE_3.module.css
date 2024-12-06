@@ -1,0 +1,791 @@
+.neutonimageIcon {
+    position: absolute;
+    top: 94px;
+    left: 91px;
+    width: 498px;
+    height: 251px;
+    object-fit: cover;
+}
+.neutonimagebg1Icon {
+    position: absolute;
+    top: 286px;
+    left: -22px;
+    width: 501px;
+    height: 220px;
+    object-fit: cover;
+}
+.neutonimagebg2Icon {
+    position: absolute;
+    top: 176px;
+    left: -35px;
+    width: 501px;
+    height: 220px;
+    object-fit: cover;
+}
+.neutonimagebg3Icon {
+    position: absolute;
+    top: 178px;
+    left: -35px;
+    width: 501px;
+    height: 220px;
+    object-fit: cover;
+}
+.buttonsBackground {
+    position: absolute;
+    top: 855px;
+  
+  
+   
+    
+  }
+.homeButtonIcon {
+    position: absolute;
+    height: 3.89%;
+    width: 8.64%;
+    top: 94.28%;
+    right: 85.05%;
+    bottom: 1.84%;
+    left: 6.31%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.notificationButtonIcon {
+    position: absolute;
+    height: 4.05%;
+    width: 7.45%;
+    top: 94.03%;
+    right: 8.08%;
+    bottom: 1.92%;
+    left: 84.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.stackButtonIcon {
+    position: absolute;
+    height: 4.52%;
+    width: 9.11%;
+    top: 93.74%;
+    right: 23.83%;
+    bottom: 1.74%;
+    left: 67.06%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.cursorbuttonsIcon {
+    position: absolute;
+    height: 1.63%;
+    width: 5.16%;
+    top: 91.68%;
+    right: 86.91%;
+    bottom: 6.68%;
+    left: 7.93%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.listingDetails {
+    position: absolute;
+    top: 458px;
+    left: 23px;
+    font-weight: 500;
+    display: inline-block;
+    width: 188px;
+    height: 23px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bitmart {
+    position: absolute;
+    top: 512px;
+    left: 84px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.neuton {
+    position: absolute;
+    top: 148px;
+    left: 103px;
+    font-size: 24px;
+    letter-spacing: 0.07em;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 1px 4px #fff;
+}
+.div {
+    position: absolute;
+    top: 513px;
+    left: 311px;
+    font-weight: 500;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.div1 {
+    position: absolute;
+    top: 582px;
+    left: 310px;
+    font-weight: 500;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.coindcx {
+    position: absolute;
+    top: 582px;
+    left: 84px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bitmartLogoellipse {
+    position: absolute;
+    top: 504px;
+    left: 22px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 43px;
+    height: 43px;
+}
+.coindcxLogoellipse {
+    position: absolute;
+    top: 574px;
+    left: 22px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 43px;
+    height: 43px;
+}
+.coindcxLogoIcon {
+    position: absolute;
+    top: 591px;
+    left: 24px;
+    width: 40px;
+    height: 9px;
+    object-fit: cover;
+}
+.bitmartLogoIcon {
+    position: absolute;
+    top: 503px;
+    left: 14px;
+    width: 61px;
+    height: 41px;
+    object-fit: cover;
+}
+.b {
+    position: absolute;
+    top: 553px;
+    left: 25px;
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+}
+.b1 {
+    position: absolute;
+    top: 624px;
+    left: 23px;
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+}
+.dropdownIcon {
+    position: absolute;
+    height: 0.81%;
+    width: 2.99%;
+    top: 69.35%;
+    right: 48.25%;
+    bottom: 29.84%;
+    left: 48.76%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.buynewtonrec {
+    position: absolute;
+    top: 688px;
+    left: 35px;
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid #fff8f8;
+    box-sizing: border-box;
+    width: 187px;
+    height: 91px;
+}
+.icoButtonIcon {
+    position: absolute;
+    top: 845px;
+    left: 77px;
+    width: 119px;
+    height: 77px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.nftButtonIcon {
+    position: absolute;
+    top: 846px;
+    left: 160px;
+    width: 114px;
+    height: 87px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.hardcap {
+    position: absolute;
+    top: 275px;
+    left: 44px;
+    box-shadow: 0px 2px 9px 4px rgba(223, 220, 220, 0.71);
+    border-radius: 10px;
+    background-color: #000;
+    width: 157px;
+    height: 87px;
+    opacity: 0.2;
+}
+.softcap {
+    position: absolute;
+    top: 275px;
+    left: 234px;
+    box-shadow: 0px 2px 9px 4px rgba(223, 220, 220, 0.71);
+    border-radius: 10px;
+    background-color: #000;
+    width: 157px;
+    height: 87px;
+    opacity: 0.2;
+}
+.ton600 {
+    position: absolute;
+    top: 720px;
+    left: 35px;
+    background-color: #000;
+    width: 188px;
+    height: 43px;
+    opacity: 0.2;
+}
+.hardCap {
+    position: absolute;
+    top: 297px;
+    left: 96px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 13px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kTon {
+    position: absolute;
+    top: 330px;
+    left: 46px;
+    font-size: 24px;
+    letter-spacing: 0.08em;
+    line-height: 130.08%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+    height: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hardcapIcon {
+    position: absolute;
+    height: 3.42%;
+    width: 7.41%;
+    top: 31.01%;
+    right: 79.47%;
+    bottom: 65.56%;
+    left: 13.12%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.profilerectangle {
+    position: absolute;
+    top: 58px;
+    left: 14px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 140px;
+    height: 39px;
+}
+.buynewtonrectangle {
+    position: absolute;
+    top: 674px;
+    left: 50px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 161px;
+    height: 33px;
+}
+.walletButton {
+    position: absolute; /* Ensures it floats over other elements */
+    top: 58px;
+    Right: 14px;
+  }
+  
+  .walletButton button {
+    background-color: #20232a; /* Matches dark UI */
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+.walletrectangle {
+    position: absolute;
+    top: 57px;
+    left: 245px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 172px;
+    height: 40px;
+}
+.wxyz {
+    position: absolute;
+    top: 68px;
+    left: 76px;
+    font-size: 14px;
+    display: inline-block;
+    width: 51px;
+    height: 22px;
+}
+.buyNeuton {
+    position: absolute;
+    top: 679px;
+    left: 69px;
+    display: inline-block;
+    color: #000;
+    width: 154px;
+    height: 14px;
+}
+.b2 {
+    position: absolute;
+    top: 716px;
+    left: 79px;
+    font-size: 40px;
+    display: inline-block;
+    width: 95px;
+    height: 37px;
+}
+.ton {
+    position: absolute;
+    top: 729px;
+    left: 158px;
+    font-weight: 500;
+    display: inline-block;
+    width: 95px;
+    height: 37px;
+}
+.connectWallet {
+    position: absolute;
+    top: 69px;
+    left: 254px;
+    font-size: 14px;
+    display: inline-block;
+    width: 135px;
+    height: 22px;
+}
+.useropenicon {
+    position: absolute;
+    height: 0.75%;
+    width: 2.13%;
+    top: 8.02%;
+    right: 68.09%;
+    bottom: 91.23%;
+    left: 29.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.walleticon {
+    position: absolute;
+    height: 2.06%;
+    width: 4.91%;
+    top: 7.37%;
+    right: 5.72%;
+    bottom: 90.57%;
+    left: 89.37%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.userlogoIcon {
+    position: absolute;
+    height: 4.63%;
+    width: 10.49%;
+    top: 6.06%;
+    right: 86.44%;
+    bottom: 89.31%;
+    left: 3.07%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.telegramIcon {
+    position: absolute;
+    height: 2.59%;
+    width: 6.54%;
+    top: 23.43%;
+    right: 82.24%;
+    bottom: 73.97%;
+    left: 11.21%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.twitterIcon {
+    position: absolute;
+    height: 2.59%;
+    width: 6.31%;
+    top: 23.54%;
+    right: 71.26%;
+    bottom: 73.87%;
+    left: 22.43%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.webIcon {
+    position: absolute;
+    height: 2.81%;
+    width: 6.07%;
+    top: 23.33%;
+    right: 61.92%;
+    bottom: 73.87%;
+    left: 32.01%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.papersIcon {
+    position: absolute;
+    height: 2.43%;
+    width: 5.26%;
+    top: 23.41%;
+    right: 52.98%;
+    bottom: 74.16%;
+    left: 41.76%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.netonimageIcon {
+    position: absolute;
+    top: 114px;
+    left: 25px;
+    width: 78px;
+    height: 98px;
+    object-fit: cover;
+}
+.homePage3Child {
+    position: absolute;
+    top: 679px;
+    left: 261px;
+    border-radius: 9px;
+    background-color: #000;
+    border: 1px solid #fff8f8;
+    box-sizing: border-box;
+    width: 127px;
+    height: 34px;
+}
+.homePage3Item {
+    position: absolute;
+    top: 722px;
+    left: 261px;
+    border-radius: 9px;
+    background-color: #000;
+    border: 1px solid #fff8f8;
+    box-sizing: border-box;
+    width: 127px;
+    height: 32px;
+}
+.homePage3Inner {
+    position: absolute;
+    top: 805px;
+    left: 53px;
+    border-radius: 16px;
+    background-color: #000;
+    border: 1px solid #fff8f8;
+    box-sizing: border-box;
+    width: 330px;
+    height: 37px;
+}
+.min10Ton {
+    position: absolute;
+    top: 685px;
+    left: 279px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    width: 173px;
+    height: 16px;
+}
+.max500Ton {
+    position: absolute;
+    top: 727px;
+    left: 275px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    width: 173px;
+    height: 15px;
+}
+.tonBalance {
+    position: absolute;
+    top: 764px;
+    left: 237px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 178px;
+    height: 18px;
+}
+.ton1 {
+    position: absolute;
+    top: 765px;
+    left: 329px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 178px;
+    height: 18px;
+}
+.buy12876321255Neuton {
+    position: absolute;
+    top: 814px;
+    left: 117px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    width: 294px;
+    height: 17px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 277px;
+    left: 229px;
+    border-radius: 10px;
+    background-color: #000;
+    width: 157px;
+    height: 87px;
+    opacity: 0.2;
+}
+.homePage3Child1 {
+    position: absolute;
+    top: 275px;
+    left: 234px;
+    border-radius: 10px;
+    background-color: #000;
+    width: 155px;
+    height: 87px;
+}
+.softCap {
+    position: absolute;
+    top: 299px;
+    left: 283px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 13px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kTon1 {
+    position: absolute;
+    top: 332px;
+    left: 233px;
+    font-size: 24px;
+    letter-spacing: 0.08em;
+    line-height: 130.08%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+    height: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.softcapIcon {
+    position: absolute;
+    height: 3.42%;
+    width: 7.41%;
+    top: 31.23%;
+    right: 35.54%;
+    bottom: 65.35%;
+    left: 57.05%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.full {
+    position: absolute;
+    top: 389px;
+    left: 47px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 341px;
+    height: 7px;
+}
+.full80 {
+    position: absolute;
+    top: 389px;
+    left: 47px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ff0004, #fdfd0c 50%, #2eff04);
+    width: 229px;
+    height: 7px;
+}
+.p {
+    margin: 0;
+    letter-spacing: 0.07em;
+    white-space: pre-wrap;
+}
+.p1 {
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+.txt {
+    width: 100%;
+}
+.b3 {
+    position: absolute;
+    top: 409px;
+    left: 65px;
+    font-size: 9px;
+    line-height: 130.08%;
+    display: flex;
+    align-items: center;
+    width: 117px;
+    height: 30px;
+}
+.b4 {
+    position: absolute;
+    top: 408px;
+    left: 333px;
+    font-size: 9px;
+    line-height: 130.08%;
+    display: flex;
+    align-items: center;
+    width: 117px;
+    height: 30px;
+}
+.calenderIcon {
+    position: absolute;
+    height: 0.81%;
+    width: 1.94%;
+    top: 44.63%;
+    right: 86.52%;
+    bottom: 54.56%;
+    left: 11.54%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.calenderIcon1 {
+    position: absolute;
+    height: 0.81%;
+    width: 1.94%;
+    top: 44.52%;
+    right: 23.91%;
+    bottom: 54.67%;
+    left: 74.15%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clockIcon {
+    position: absolute;
+    height: 0.9%;
+    width: 1.94%;
+    top: 46.02%;
+    right: 86.53%;
+    bottom: 53.08%;
+    left: 11.54%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clockIcon1 {
+    position: absolute;
+    height: 0.9%;
+    width: 1.94%;
+    top: 45.91%;
+    right: 23.91%;
+    bottom: 53.19%;
+    left: 74.15%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.d02h20m {
+    position: absolute;
+    top: 412px;
+    left: 168px;
+    font-size: 9px;
+    letter-spacing: 0.07em;
+    line-height: 130.08%;
+    display: flex;
+    align-items: center;
+    width: 129px;
+    height: 10px;
+}
+.timerIcon {
+    position: absolute;
+    height: 0.98%;
+    width: 2.15%;
+    top: 44.54%;
+    right: 62.49%;
+    bottom: 54.48%;
+    left: 35.36%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.homePage3 {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 926px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Krub;
+}
+

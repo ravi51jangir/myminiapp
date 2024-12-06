@@ -1,0 +1,797 @@
+.profilerectangle {
+    position: absolute;
+    top: 58px;
+    left: 14px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 140px;
+    height: 39px;
+}
+.inshapepricerectangle {
+    position: absolute;
+    top: 217px;
+    left: 263px;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+    height: 34px;
+}
+.arrakispricerectangle {
+    position: absolute;
+    top: 381px;
+    left: 261px;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+    height: 34px;
+}
+.metacloudpricerectangle {
+    position: absolute;
+    top: 546px;
+    left: 261px;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+    height: 34px;
+}
+.inshapepricerectangle1 {
+    position: absolute;
+    top: 707px;
+    left: 261px;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+    height: 34px;
+}
+.walletButton {
+    position: absolute; /* Ensures it floats over other elements */
+    top: 58px;
+    Right: 14px;
+  }
+  
+  .walletButton button {
+    background-color: #20232a; /* Matches dark UI */
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+.walletrectangle {
+    position: absolute;
+    top: 57px;
+    left: 245px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 172px;
+    height: 40px;
+}
+.userlogoIcon {
+    position: absolute;
+    height: 4.63%;
+    width: 10.49%;
+    top: 6.06%;
+    right: 86.44%;
+    bottom: 89.31%;
+    left: 3.07%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.wxyz {
+    position: absolute;
+    top: 68px;
+    left: 76px;
+    font-size: 14px;
+    display: inline-block;
+    width: 51px;
+    height: 22px;
+}
+.connectWallet {
+    position: absolute;
+    top: 69px;
+    left: 254px;
+    font-size: 14px;
+    display: inline-block;
+    width: 135px;
+    height: 22px;
+}
+.useropenicon {
+    position: absolute;
+    height: 0.97%;
+    width: 1.59%;
+    top: 7.83%;
+    right: 68.18%;
+    bottom: 91.2%;
+    left: 30.23%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.walleticon {
+    position: absolute;
+    height: 2.06%;
+    width: 4.91%;
+    top: 7.37%;
+    right: 5.72%;
+    bottom: 90.57%;
+    left: 89.37%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.auerectangle {
+    position: absolute;
+    top: 126px;
+}
+.endedrectangle {
+    position: absolute;
+    top: 138px;
+    left: 291px;
+    border-radius: 20px;
+    background-color: #000;
+    width: 134px;
+    height: 34px;
+}
+.active {
+    position: absolute;
+    top: 145px;
+    left: 16px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    display: flex;
+    color: #000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 19px;
+    cursor: pointer;
+}
+.upcoming {
+    position: absolute;
+    top: 146px;
+    left: 152px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    display: flex;
+    color: #000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 131px;
+    height: 19px;
+    cursor: pointer;
+}
+.ended {
+    position: absolute;
+    top: 145px;
+    left: 282px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 131px;
+    height: 19px;
+}
+.endedicon {
+    position: absolute;
+    height: 2.04%;
+    width: 4.21%;
+    top: 15.66%;
+    right: 3.97%;
+    bottom: 82.3%;
+    left: 91.82%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.auerectangleborder {
+    position: absolute;
+    top: 187px;
+    left: 0px;
+    background-color: rgba(223, 220, 220, 0.71);
+    width: 428px;
+    height: 5px;
+}
+.auerectanglestatus {
+    position: absolute;
+    top: 187px;
+    left: 282px;
+    background-color: #0048ff;
+    width: 154px;
+    height: 5px;
+}
+.usdt {
+    position: absolute;
+    top: 223px;
+    left: 272px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 113px;
+    height: 21px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt1 {
+    position: absolute;
+    top: 387px;
+    left: 270px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 122px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt2 {
+    position: absolute;
+    top: 552px;
+    left: 274px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 122px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt3 {
+    position: absolute;
+    top: 713px;
+    left: 274px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 122px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inshape {
+    position: absolute;
+    top: 212px;
+    left: 108px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.arrakis {
+    position: absolute;
+    top: 376px;
+    left: 106px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.metacloud {
+    position: absolute;
+    top: 541px;
+    left: 106px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inshape1 {
+    position: absolute;
+    top: 702px;
+    left: 106px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blockchainService {
+    position: absolute;
+    top: 239px;
+    left: 109px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.protocol {
+    position: absolute;
+    top: 403px;
+    left: 107px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vr {
+    position: absolute;
+    top: 568px;
+    left: 107px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blockchainService1 {
+    position: absolute;
+    top: 729px;
+    left: 107px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt4 {
+    position: absolute;
+    top: 290px;
+    left: 41px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt5 {
+    position: absolute;
+    top: 454px;
+    left: 39px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt6 {
+    position: absolute;
+    top: 619px;
+    left: 39px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt7 {
+    position: absolute;
+    top: 780px;
+    left: 39px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.progress {
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    font-weight: 500;
+    display: inline-block;
+    width: 94px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.progress1 {
+    position: absolute;
+    top: 494px;
+    left: 298px;
+    font-weight: 500;
+    display: inline-block;
+    width: 94px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.progress2 {
+    position: absolute;
+    top: 659px;
+    left: 298px;
+    font-weight: 500;
+    display: inline-block;
+    width: 94px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.progress3 {
+    position: absolute;
+    top: 820px;
+    left: 298px;
+    font-weight: 500;
+    display: inline-block;
+    width: 94px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.notRated {
+    position: absolute;
+    top: 258px;
+    left: 337px;
+    font-weight: 500;
+    display: inline-block;
+    width: 68px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.notRated1 {
+    position: absolute;
+    top: 422px;
+    left: 335px;
+    font-weight: 500;
+    display: inline-block;
+    width: 68px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.notRated2 {
+    position: absolute;
+    top: 587px;
+    left: 335px;
+    font-weight: 500;
+    display: inline-block;
+    width: 68px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.notRated3 {
+    position: absolute;
+    top: 748px;
+    left: 335px;
+    font-weight: 500;
+    display: inline-block;
+    width: 68px;
+    height: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ended15Dec {
+    position: absolute;
+    top: 278px;
+    left: 315px;
+    font-weight: 500;
+    display: inline-block;
+    width: 110px;
+    height: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ended19Dec {
+    position: absolute;
+    top: 441px;
+    left: 311px;
+    font-weight: 500;
+    display: inline-block;
+    width: 110px;
+    height: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ended25Dec {
+    position: absolute;
+    top: 606px;
+    left: 312px;
+    font-weight: 500;
+    display: inline-block;
+    width: 110px;
+    height: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ended30Dec {
+    position: absolute;
+    top: 767px;
+    left: 311px;
+    font-weight: 500;
+    display: inline-block;
+    width: 110px;
+    height: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inshapeimageborder {
+    position: absolute;
+    top: 210px;
+    left: 35px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+}
+.arrakisimageborder {
+    position: absolute;
+    top: 374px;
+    left: 33px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+}
+.metacloudimageborder {
+    position: absolute;
+    top: 539px;
+    left: 33px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+}
+.inshapeimageborder1 {
+    position: absolute;
+    top: 700px;
+    left: 33px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+}
+.b {
+    position: absolute;
+    top: 352px;
+    left: 35px;
+    font-size: 9px;
+    letter-spacing: 0.29em;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+    width: 361px;
+    height: 11px;
+}
+.b1 {
+    position: absolute;
+    top: 517px;
+    left: 35px;
+    font-size: 9px;
+    letter-spacing: 0.29em;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+    width: 361px;
+    height: 14px;
+}
+.b2 {
+    position: absolute;
+    top: 681px;
+    left: 35px;
+    font-size: 9px;
+    letter-spacing: 0.29em;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+    width: 361px;
+    height: 11px;
+}
+.inshapeimageIcon {
+    position: absolute;
+    top: 221px;
+    left: 46px;
+    width: 32px;
+    height: 35px;
+    object-fit: cover;
+}
+.buttonsBackground {
+    position: absolute;
+    top: 855px;
+  
+  
+   
+    
+  }
+.homeButtonIcon {
+    position: absolute;
+    height: 3.89%;
+    width: 8.64%;
+    top: 94.18%;
+    right: 84.81%;
+    bottom: 1.94%;
+    left: 6.54%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.notificationButtonIcon {
+    position: absolute;
+    height: 4.05%;
+    width: 7.45%;
+    top: 93.93%;
+    right: 7.85%;
+    bottom: 2.02%;
+    left: 84.7%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.stackButtonIcon {
+    position: absolute;
+    height: 4.52%;
+    width: 9.11%;
+    top: 93.64%;
+    right: 23.6%;
+    bottom: 1.84%;
+    left: 67.29%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.cursorbuttonsIcon {
+    position: absolute;
+    height: 1.63%;
+    width: 5.16%;
+    top: 91.58%;
+    right: 66.81%;
+    bottom: 6.79%;
+    left: 28.02%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.icoButtonIcon {
+    position: absolute;
+    top: 844.07px;
+    left: 78px;
+    width: 119px;
+    height: 77px;
+    object-fit: cover;
+}
+.nftButtonIcon {
+    position: absolute;
+    top: 845.07px;
+    left: 161px;
+    width: 114px;
+    height: 87px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.inshapedark {
+    position: absolute;
+    top: 315px;
+    left: 41px;
+    border-radius: 10px;
+    background-color: #434242;
+    width: 348px;
+    height: 8px;
+}
+.arrakisdark {
+    position: absolute;
+    top: 479px;
+    left: 39px;
+    border-radius: 10px;
+    background-color: #434242;
+    width: 348px;
+    height: 8px;
+}
+.metaclouddark {
+    position: absolute;
+    top: 644px;
+    left: 39px;
+    border-radius: 10px;
+    background-color: #434242;
+    width: 348px;
+    height: 8px;
+}
+.inshapedark1 {
+    position: absolute;
+    top: 805px;
+    left: 39px;
+    border-radius: 10px;
+    background-color: #434242;
+    width: 348px;
+    height: 8px;
+}
+.inshape2 {
+    position: absolute;
+    top: 315px;
+    left: 41px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 130px;
+    height: 8px;
+}
+.arrakis1 {
+    position: absolute;
+    top: 479px;
+    left: 39px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 76px;
+    height: 8px;
+}
+.metacloud1 {
+    position: absolute;
+    top: 644px;
+    left: 39px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 155px;
+    height: 8px;
+}
+.inshape3 {
+    position: absolute;
+    top: 805px;
+    left: 39px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 155px;
+    height: 8px;
+}
+.arrakisimageIcon {
+    position: absolute;
+    top: 387px;
+    left: 43px;
+    width: 38px;
+    height: 37px;
+    object-fit: cover;
+}
+.metacloudimageIcon {
+    position: absolute;
+    top: 545px;
+    left: 39px;
+    width: 45px;
+    height: 44px;
+    object-fit: cover;
+}
+.inshapeimageIcon1 {
+    position: absolute;
+    top: 712px;
+    left: 44px;
+    width: 32px;
+    height: 35px;
+    object-fit: cover;
+}
+.dropdownico5Icon {
+    position: absolute;
+    height: 0.81%;
+    width: 2.99%;
+    top: 90.19%;
+    right: 49.42%;
+    bottom: 9%;
+    left: 47.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.ico5 {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 926px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    font-family: Krub;
+}
+

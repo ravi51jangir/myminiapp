@@ -1,0 +1,166 @@
+.buttonsBackground {
+  position: absolute;
+  top: 855px;
+
+
+ 
+  
+}
+.homeButtonIcon {
+  position: absolute;
+  height: 3.89%;
+  width: 8.64%;
+  top: 94.38%;
+  right: 85.51%;
+  bottom: 1.73%;
+  left: 5.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.notificationButtonIcon {
+  position: absolute;
+  height: 4.05%;
+  width: 7.45%;
+  top: 94.14%;
+  right: 8.55%;
+  bottom: 1.81%;
+  left: 84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.stackButtonIcon {
+  position: absolute;
+  height: 4.52%;
+  width: 9.11%;
+  top: 93.84%;
+  right: 24.3%;
+  bottom: 1.63%;
+  left: 66.59%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icoButtonIcon {
+  position: absolute;
+  top: 846px;
+  left: 75px;
+  width: 119px;
+  height: 77px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.nftButtonIcon {
+  position: absolute;
+  top: 847px;
+  left: 158px;
+  width: 114px;
+  height: 87px;
+  object-fit: cover;
+}
+.cursorBendIcon {
+  position: absolute;
+  height: 1.43%;
+  width: 5.16%;
+  top: 91.89%;
+  right: 47.64%;
+  bottom: 6.68%;
+  left: 47.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.cursorButton {
+  position: absolute;
+  height: 1.08%;
+  width: 2.34%;
+  top: 91.69%;
+  right: 49.05%;
+  bottom: 7.23%;
+  left: 48.61%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.nftimageboxIcon {
+  position: absolute;
+  top: 316px;
+  left: -33px;
+  width: 466px;
+  height: 359px;
+  object-fit: cover;
+}
+.nftboxBack2Icon {
+  position: absolute;
+  top: 519px;
+  left: -13px;
+  width: 441px;
+  height: 207px;
+  object-fit: cover;
+}
+.nftboxBack1Icon {
+  position: absolute;
+  top: 515px;
+  left: -12px;
+  width: 441px;
+  height: 207px;
+  object-fit: cover;
+}
+.nft7Child {
+  position: absolute;
+  top: 630px;
+  left: 115px;
+  box-shadow: 3px 3px 48px #69c8d8;
+  border-radius: 50%;
+  background-color: #102538;
+  border: 4px solid #cff5fb;
+  box-sizing: border-box;
+  width: 198px;
+  height: 27px;
+}
+.nft7Item {
+  position: absolute;
+  top: 321px;
+  left: 113px;
+  box-shadow: 3px 3px 48px #69c8d8;
+  border-radius: 50%;
+  background-color: #102538;
+  border: 4px solid #cff5fb;
+  box-sizing: border-box;
+  width: 198px;
+  height: 27px;
+}
+.discoverExclusive {
+  position: absolute;
+  top: 707px;
+  left: 110px;
+}
+.nfts {
+  position: absolute;
+  top: 721px;
+  left: 97px;
+  font-size: 96px;
+  text-shadow: 0px 3px 5px 4px #fff;
+}
+.comingSoonIcon {
+  position: absolute;
+  top: 32px;
+  left: -33px;
+  width: 487px;
+  height: 314px;
+  object-fit: cover;
+}
+.nft7 {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  height: 926px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Krub;
+}
+

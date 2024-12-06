@@ -1,0 +1,153 @@
+.buttonsBackground {
+    position: absolute;
+    top: 855px;
+
+
+   
+    
+}
+.homeButtonIcon {
+    position: absolute;
+    height: 3.89%;
+    width: 8.64%;
+    top: 94.38%;
+    right: 85.51%;
+    bottom: 1.73%;
+    left: 5.84%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.notificationButtonIcon {
+    position: absolute;
+    height: 4.05%;
+    width: 7.45%;
+    top: 94.14%;
+    right: 8.55%;
+    bottom: 1.81%;
+    left: 84%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.stackButtonIcon {
+    position: absolute;
+    height: 4.52%;
+    width: 9.11%;
+    top: 93.84%;
+    right: 24.3%;
+    bottom: 1.63%;
+    left: 66.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.icoButtonIcon {
+    position: absolute;
+    top: 846px;
+    left: 75px;
+    width: 119px;
+    height: 77px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.nftButtonIcon {
+    position: absolute;
+    top: 847px;
+    left: 158px;
+    width: 114px;
+    height: 87px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.cursorBendIcon {
+    position: absolute;
+    height: 1.43%;
+    width: 5.16%;
+    top: 91.89%;
+    right: 26.38%;
+    bottom: 6.68%;
+    left: 68.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.cursorButton {
+    position: absolute;
+    height: 1.08%;
+    width: 2.34%;
+    top: 91.69%;
+    right: 27.79%;
+    bottom: 7.23%;
+    left: 69.88%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.stackimageIcon {
+    position: absolute;
+    top: 231px;
+    left: 0px;
+    width: 429px;
+    height: 454px;
+    object-fit: cover;
+}
+.stackBack1Icon {
+    position: absolute;
+    top: 404px;
+    left: -15px;
+    width: 441px;
+    height: 207px;
+    object-fit: cover;
+}
+.stackBack2Icon {
+    position: absolute;
+    top: 563px;
+    left: -11px;
+    width: 441px;
+    height: 207px;
+    object-fit: cover;
+}
+.comingSoonBackRectangle {
+    position: absolute;
+    top: 0px;
+    left: 46px;
+    width: 337px;
+    height: 297px;
+}
+.earn {
+    font-size: 32px;
+}
+.earnRewardsEffortlesslyWith {
+    margin: 0;
+}
+.options {
+    font-size: 24px;
+}
+.earnRewardsEffortlesslyContainer {
+    position: absolute;
+    top: 718px;
+    left: 32px;
+    font-weight: 600;
+}
+.comingSoonIcon {
+    position: absolute;
+    top: 32px;
+    left: -27px;
+    width: 483px;
+    height: 314px;
+    object-fit: cover;
+}
+.stack9 {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 926px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Krub;
+}
+
