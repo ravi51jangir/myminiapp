@@ -10,19 +10,19 @@ const router = useRouter();
 
   return (
     <div className={styles.homePage2}>
-      <img className={styles.gpt360bgIcon} alt="" src={images.Gpt360Bg} />
+      <img className={styles.gpt360bgIcon} alt="" src={images.Gpt360Bg.src} />
       <div className={styles.profilerectangle} />
-      <img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
+      <img className={styles.userlogoIcon} alt="" src={images.UserLogo.src} />
       <b className={styles.wxyz}>WXYZ</b>
 
       <div className={styles.walletButton}>
         <ConnectButton />
       </div>
 
-      <img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
+      <img className={styles.useropenicon} alt="" src={images.UserOpenIcon.src} />
       <div className={styles.gpt360rec} />
       <div className={styles.tokenpricerec} />
-      <img className={styles.days12leftIcon} alt="" src={images.Days12Left} />
+      <img className={styles.days12leftIcon} alt="" src={images.Days12Left.src} />
       <b className={styles.gpt360}>GPT360</b>
 
       <div
@@ -41,21 +41,21 @@ const router = useRouter();
         style={{ cursor: 'pointer' }}
       />
 
-      <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground} />
-      <img className={styles.homeButtonIcon} alt="" src={images.HomeButton} />
-      <img className={styles.stackButtonIcon} alt="" src={images.StackButton} />
-      <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons} />
+      <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
+      <img className={styles.homeButtonIcon} alt="" src={images.HomeButton.src} />
+      <img className={styles.stackButtonIcon} alt="" src={images.StackButton.src} />
+      <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
       <b className={styles.apply}>Apply To Organize ICO</b>
       <div className={styles.apply1}>
         Apply to organize an ICO by ensuring compliance with legal and regulatory requirements.
       </div>
-      <img className={styles.gpt360imageIcon} alt="" src={images.Gpt360Image} />
-      <img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage} />
+      <img className={styles.gpt360imageIcon} alt="" src={images.Gpt360Image.src} />
+      <img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage.src} />
       <b className={styles.active}>ACTIVE</b>
-      <img className={styles.applynowIcon} alt="" src={images.ApplyNow} />
-      <img className={styles.icoButtonIcon} alt="" src={images.ICOButton} />
-      <img className={styles.nftButtonIcon} alt="" src={images.NFTButton}  />
-      <img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
+      <img className={styles.applynowIcon} alt="" src={images.ApplyNow.src} />
+      <img className={styles.icoButtonIcon} alt="" src={images.ICOButton.src} />
+      <img className={styles.nftButtonIcon} alt="" src={images.NFTButton.src}  />
+      <img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton.src} />
       <b className={styles.tokenPrice}>TOKEN PRICE</b>
 
       <b className={styles.b}>
@@ -72,19 +72,19 @@ const router = useRouter();
       </b>
       <b className={styles.d02h20m}>12d 02h 20m 48s LEFT</b>
       <b className={styles.usdt}>0.009122 USDT</b>
-      <img className={styles.mutliplediscIcon} alt="" src={images.MutlipleDisc} />
+      <img className={styles.mutliplediscIcon} alt="" src={images.MutlipleDisc.src} />
       <img className={styles.discIcon} alt="" src={images.Disc} />
       <div className={styles.full} />
       <div className={styles.full80} />
-      <img className={styles.calenderIcon} alt="" src={images.calender} />
-      <img className={styles.calenderIcon1} alt="" src={images.calender} />
-      <img className={styles.clockIcon} alt="" src={images.clock} />
-      <img className={styles.clockIcon1} alt="" src={images.clock} />
-      <img className={styles.timerIcon} alt="" src={images.Timer} />
+      <img className={styles.calenderIcon} alt="" src={images.calender.src} />
+      <img className={styles.calenderIcon1} alt="" src={images.calender.src} />
+      <img className={styles.clockIcon} alt="" src={images.clock.src} />
+      <img className={styles.clockIcon1} alt="" src={images.clock.src} />
+      <img className={styles.timerIcon} alt="" src={images.Timer.src} />
       <div className={styles.nftimagerec} />
       <div className={styles.stakeimagerec} />
-      <img className={styles.nftimageIcon} alt="" src={images.NftImage} />
-      <img className={styles.stakeimageIcon} alt="" src={images.StakeImage} />
+      <img className={styles.nftimageIcon} alt="" src={images.NftImage.src} />
+      <img className={styles.stakeimageIcon} alt="" src={images.StakeImage.src} />
       <div className={styles.nfttextrec} />
       <div className={styles.staketextrec} />
       <b className={styles.nft}>NFT</b>

@@ -11,18 +11,18 @@ const NFT = () => {
 
 return (
     <div className={styles.nft7}>
-          <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
+          <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src}  />
           
-          <img className={styles.cursorBendIcon} alt="" src={images.cursorbend} />
+          <img className={styles.cursorBendIcon} alt="" src={images.cursorbend.src} />
           <div className={styles.cursorButton} />
-          <img className={styles.nftimageboxIcon} alt="" src={images.NftImageBox} />
-          <img className={styles.nftboxBack2Icon} alt="" src={images.nftboxback2} />
-          <img className={styles.nftboxBack1Icon} alt="" src={images.nftboxback1}/>
+          <img className={styles.nftimageboxIcon} alt="" src={images.NftImageBox.src} />
+          <img className={styles.nftboxBack2Icon} alt="" src={images.nftboxback2.src} />
+          <img className={styles.nftboxBack1Icon} alt="" src={images.nftboxback1.src}/>
           <div className={styles.nft7Child} />
           <div className={styles.nft7Item} />
           <b className={styles.discoverExclusive}>{`Discover exclusive `}</b>
           <b className={styles.nfts}>NFTs!</b>
-          <img className={styles.comingSoonIcon} alt="" src={images.ComingSoon}  />
+          <img className={styles.comingSoonIcon} alt="" src={images.ComingSoon.src}  />
     </div>);
 };
 

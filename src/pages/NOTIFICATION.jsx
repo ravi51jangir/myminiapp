@@ -12,17 +12,17 @@ const NOTIFICATION = () => {
     <div className={styles.notification6}>
           <div className={styles.profilerectangle} />
           
-          <img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
+          <img className={styles.userlogoIcon} alt="" src={images.UserLogo.src} />
           <b className={styles.wxyz}>WXYZ</b>
           
-          <img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
+          <img className={styles.useropenicon} alt="" src={images.UserOpenIcon.src} />
           <div className={styles.walletButton}>
 <ConnectButton />
 </div>
-        <img className={styles.notificationrectangle} alt="" src={images.NotificationRectangle}  />
+        <img className={styles.notificationrectangle} alt="" src={images.NotificationRectangle.src}  />
   
           <b className={styles.notifications}>NOTIFICATIONS</b>
-          <img className={styles.notificationtexticon} alt="" src={images.NotificationTextIcon}  />
+          <img className={styles.notificationtexticon} alt="" src={images.NotificationTextIcon.src}  />
 
         
           <div className={styles.newicolaunchrectangle} />
@@ -92,17 +92,17 @@ const NOTIFICATION = () => {
           <div className={styles.updateAlertCheck}>Update Alert: Check out the latest progress on your ICOs now!</div>
           <div className={styles.updateAlertCheck1}>Update Alert: Check out the latest progress on your ICOs now!</div>
           <div className={styles.updateAlertCheck2}>Update Alert: Check out the latest progress on your ICOs now!</div>
-          <img className={styles.newicolaunchicon} alt="" src={images.NewIcoLaunchIcon}  />
-          <img className={styles.newicolaunchicon} alt="" src={images.NewIcoLaunchIcon} />
-          <img className={styles.updatesicon} alt="" src={images.UpdatesIcon}  />
-          <img className={styles.updatesicon1} alt="" src={images.UpdatesIcon} />
-          <img className={styles.updatesicon2} alt="" src={images.UpdatesIcon}  />
-          <img className={styles.alerticon} alt="" src={images.AlertIcon}  />
-          <img className={styles.downnotificationIcon} alt="" src={images.DownNotification}  />
-        <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
+          <img className={styles.newicolaunchicon} alt="" src={images.NewIcoLaunchIcon.src}  />
+          <img className={styles.newicolaunchicon} alt="" src={images.NewIcoLaunchIcon.src} />
+          <img className={styles.updatesicon} alt="" src={images.UpdatesIcon.src}  />
+          <img className={styles.updatesicon1} alt="" src={images.UpdatesIcon.src} />
+          <img className={styles.updatesicon2} alt="" src={images.UpdatesIcon.src}  />
+          <img className={styles.alerticon} alt="" src={images.AlertIcon.src}  />
+          <img className={styles.downnotificationIcon} alt="" src={images.DownNotification.src}  />
+        <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src}  />
   
           
-          <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons}  />
+          <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src}  />
     </div>);
 };
 

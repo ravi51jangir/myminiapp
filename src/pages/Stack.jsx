@@ -10,13 +10,13 @@ const Stack = () => {
     const router = useRouter();
     return (
         <div className={styles.stack9}>
-              <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground}  />
+              <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src}  />
               
-              <img className={styles.cursorBendIcon} alt="" src={images.cursorbend} />
+              <img className={styles.cursorBendIcon} alt="" src={images.cursorbend.src} />
               <div className={styles.cursorButton} />
-              <img className={styles.stackimageIcon} alt="" src={images.StackImage}/>
-              <img className={styles.stackBack1Icon} alt="" src={images.stackback1} />
-              <img className={styles.stackBack2Icon} alt="" src={images.stackback2} />
+              <img className={styles.stackimageIcon} alt="" src={images.StackImage.src}/>
+              <img className={styles.stackBack1Icon} alt="" src={images.stackback1.src} />
+              <img className={styles.stackBack2Icon} alt="" src={images.stackback2.src} />
               <div className={styles.comingSoonBackRectangle} />
               <div className={styles.earnRewardsEffortlesslyContainer}>
                     <p className={styles.earnRewardsEffortlesslyWith}>
@@ -29,7 +29,7 @@ const Stack = () => {
                           <span className={styles.options}> options!</span>
                     </p>
               </div>
-              <img className={styles.comingSoonIcon} alt="" src={images.ComingSoon} />
+              <img className={styles.comingSoonIcon} alt="" src={images.ComingSoon.src} />
         </div>);
 };
 

@@ -27,10 +27,10 @@ const ICO = () => {
       <div className={styles.pricerectangle2} />
       <div className={styles.pricerectangle3} />
 
-      <img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
+      <img className={styles.userlogoIcon} alt="" src={images.UserLogo.src} />
       <b className={styles.wxyz}>WXYZ</b>
 
-      <img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
+      <img className={styles.useropenicon} alt="" src={images.UserOpenIcon.src} />
       <div className={styles.walletButton}>
         <ConnectButton />
       </div>
@@ -47,7 +47,7 @@ const ICO = () => {
       <b className={styles.ended} onClick={onENDEDTextClick}>
         ENDED
       </b>
-      <img className={styles.activeicon} alt="" src={images.ActiveIcon} />
+      <img className={styles.activeicon} alt="" src={images.ActiveIcon.src} />
       <div className={styles.auerectanglestatus} />
       <div className={styles.auerectangleborder} />
       <div className={styles.usdt}>$1,280 USDT</div>

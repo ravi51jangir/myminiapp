@@ -10,10 +10,10 @@ const HOMEPAGE_3 = () => {
     const router = useRouter();
     return (
       <div className={styles.homePage3}>
-        <img className={styles.neutonimageIcon} alt="" src={images.NeutonImage} />
-        <img className={styles.neutonimagebg1Icon} alt="" src={images.NeutonImageBg1} />
-        <img className={styles.neutonimagebg2Icon} alt="" src={images.NeutonImageBg2} />
-        <img className={styles.neutonimagebg3Icon} alt="" src={images.NeutonImageBg3} />
+        <img className={styles.neutonimageIcon} alt="" src={images.NeutonImage.src} />
+        <img className={styles.neutonimagebg1Icon} alt="" src={images.NeutonImageBg1.src} />
+        <img className={styles.neutonimagebg2Icon} alt="" src={images.NeutonImageBg2.src} />
+        <img className={styles.neutonimagebg3Icon} alt="" src={images.NeutonImageBg3.src} />
         <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground} />
         <img
           className={styles.homeButtonIcon}
@@ -21,9 +21,9 @@ const HOMEPAGE_3 = () => {
           src={images.HomeButton}
           onClick={onHomeButtonIconClick}
         />
-        <img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
-        <img className={styles.stackButtonIcon} alt="" src={images.StackButton} />
-        <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons} />
+        <img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton.src} />
+        <img className={styles.stackButtonIcon} alt="" src={images.StackButton.src} />
+        <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
         <div className={styles.listingDetails}>LISTING DETAILS</div>
         <div className={styles.bitmart}>Bitmart</div>
         <div className={styles.neuton}>NEUTON</div>
@@ -32,8 +32,8 @@ const HOMEPAGE_3 = () => {
         <div className={styles.coindcx}>CoinDCX</div>
         <div className={styles.bitmartLogoellipse} />
         <div className={styles.coindcxLogoellipse} />
-        <img className={styles.coindcxLogoIcon} alt="" src={images.CoinDCX_Logo} />
-        <img className={styles.bitmartLogoIcon} alt="" src={images.BitMart_Logo} />
+        <img className={styles.coindcxLogoIcon} alt="" src={images.CoinDCX_Logo.src} />
+        <img className={styles.bitmartLogoIcon} alt="" src={images.BitMart_Logo.src} />
         <b className={styles.b}>.........................................................................</b>
         <b className={styles.b1}>.........................................................................</b>
         <div className={styles.buynewtonrec} />
@@ -54,7 +54,7 @@ const HOMEPAGE_3 = () => {
         <div className={styles.ton600} />
         <div className={styles.hardCap}>HARD CAP</div>
         <b className={styles.kTon}>10 K TON</b>
-        <img className={styles.hardcapIcon} alt="" src={images.HardCap} />
+        <img className={styles.hardcapIcon} alt="" src={images.HardCap.src} />
         <div className={styles.profilerectangle} />
         <div className={styles.buynewtonrectangle} />
         <div className={styles.walletButton}>
@@ -64,13 +64,13 @@ const HOMEPAGE_3 = () => {
         <b className={styles.buyNeuton}>BUY NEUTON</b>
         <b className={styles.b2}>600</b>
         <div className={styles.ton}>TON</div>
-        <img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
-        <img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
-        <img className={styles.telegramIcon} alt="" src={images.Telegram} />
-        <img className={styles.twitterIcon} alt="" src={images.Twitter} />
-        <img className={styles.webIcon} alt="" src={images.Web} />
-        <img className={styles.papersIcon} alt="" src={images.Papers} />
-        <img className={styles.netonimageIcon} alt="" src={images.NetonImage} />
+        <img className={styles.useropenicon} alt="" src={images.UserOpenIcon.src} />
+        <img className={styles.userlogoIcon} alt="" src={images.UserLogo.src} />
+        <img className={styles.telegramIcon} alt="" src={images.Telegram.src} />
+        <img className={styles.twitterIcon} alt="" src={images.Twitter.src} />
+        <img className={styles.webIcon} alt="" src={images.Web.src} />
+        <img className={styles.papersIcon} alt="" src={images.Papers.src} />
+        <img className={styles.netonimageIcon} alt="" src={images.NetonImage.src} />
         <div className={styles.homePage3Child} />
         <div className={styles.homePage3Item} />
         <div className={styles.homePage3Inner} />
@@ -85,7 +85,7 @@ const HOMEPAGE_3 = () => {
         <div className={styles.homePage3Child1} />
         <div className={styles.softCap}>SOFT CAP</div>
         <b className={styles.kTon1}>30 K TON</b>
-        <img className={styles.softcapIcon} alt="" src={images.SoftCap} />
+        <img className={styles.softcapIcon} alt="" src={images.SoftCap.src} />
         <div className={styles.full} />
         <div className={styles.full80} />
         <b className={styles.b3}>
@@ -100,12 +100,12 @@ const HOMEPAGE_3 = () => {
             <p className={styles.p1}>16:30</p>
           </span>
         </b>
-        <img className={styles.calenderIcon} alt="" src={images.calender} />
-        <img className={styles.calenderIcon1} alt="" src={images.calender} />
-        <img className={styles.clockIcon} alt="" src={images.clock} />
-        <img className={styles.clockIcon1} alt="" src={images.clock} />
+        <img className={styles.calenderIcon} alt="" src={images.calender.src} />
+        <img className={styles.calenderIcon1} alt="" src={images.calender.src} />
+        <img className={styles.clockIcon} alt="" src={images.clock.src} />
+        <img className={styles.clockIcon1} alt="" src={images.clock.src} />
         <b className={styles.d02h20m}>12d 02h 20m 48s LEFT</b>
-        <img className={styles.timerIcon} alt="" src={images.Timer} />
+        <img className={styles.timerIcon} alt="" src={images.Timer.src} />
       </div>
     );
   };

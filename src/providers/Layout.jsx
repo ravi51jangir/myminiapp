@@ -30,6 +30,8 @@ import "../css_modules/ICO_5.module.css";
 import "../css_modules/NFT.module.css";
 import "../css_modules/NOTIFICATION.module.css";
 import "../css_modules/Stack.module.css";
+
+
 export const routes = {
   home: "/",
   home2: "/home2",
@@ -134,8 +136,6 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/home2" element={<Homepage2 />} />
-
         <Route path={routes.nft} element={<Nftpage />} />
         <Route path={routes.stack} element={<Stackpage />} />
         <Route path={routes.notification} element={<Notificationpage />} />
