@@ -96,8 +96,8 @@ const NavigationHandler = () => {
         alt="Home"
         onClick={() => handleNavigation(routes.home)}
         style={{ cursor: "pointer" }}
-      /> */}
-      {/* <img
+      />
+      <img
         className="icoButtonIcon"
         src={images.ICOButton}
         alt="ICO"
