@@ -4,12 +4,12 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import { useBackButton, useClosingBehavior, useViewport } from "@telegram-apps/sdk-react";
 import Homepage from "../pages/HOMEPAGE";
-import Homepage2 from "../pages/HOMEPAGE_2";
-import Homepage3 from "../pages/HOMEPAGE_3";
-import Nftpage from "../pages/NFT";
-import Stackpage from "../pages/STACK";
-import Notificationpage from "../pages/NOTIFICATION";
-import ICO_3page from "../pages/ICO_3";
+// import Homepage2 from "../pages/HOMEPAGE_2";
+// import Homepage3 from "../pages/HOMEPAGE_3";
+// import Nftpage from "../pages/NFT";
+// import Stackpage from "../pages/STACK";
+// import Notificationpage from "../pages/NOTIFICATION";
+// import ICO_3page from "../pages/ICO_3";
 import { images } from "../StoreImages/StoreImages";
 import "../css_modules/HOMEPAGE.module.css";
 
