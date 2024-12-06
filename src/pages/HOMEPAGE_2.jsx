@@ -1,15 +1,11 @@
 import { useCallback } from 'react';
 import styles from '../css_modules/HOMEPAGE_2.module.css';
 import { images } from '../StoreImages/StoreImages';
-import { ConnectWallet } from "../walletIntegration";
-import { useNavigate } from 'react-router-dom';
+import ConnectButton from "@/components/shared/ConnectButton"
+import { useRouter } from 'next/navigation';
 
 const HOMEPAGE_2 = () => {
-  const navigate = useNavigate();
-  const onEllipseClick = useCallback(() => {
-    // Add your code here
-  }, []);
-  
+  const router = useRouter();
   return (
     <div className={styles.homePage2}>
       <img className={styles.gpt360bgIcon} alt="" src={images.Gpt360Bg} />
@@ -18,7 +14,7 @@ const HOMEPAGE_2 = () => {
       <img className={styles.userlogoIcon} alt="" src={images.UserLogo}/>
       <b className={styles.wxyz}>WXYZ</b>
       <div className={styles.walletButton}>
-        <ConnectWallet />
+        <ConnectButton/>
       </div>
       
       <img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
@@ -30,17 +26,17 @@ const HOMEPAGE_2 = () => {
 
       <div 
         className={styles.homePage2Item} 
-        onClick={() => navigate('/')}
+        onClick={() => router.push('/')}
         style={{ cursor: 'pointer' }}
       />
       <div 
         className={styles.homePage2Child} 
-        onClick={() => navigate('/home2')}
+        onClick={() => router.push('/home2')}
         style={{ cursor: 'pointer' }}
       />
       <div 
         className={styles.homePage2Inner} 
-        onClick={() => navigate('/home3')}
+        onClick={() => nrouter.push('/home3')}
         style={{ cursor: 'pointer' }}
       />
       
@@ -54,8 +50,8 @@ const HOMEPAGE_2 = () => {
       <img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage} />
       <b className={styles.active}>ACTIVE</b>
       <img className={styles.applynowIcon} alt="" src={images.ApplyNow} />
-      <img className={styles.icoButtonIcon} alt="" src={images.ICOButton} onClick={onEllipseClick} />
-      <img className={styles.nftButtonIcon} alt="" src={images.NFTButton} onClick={onEllipseClick} />
+      <img className={styles.icoButtonIcon} alt="" src={images.ICOButton} />
+      <img className={styles.nftButtonIcon} alt="" src={images.NFTButton}  />
       <img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
       <b className={styles.tokenPrice}>TOKEN PRICE</b>
       <b className={styles.b}>

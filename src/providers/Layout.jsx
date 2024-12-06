@@ -1,76 +1,39 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import { useBackButton, useClosingBehavior, useViewport } from "@telegram-apps/sdk-react";
 import Homepage from "../pages/HOMEPAGE";
-// import Homepage2 from "./pages/HOMEPAGE_2";
-// import Homepage3 from "./pages/HOMEPAGE_3";
-// import Nftpage from "./pages/NFT";
-// import Stackpage from "./pages/Stack";
-// import Notificationpage from "./pages/NOTIFICATION";
-// import ICO_3page from "./pages/ICO_3";
+import Homepage2 from "../pages/HOMEPAGE_2";
+import Homepage3 from "../pages/HOMEPAGE_3";
+import Nftpage from "../pages/NFT";
+import Stackpage from "../pages/STACK";
+import Notificationpage from "../pages/NOTIFICATION";
+import ICO_3page from "../pages/ICO_3";
 import { images } from "../StoreImages/StoreImages";
-import styles from "../css_modules/HOMEPAGE.module.css";
+import "../css_modules/HOMEPAGE.module.css";
 
-const NavigationFooter = () => {
-  const router = useRouter();
-
-  const handleNavigation = (path) => {
-    router.push(path);
-  };
-
-  return (
-    <footer>
-      <img 
-        className={styles.homeButtonIcon}
-        src={images.HomeButton}
-        alt="Home"
-        onClick={() => handleNavigation("/")}
-        style={{ cursor: "pointer" }}
-      />
-      {/* <img 
-        className={styles.icoButtonIcon}
-        src={images.ICOButton}
-        alt="ICO"
-        onClick={() => handleNavigation("/ico")}
-        style={{ cursor: "pointer" }}
-      />
-      <img 
-        className={styles.nftButtonIcon}
-        src={images.NFTButton}
-        alt="NFT"
-        onClick={() => handleNavigation("/nft")}
-        style={{ cursor: "pointer" }}
-      />
-      <img 
-        className={styles.stackButtonIcon}
-        src={images.StackButton}
-        alt="Stack"
-        onClick={() => handleNavigation("/stack")}
-        style={{ cursor: "pointer" }}
-      />
-      <img 
-        className={styles.notificationButtonIcon}
-        src={images.NotificationButton}
-        alt="Notifications"
-        onClick={() => handleNavigation("/notification")}
-        style={{ cursor: "pointer" }}
-      /> */}
-    </footer>
-  );
+export const routes = {
+  home: "/",
+  home2: "/home2",
+  home3: "/home3",
+  nft: "/nft",
+  stack: "/stack",
+  notification: "/notification",
+  ico: "/ico",
 };
 
-const App = ({ children }) => {
+// Navigation behavior hook
+const useNavigationBehavior = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
   const bb = useBackButton();
   const close = useClosingBehavior();
   const viewport = useViewport();
-  const router = useRouter();
-  const pathname = usePathname();
 
   useEffect(() => {
     function goBack() {
-      router.back();
+      navigate(-1);
     }
 
     if (close) {
@@ -82,21 +45,87 @@ const App = ({ children }) => {
     }
 
     if (bb) {
-      if (pathname === "/") {
+      if (location.pathname === "/") {
         bb.hide();
-        return;
+      } else {
+        bb.show();
+        bb.on("click", goBack);
       }
-      bb.show();
-      bb.on("click", goBack);
     }
-  }, [bb, router, pathname, close, viewport]);
+
+    // Cleanup function
+    return () => {
+      if (bb) {
+        bb.off("click", goBack);
+      }
+    };
+  }, [bb, navigate, location.pathname, close, viewport]);
+};
+
+// Navigation handler component for footer buttons
+const NavigationHandler = () => {
+  const navigate = useNavigate();
+  useNavigationBehavior(); // Apply navigation behavior
+
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
 
   return (
-    <main className="bg-background">
-      {/* {children} */}
-      <Homepage/>
-      {/* <NavigationFooter /> */}
-    </main>
+    <footer>
+      {/* <img 
+        className="homeButtonIcon"
+        src={images.HomeButton}
+        alt="Home"
+        onClick={() => handleNavigation(routes.home)}
+        style={{ cursor: "pointer" }}
+      /> */}
+      {/* <img 
+        className="icoButtonIcon"
+        src={images.ICOButton}
+        alt="ICO"
+        onClick={() => handleNavigation(routes.ico)}
+        style={{ cursor: "pointer" }}
+      />
+      <img 
+        className="nftButtonIcon"
+        src={images.NFTButton}
+        alt="NFT"
+        onClick={() => handleNavigation(routes.nft)}
+        style={{ cursor: "pointer" }}
+      />
+      <img 
+        className="stackButtonIcon"
+        src={images.StackButton}
+        alt="Stack"
+        onClick={() => handleNavigation(routes.stack)}
+        style={{ cursor: "pointer" }}
+      />
+      <img 
+        className="notificationButtonIcon"
+        src={images.NotificationButton}
+        alt="Notifications"
+        onClick={() => handleNavigation(routes.notification)}
+        style={{ cursor: "pointer" }}
+      /> */}
+    </footer>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/home2" element={<Homepage2 />} />
+        <Route path="/home3" element={<Homepage3 />} />
+        <Route path={routes.nft} element={<Nftpage />} />
+        <Route path={routes.stack} element={<Stackpage />} />
+        <Route path={routes.notification} element={<Notificationpage />} />
+        <Route path={routes.ico} element={<ICO_3page />} />
+      </Routes>
+      <NavigationHandler />
+    </Router>
   );
 };
 
