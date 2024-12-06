@@ -15,7 +15,7 @@ import {
 } from "@telegram-apps/sdk-react";
 import Homepage from "../pages/HOMEPAGE";
 import Homepage2 from "../pages/HOMEPAGE_2";
-import Homepage3 from "../pages/HOMEPAGE_3";
+
 import Nftpage from "../pages/NFT";
 import Stackpage from "../pages/Stack";
 import Notificationpage from "../pages/NOTIFICATION";
@@ -23,7 +23,7 @@ import ICO_3page from "../pages/ICO_3";
 import { images } from "../StoreImages/StoreImages";
 import "../css_modules/HOMEPAGE.module.css";
 import "../css_modules/HOMEPAGE_2.module.css";
-import "../css_modules/HOMEPAGE_3.module.css";
+
 import "../css_modules/ICO.module.css";
 import "../css_modules/ICO_4.module.css";
 import "../css_modules/ICO_5.module.css";
