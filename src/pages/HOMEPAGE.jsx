@@ -5,14 +5,12 @@ import { images } from '../StoreImages/StoreImages';
 import ConnectButton from "@/components/shared/ConnectButton"
 import { useRouter } from 'next/navigation';
 
-
-
 const HOMEPAGE = () => {
   const router = useRouter();
   
   return (
     <div className={styles.homePage1}>
-      <img className={styles.altcoinbgIcon} alt="" src="../assets/ActiveBorderImage.png" />
+      <img className={styles.altcoinbgIcon} alt="" src={images.AltcoinBg} />
       <div className={styles.profilerectangle} />
       
       <img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
