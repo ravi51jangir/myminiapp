@@ -2,7 +2,7 @@ import { FunctionComponent } from 'react';
 import styles from '../css_modules/NFT.module.css';
 import { images } from '../StoreImages/StoreImages';
 import ConnectButton from "@/components/shared/ConnectButton"
-
+import { useRouter } from 'next/navigation';
 
 
 const NFT = () => {

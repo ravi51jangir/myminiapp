@@ -2,7 +2,7 @@ import { FunctionComponent, useCallback } from 'react';
 import styles from '../css_modules/ICO.module.css';
 import {images} from '../StoreImages/StoreImages';
 import ConnectButton from "@/components/shared/ConnectButton"
-
+import { useRouter } from 'next/navigation';
 
 
 const ICO = () => {
