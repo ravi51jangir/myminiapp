@@ -7,22 +7,22 @@ import { useRouter } from 'next/navigation';
 
 const HOMEPAGE = () => {
   const router = useRouter();
-  
+ 
   return (
     <div className={styles.homePage1}>
-      <img className={styles.altcoinbgIcon} alt="" src={images.AltcoinBg} />
+      <img className={styles.altcoinbgIcon} alt="" src={images.AltcoinBg.src} />
       <div className={styles.profilerectangle} />
       
-      <img className={styles.userlogoIcon} alt="" src={images.UserLogo} />
+      <img className={styles.userlogoIcon} alt="" src={images.UserLogo.src} />
       <b className={styles.wxyz}>WXYZ</b>
       
-      <img className={styles.useropenicon} alt="" src={images.UserOpenIcon} />
+      <img className={styles.useropenicon} alt="" src={images.UserOpenIcon.src} />
       <div className={styles.walletButton}>
         <ConnectButton/>
       </div>
       <div className={styles.altcoinrec} />
       <div className={styles.tokenpricerec} />
-      <img className={styles.days12leftIcon} alt="" src={images.Days12Left} />
+      <img className={styles.days12leftIcon} alt="" src={images.Days12Left.src} />
       <b className={styles.altcoinist}>ALTCOINIST</b>
       <div 
         className={styles.homePage1Child} 
@@ -40,12 +40,12 @@ const HOMEPAGE = () => {
         style={{ cursor: 'pointer' }}
       />
       
-      <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground} />
-      <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons} />
+      <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
+      <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
       <b className={styles.apply}>Apply To Organize ICO</b>
       <div className={styles.apply1}>Apply to organize an ICO by ensuring compliance with legal and regulatory requirements.</div>
-      <img className={styles.altcoinimgIcon} alt="" src={images.AltcoinImg} />
-      <img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage} />
+      <img className={styles.altcoinimgIcon} alt="" src={images.AltcoinImg.src} />
+      <img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage.src} />
       <b className={styles.active}>ACTIVE</b>
       
       <b className={styles.tokenPrice}>TOKEN PRICE</b>
@@ -63,19 +63,19 @@ const HOMEPAGE = () => {
       </b>
       <b className={styles.d02h20m}>12d 02h 20m 48s LEFT</b>
       <b className={styles.usdt}>0.009122 USDT</b>
-      <img className={styles.mutliplediscIcon} alt="" src={images.MutlipleDisc} />
-      <img className={styles.discIcon} alt="" src={images.Disc} />
+      <img className={styles.mutliplediscIcon} alt="" src={images.MutlipleDisc.src} />
+      <img className={styles.discIcon} alt="" src={images.Disc.src} />
       <div className={styles.full} />
       <div className={styles.full80} />
-      <img className={styles.calenderIcon} alt="" src={images.calender} />
-      <img className={styles.calenderIcon1} alt="" src={images.calender}/>
-      <img className={styles.clockIcon} alt="" src={images.clock} />
-      <img className={styles.clockIcon1} alt="" src={images.clock} />
-      <img className={styles.timerIcon} alt="" src={images.Timer} />
+      <img className={styles.calenderIcon} alt="" src={images.calender.src} />
+      <img className={styles.calenderIcon1} alt="" src={images.calender.src}/>
+      <img className={styles.clockIcon} alt="" src={images.clock.src} />
+      <img className={styles.clockIcon1} alt="" src={images.clock.src} />
+      <img className={styles.timerIcon} alt="" src={images.Timer.src.src} />
       <div className={styles.nftimagerec} />
       <div className={styles.stakeimagerec} />
-      <img className={styles.nftimageIcon} alt="" src={images.NftImage} />
-      <img className={styles.stakeimageIcon} alt="" src={images.StakeImage} />
+      <img className={styles.nftimageIcon} alt="" src={images.NftImage.src} />
+      <img className={styles.stakeimageIcon} alt="" src={images.StakeImage.src} />
       <div className={styles.nfttextrec} />
       <div className={styles.rectangleDiv}/>
       <b className={styles.nft}>NFT</b>

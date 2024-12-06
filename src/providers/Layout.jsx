@@ -90,14 +90,14 @@ const NavigationHandler = () => {
 
   return (
     <footer className="footer">
-      <img
+      {/* <img
         className="homeButtonIcon"
         src={images.HomeButton}
         alt="Home"
         onClick={() => handleNavigation(routes.home)}
         style={{ cursor: "pointer" }}
-      />
-      <img
+      /> */}
+      {/* <img
         className="icoButtonIcon"
         src={images.ICOButton}
         alt="ICO"
@@ -124,7 +124,7 @@ const NavigationHandler = () => {
         alt="Notifications"
         onClick={() => handleNavigation(routes.notification)}
         style={{ cursor: "pointer" }}
-      />
+      /> */}
     </footer>
   );
 };
