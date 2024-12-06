@@ -1,6 +1,7 @@
 import ButtonsBackground from "../../assets/images/Buttons Background.png";
 import ComingSoon from "../../assets/images/Coming Soon.png";
 import cursorbend from "../../assets/images/cursor bend.png";
+
 import Ellipse28 from "../../assets/images/Ellipse 28.png";
 import Ellipse29 from "../../assets/images/Ellipse 29.png";
 import HomeButton from "../../assets/images/Home Button.png";
@@ -29,8 +30,12 @@ import NotificationRectangle from "../../assets/images/NotificationRectangle.png
 import NotificationTextIcon from "../../assets/images/NotificationTextIcon.png";
 import ProfileRectangle from "../../assets/images/ProfileRectangle.png";
 import UpdatesIcon from "../../assets/images/UpdatesIcon.png";
+
 import UpdatesSidebar from "../../assets/images/UpdatesSidebar.png";
 import UserLogo from "../../assets/images/UserLogo.png";
+
+
+// New imports from shared images
 import ActiveBorderImage from "../../assets/images/ActiveBorderImage.png";
 import ActiveIcon from "../../assets/images/ActiveIcon.png";
 import ActiveRectangle from "../../assets/images/ActiveRectangle.png";
@@ -91,124 +96,118 @@ import TokenPriceRec from "../../assets/images/TokenPriceRec.png";
 import Twitter from "../../assets/images/Twitter.png";
 import UpcomingIcon from "../../assets/images/UpcomingIcon.png";
 import UpcomingRectangle from "../../assets/images/UpcomingRectangle.png";
+
 import UpdatesRectangle from "../../assets/images/UpdatesRectangle.png";
+
+
 import UserOpenIcon from "../../assets/images/UserOpenIcon.png";
 import WalletIcon from "../../assets/images/WalletIcon.png";
 import WalletRectangle from "../../assets/images/WalletRectangle.png";
 import Web from "../../assets/images/Web.png";
 
 export const images = {
-    // UI Elements
     ButtonsBackground,
     ComingSoon,
     cursorbend,
-    CursorButtons,
+    Ellipse28,
+    Ellipse29,
     HomeButton,
     ICOButton,
     NFTButton,
-    NotificationButton,
+    nftboxback1,
+    nftboxback2,
+    NftImageBox,
     StackButton,
-    
-    // Icons
+    NotificationButton,
+    StackImage,
+    stackback1,
+    stackback2,
     AlertIcon,
-    ActiveIcon,
-    EndedIcon,
+    Ellipse26,
+    CursorButtons,
+    DownNotification,
+    GeneralalertRectangle,
+    GeneralalertSidebar,
+    GeneralalertSidebarEllipse,
+    NewicoLaunchEllipse,
     NewIcoLaunchIcon,
+    NewicoLaunchRectangle,
+    NewicoLaunchSidebar,
+    NotificationRectangle,
     NotificationTextIcon,
+    ProfileRectangle,
     UpdatesIcon,
-    UpcomingIcon,
-    UserOpenIcon,
-    WalletIcon,
-    
-    // Images
-    AltcoinImg,
-    ArrakisImage,
-    BovinVerseImage,
-    ChirplayImage,
-    Gpt360Image,
-    inShapeImage,
-    MetaCloudImage,
-    NetonImage,
-    NeutonImage,
-    NftImage,
-    StakeImage,
-    
-    // Backgrounds
-    AltcoinBg,
-    Gpt360Bg,
-    NeutonImageBg1,
-    NeutonImageBg2,
-    NeutonImageBg3,
-    
-    // Logos
-    BitMart_Logo,
-    CoinDCX_Logo,
-    UserLogo,
-    
-    // UI Components & Rectangles
-    AltcoinRec,
-    Gpt360Rec,
-    NftImageRec,
-    NftTextRec,
-    StakeImageRec,
-    StakeTextRec,
-    TokenPriceRec,
-    
-    // Other Elements
-    calender,
-    clock,
-    Timer,
-    Days12Left,
-    Disc,
-    MutlipleDisc,
-    Papers,
-    Telegram,
-    Twitter,
-    Web,
-    
-    // All other exports
+
+
+
+
+    // New exports
     ActiveBorderImage,
+    ActiveIcon,
     ActiveRectangle,
+    AltcoinBg,
+    AltcoinImg,
+    AltcoinRec,
     ApplyNow,
+    ArrakisImage,
     ArrakisImageBorder,
     ArrakisPriceRectangle,
     AUERectangle,
     AUERectangleborder,
     AUERectangleStatus,
+    BitMart_Logo,
     BitMart_LogoEllipse,
+    BovinVerseImage,
     BovinVerseImageBorder,
     BuyNewtonRectangle,
+    calender,
+    ChirplayImage,
     ChirplayImageBorder,
+    clock,
+    CoinDCX_Logo,
     CoinDCX_LogoEllipse,
-    DownNotification,
-    Ellipse26,
-    Ellipse28,
-    Ellipse29,
+    Days12Left,
+    Disc,
+    EndedIcon,
     EndedRectangle,
-    GeneralalertRectangle,
-    GeneralalertSidebar,
-    GeneralalertSidebarEllipse,
     GoalRectangle,
+    Gpt360Bg,
+    Gpt360Image,
+    Gpt360Rec,
     HardCap,
+    inShapeImage,
     inShapeImageBorder,
     inShapePriceRectangle,
+    MetaCloudImage,
     MetaCloudImageBorder,
     MetaCloudPriceRectangle,
-    NewicoLaunchEllipse,
-    NewicoLaunchRectangle,
-    NewicoLaunchSidebar,
-    nftboxback1,
-    nftboxback2,
-    NftImageBox,
-    NotificationRectangle,
+    MutlipleDisc,
+    NetonImage,
+    NeutonImage,
+    NeutonImageBg1,
+    NeutonImageBg2,
+    NeutonImageBg3,
+    NftImage,
+    NftImageRec,
+    NftTextRec,
+    Papers,
     PriceRectangle,
-    ProfileRectangle,
     SoftCap,
-    stackback1,
-    stackback2,
-    StackImage,
+    StakeImage,
+    StakeImageRec,
+    StakeTextRec,
+    Telegram,
+    Timer,
+    TokenPriceRec,
+    Twitter,
+    UpcomingIcon,
     UpcomingRectangle,
+    
     UpdatesRectangle,
     UpdatesSidebar,
-    WalletRectangle
+    UserLogo,
+    UserOpenIcon,
+    WalletIcon,
+    WalletRectangle,
+    Web
 };
