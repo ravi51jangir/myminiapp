@@ -53,8 +53,8 @@ const router = useRouter();
       <img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage} />
       <b className={styles.active}>ACTIVE</b>
       <img className={styles.applynowIcon} alt="" src={images.ApplyNow} />
-      <img className={styles.icoButtonIcon} alt="" src={images.ICOButton} onClick={onEllipseClick} />
-      <img className={styles.nftButtonIcon} alt="" src={images.NFTButton} onClick={onEllipseClick} />
+      <img className={styles.icoButtonIcon} alt="" src={images.ICOButton} />
+      <img className={styles.nftButtonIcon} alt="" src={images.NFTButton}  />
       <img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton} />
       <b className={styles.tokenPrice}>TOKEN PRICE</b>
 
