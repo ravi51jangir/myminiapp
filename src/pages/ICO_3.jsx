@@ -108,17 +108,17 @@ const ICO = () => {
       <img
         className={styles.arrakisimageIcon}
         alt=""
-        src={images.ArrakisImage}
+        src={images.ArrakisImage.src}
       />
       <img
         className={styles.metacloudimageIcon}
         alt=""
-        src={images.MetaCloudImage}
+        src={images.MetaCloudImage.src}
       />
       <img
         className={styles.inshapeimageIcon1}
         alt=""
-        src={images.inShapeImage}
+        src={images.inShapeImage.src}
       />
       <b className={styles.b3}>
         <span className={styles.txt}>
