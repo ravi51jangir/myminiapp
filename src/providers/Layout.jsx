@@ -21,16 +21,7 @@ import Stackpage from "../pages/Stack";
 import Notificationpage from "../pages/NOTIFICATION";
 import ICO_3page from "../pages/ICO_3";
 import { images } from "../StoreImages/StoreImages";
-import "../css_modules/HOMEPAGE.module.css";
-import "../css_modules/HOMEPAGE_2.module.css";
-
-import "../css_modules/ICO.module.css";
-import "../css_modules/ICO_4.module.css";
-import "../css_modules/ICO_5.module.css";
-import "../css_modules/NFT.module.css";
-import "../css_modules/NOTIFICATION.module.css";
-import "../css_modules/Stack.module.css";
-
+import styles from "../css_modules/HOMEPAGE.module.css";
 
 export const routes = {
   home: "/",
@@ -91,42 +82,38 @@ const NavigationHandler = () => {
   };
 
   return (
-    <footer className="footer">
-      {/* <img
-        className="homeButtonIcon"
-        src={images.HomeButton}
+    <footer >
+       <img className={styles.homeButtonIcon}
+        src={images.HomeButton.src}
         alt="Home"
         onClick={() => handleNavigation(routes.home)}
         style={{ cursor: "pointer" }}
       />
-      <img
-        className="icoButtonIcon"
-        src={images.ICOButton}
+       <img className={styles.icoButtonIcon}
+        src={images.ICOButton.src}
         alt="ICO"
         onClick={() => handleNavigation(routes.ico)}
         style={{ cursor: "pointer" }}
       />
-      <img
-        className="nftButtonIcon"
-        src={images.NFTButton}
+       <img className={styles.nftButtonIcon}
+        src={images.NFTButton.src}
         alt="NFT"
         onClick={() => handleNavigation(routes.nft)}
         style={{ cursor: "pointer" }}
       />
-      <img
-        className="stackButtonIcon"
-        src={images.StackButton}
+     <img className={styles.stackButtonIcon}
+        src={images.StackButton.src}
         alt="Stack"
         onClick={() => handleNavigation(routes.stack)}
         style={{ cursor: "pointer" }}
       />
-      <img
-        className="notificationButtonIcon"
-        src={images.NotificationButton}
+       <img className={styles.notificationButtonIcon}
+        src={images.NotificationButton.src}
         alt="Notifications"
         onClick={() => handleNavigation(routes.notification)}
         style={{ cursor: "pointer" }}
-      /> */}
+      />
+
     </footer>
   );
 };
@@ -136,6 +123,8 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/home2" element={<Homepage2 />} />
+
         <Route path={routes.nft} element={<Nftpage />} />
         <Route path={routes.stack} element={<Stackpage />} />
         <Route path={routes.notification} element={<Notificationpage />} />

@@ -215,7 +215,7 @@
     position: absolute;
     height: 3.89%;
     width: 8.64%;
-    top: 870px;
+    top: 880px;
     right: 85.05%;
    
     left: 6.31%;
@@ -229,7 +229,7 @@
     width: 9.11%;
     
     right: 23.83%;
-    top: 870px;
+    top: 875px;
     left: 66.06%;
     max-width: 100%;
     overflow: hidden;
@@ -312,7 +312,7 @@
 
 .icoButtonIcon {
     position: absolute;
-    top: 845px;
+    top: 853px;
     left: 77px;
     width: 119px;
     height: 77px;
@@ -321,7 +321,7 @@
 }
 .nftButtonIcon {
     position: absolute;
-    top: 846px;
+    top: 852px;
     left: 160px;
     width: 114px;
     height: 87px;
@@ -332,7 +332,7 @@
     position: absolute;
     height: 4.05%;
     width: 7.45%;
-    top: 870px;
+    top: 875px;
     right: 8.08%;
     
     left: 84.46%;
@@ -657,3 +657,21 @@
     font-family: Krub;
 }
 
+.footer {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Centers the buttons vertically */
+    width: 100%; /* Make sure the footer spans the entire width */
+    background-color: #000; /* Add background color (adjust as needed) */
+    padding: 10px 0; /* Add some padding to the footer */
+  }
+  
+  .buttonsContainer {
+    display: flex; /* Use flexbox to align the buttons */
+    justify-content: space-evenly; /* Distribute buttons evenly across the container */
+    align-items: center; /* Center the buttons vertically */
+    width: 80%; /* Adjust the width as needed */
+  }
+  
+
+  
