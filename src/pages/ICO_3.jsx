@@ -96,11 +96,7 @@ const ICO = () => {
         alt=""
         src={images.inShapeImage}
       />
-      <img
-        className={styles.buttonsBackground}
-        alt=""
-        src={images.ButtonsBackground}
-      />
+<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
       <div className={styles.inshapedark} />
       <div className={styles.arrakisdark} />
       <div className={styles.metaclouddark} />
