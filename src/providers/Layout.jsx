@@ -117,12 +117,12 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/home2" element={<Homepage2 />} />
+        {/* <Route path="/home2" element={<Homepage2 />} />
         <Route path="/home3" element={<Homepage3 />} />
         <Route path={routes.nft} element={<Nftpage />} />
         <Route path={routes.stack} element={<Stackpage />} />
         <Route path={routes.notification} element={<Notificationpage />} />
-        <Route path={routes.ico} element={<ICO_3page />} />
+        <Route path={routes.ico} element={<ICO_3page />} /> */}
       </Routes>
       <NavigationHandler />
     </Router>
