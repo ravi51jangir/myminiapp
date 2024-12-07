@@ -41,9 +41,7 @@ const router = useRouter();
         style={{ cursor: 'pointer' }}
       />
 
-      <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
-      <img className={styles.homeButtonIcon} alt="" src={images.HomeButton.src} />
-      <img className={styles.stackButtonIcon} alt="" src={images.StackButton.src} />
+     
       <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
       <b className={styles.apply}>Apply To Organize ICO</b>
       <div className={styles.apply1}>
@@ -53,9 +51,7 @@ const router = useRouter();
       <img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage.src} />
       <b className={styles.active}>ACTIVE</b>
       <img className={styles.applynowIcon} alt="" src={images.ApplyNow.src} />
-      <img className={styles.icoButtonIcon} alt="" src={images.ICOButton.src} />
-      <img className={styles.nftButtonIcon} alt="" src={images.NFTButton.src}  />
-      <img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton.src} />
+      
       <b className={styles.tokenPrice}>TOKEN PRICE</b>
 
       <b className={styles.b}>
@@ -73,7 +69,7 @@ const router = useRouter();
       <b className={styles.d02h20m}>12d 02h 20m 48s LEFT</b>
       <b className={styles.usdt}>0.009122 USDT</b>
       <img className={styles.mutliplediscIcon} alt="" src={images.MutlipleDisc.src} />
-      <img className={styles.discIcon} alt="" src={images.Disc} />
+      <img className={styles.discIcon} alt="" src={images.Disc.src} />
       <div className={styles.full} />
       <div className={styles.full80} />
       <img className={styles.calenderIcon} alt="" src={images.calender.src} />

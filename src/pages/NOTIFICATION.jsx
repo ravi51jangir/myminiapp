@@ -99,7 +99,7 @@ const NOTIFICATION = () => {
           <img className={styles.updatesicon2} alt="" src={images.UpdatesIcon.src}  />
           <img className={styles.alerticon} alt="" src={images.AlertIcon.src}  />
           <img className={styles.downnotificationIcon} alt="" src={images.DownNotification.src}  />
-        <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src}  />
+       
   
           
           <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src}  />

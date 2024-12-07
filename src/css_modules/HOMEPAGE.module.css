@@ -18,10 +18,30 @@
     background-color: #434242;
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
-    width: 140px;
-    height: 32px;
+
 }
 
+.userlogoIcon {
+    position: absolute;
+    height: 35px;
+    top: 6.5%;
+    right: 86.46%;
+    bottom: 89.31%;
+    left: 3.07%;
+
+}
+
+
+
+.wxyz {
+    position: absolute;
+    top: 68px;
+    left: 70px;
+    font-size: 14px;
+    display: inline-block;
+    width: 51px;
+    height: 22px;
+}
 .walletButton {
     position: absolute; /* Ensures it floats over other elements */
     top: 58px;
@@ -50,27 +70,6 @@
     box-sizing: border-box;
     width: 172px;
     height: 40px;
-}
-.userlogoIcon {
-    position: absolute;
-    height: 35px;
-    top: 6.5%;
-    right: 86.46%;
-    bottom: 89.31%;
-    left: 3.07%;
-
-}
-
-
-
-.wxyz {
-    position: absolute;
-    top: 68px;
-    left: 70px;
-    font-size: 14px;
-    display: inline-block;
-    width: 51px;
-    height: 22px;
 }
 .connectWallet {
     position: absolute;
@@ -202,6 +201,7 @@
   position: absolute;
   top: 845px;
   left:1px;
+  width: 100%;
 
 }
 @media screen and (max-width: 700px) {
@@ -216,7 +216,7 @@
     height: 3.89%;
     width: 8.64%;
     top: 880px;
-    
+    right: 85.05%;
    
     left: 6.31%;
     max-width: 100%;
@@ -226,12 +226,12 @@
 .stackButtonIcon {
     position: absolute;
     height: 4.3%;
-    width: 10vw;
+    width: 9.11%;
     
     right: 23.83%;
     top: 875px;
-    right: 25%;
-    
+    left: 66.06%;
+    max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
@@ -313,8 +313,8 @@
 .icoButtonIcon {
     position: absolute;
     top: 853px;
-    left: 22%;
-    width: 15vw;
+    left: 77px;
+    width: 119px;
     height: 77px;
     object-fit: cover;
     cursor: pointer;
@@ -322,8 +322,8 @@
 .nftButtonIcon {
     position: absolute;
     top: 852px;
-    left: 45%;
-    width: 15vw;
+    left: 160px;
+    width: 114px;
     height: 87px;
     object-fit: cover;
     cursor: pointer;
@@ -331,12 +331,12 @@
 .notificationButtonIcon {
     position: absolute;
     height: 4.05%;
-    width: 10vw;
+    width: 7.45%;
     top: 875px;
-    right: 6.08%;
+    right: 8.08%;
     
     left: 84.46%;
-
+    max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
@@ -663,9 +663,15 @@
     align-items: center; /* Centers the buttons vertically */
     width: 100%; /* Make sure the footer spans the entire width */
     background-color: #000; /* Add background color (adjust as needed) */
-    
+    padding: 10px 0; /* Add some padding to the footer */
   }
   
-
+  .buttonsContainer {
+    display: flex; /* Use flexbox to align the buttons */
+    justify-content: space-evenly; /* Distribute buttons evenly across the container */
+    align-items: center; /* Center the buttons vertically */
+    width: 80%; /* Adjust the width as needed */
+  }
+  
 
   

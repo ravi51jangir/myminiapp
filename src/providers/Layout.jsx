@@ -8,20 +8,16 @@ import {
   useNavigate,
   useLocation,
 } from "react-router-dom";
-import {
-  useBackButton,
-  useClosingBehavior,
-  useViewport,
-} from "@telegram-apps/sdk-react";
+import { useBackButton, useClosingBehavior, useViewport } from "@telegram-apps/sdk-react";
 import Homepage from "../pages/HOMEPAGE";
 import Homepage2 from "../pages/HOMEPAGE_2";
-
 import Nftpage from "../pages/NFT";
 import Stackpage from "../pages/Stack";
 import Notificationpage from "../pages/NOTIFICATION";
 import ICO_3page from "../pages/ICO_3";
 import { images } from "../StoreImages/StoreImages";
-import styles from "../css_modules/HOMEPAGE.module.css";
+import styles from "../css_modules/Stack.module.css";
+import Head from "next/head"; // Import the Head component
 
 export const routes = {
   home: "/",
@@ -82,56 +78,68 @@ const NavigationHandler = () => {
   };
 
   return (
-    <footer >
-       <img className={styles.homeButtonIcon}
+    
+    <footer>
+      
+      <img
+        className={styles.homeButtonIcon}
         src={images.HomeButton.src}
         alt="Home"
         onClick={() => handleNavigation(routes.home)}
         style={{ cursor: "pointer" }}
       />
-       <img className={styles.icoButtonIcon}
+      <img
+        className={styles.icoButtonIcon}
         src={images.ICOButton.src}
         alt="ICO"
         onClick={() => handleNavigation(routes.ico)}
         style={{ cursor: "pointer" }}
       />
-       <img className={styles.nftButtonIcon}
+      <img
+        className={styles.nftButtonIcon}
         src={images.NFTButton.src}
         alt="NFT"
         onClick={() => handleNavigation(routes.nft)}
         style={{ cursor: "pointer" }}
       />
-     <img className={styles.stackButtonIcon}
+      <img
+        className={styles.stackButtonIcon}
         src={images.StackButton.src}
         alt="Stack"
         onClick={() => handleNavigation(routes.stack)}
         style={{ cursor: "pointer" }}
       />
-       <img className={styles.notificationButtonIcon}
+      <img
+        className={styles.notificationButtonIcon}
         src={images.NotificationButton.src}
         alt="Notifications"
         onClick={() => handleNavigation(routes.notification)}
         style={{ cursor: "pointer" }}
       />
-
     </footer>
   );
 };
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/home2" element={<Homepage2 />} />
-
-        <Route path={routes.nft} element={<Nftpage />} />
-        <Route path={routes.stack} element={<Stackpage />} />
-        <Route path={routes.notification} element={<Notificationpage />} />
-        <Route path={routes.ico} element={<ICO_3page />} />
-      </Routes>
-      <NavigationHandler />
-    </Router>
+    <>
+      {/* Add the Head component here */}
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Telegram Mini-App</title>
+      </Head>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/home2" element={<Homepage2 />} />
+          <Route path={routes.nft} element={<Nftpage />} />
+          <Route path={routes.stack} element={<Stackpage />} />
+          <Route path={routes.notification} element={<Notificationpage />} />
+          <Route path={routes.ico} element={<ICO_3page />} />
+        </Routes>
+        <NavigationHandler />
+      </Router>
+    </>
   );
 };
 

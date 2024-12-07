@@ -11,8 +11,8 @@ const NFT = () => {
 
 return (
     <div className={styles.nft7}>
-          <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src}  />
-          
+        
+      
           <img className={styles.cursorBendIcon} alt="" src={images.cursorbend.src} />
           <div className={styles.cursorButton} />
           <img className={styles.nftimageboxIcon} alt="" src={images.NftImageBox.src} />

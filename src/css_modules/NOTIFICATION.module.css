@@ -1,6 +1,8 @@
 .profilerectangle {
     position: absolute;
-    top: 58px;
+    height: 4.21%;
+    top: 2.81%;
+    bottom: 92.98%;
     left: 14px;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
@@ -8,101 +10,80 @@
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 140px;
-    height: 39px;
 }
-.walletButton {
-    position: absolute; /* Ensures it floats over other elements */
-    top: 58px;
-    Right: 14px;
-  }
-  
-  .walletButton button {
-    background-color: #20232a; /* Matches dark UI */
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-  }
 .walletrectangle {
     position: absolute;
-    top: 57px;
-    left: 245px;
+    height: 4.32%;
+    top: 2.7%;
+    right: 11px;
+    bottom: 92.98%;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
     background-color: #434242;
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 172px;
-    height: 40px;
 }
 .userlogoIcon {
     position: absolute;
-    height: 4.63%;
-    width: 10.49%;
-    top: 6.06%;
-    right: 86.44%;
-    bottom: 89.31%;
-    left: 3.07%;
-    max-width: 100%;
-    overflow: hidden;
+    height: 3.83%;
+    top: 3.25%;
+    bottom: 92.92%;
+    left: 22px;
     max-height: 100%;
+    width: 38.5px;
 }
 .wxyz {
     position: absolute;
-    top: 68px;
+    height: 2.38%;
+    top: 3.89%;
     left: 76px;
     font-size: 14px;
     display: inline-block;
     color: #fff;
     width: 51px;
-    height: 22px;
 }
-.connectWallet {
-    position: absolute;
-    top: 69px;
-    left: 254px;
-    font-size: 14px;
-    display: inline-block;
-    color: #fff;
-    width: 135px;
-    height: 22px;
-}
+.walletButton {
+    position: absolute; /* Ensures it floats over other elements */
+    height: 4.22%;
+    top: 2.92%;
+    bottom: 92.87%;
+    right: 20%;
+    width: 8%;
+  }
 .useropenicon {
     position: absolute;
     height: 0.97%;
-    width: 1.59%;
-    top: 7.83%;
-    right: 68.18%;
-    bottom: 91.2%;
-    left: 30.23%;
-    max-width: 100%;
-    overflow: hidden;
+    top: 4.37%;
+    bottom: 94.65%;
+    left: 129.38px;
     max-height: 100%;
+    width: 6.8px;
     object-fit: contain;
 }
 .walleticon {
     position: absolute;
     height: 2.06%;
-    width: 4.91%;
-    top: 7.37%;
-    right: 5.72%;
-    bottom: 90.57%;
-    left: 89.37%;
-    max-width: 100%;
-    overflow: hidden;
+    top: 3.91%;
+    right: 24.5px;
+    bottom: 94.03%;
     max-height: 100%;
+    width: 21px;
 }
 .notificationrectangle {
     position: absolute;
-    top: 126px;
+    height: 9.61%;
+    width: 100%;
+    top: 12.68%;
+    right: 0px;
+   
+    left: 0px;
 
 }
 .notifications {
     position: absolute;
-    top: 145px;
+    height: 1.94%;
+    top:16%;
     left: 54px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -111,181 +92,190 @@
     align-items: center;
     justify-content: center;
     width: 164px;
-    height: 18px;
 }
 .notificationtexticon {
     position: absolute;
     height: 2.87%;
-    width: 5.56%;
-    top: 15.28%;
-    right: 89.16%;
-    bottom: 81.85%;
-    left: 5.28%;
-    max-width: 100%;
-    overflow: hidden;
+    top: 15.49%;
+    bottom: 84.44%;
+    left: 22.59px;
     max-height: 100%;
+    width: 23.8px;
 }
 .newicolaunchrectangle {
     position: absolute;
-    top: 210px;
+    height: 9.61%;
+    width: calc(100% - 29px);
+    top: 22.68%;
+    right: 12px;
+    bottom: 67.71%;
     left: 17px;
     border-radius: 0px 10px 10px 0px;
     background-color: #fff6f6;
-    width: 399px;
-    height: 89px;
 }
 .newicolaunchrectangle1 {
     position: absolute;
-    top: 706px;
+    height: 9.61%;
+    width: calc(100% - 29px);
+    top: 76.24%;
+    right: 12px;
+    bottom: 14.15%;
     left: 17px;
     border-radius: 0px 10px 10px 0px;
     background-color: #fff6f6;
-    width: 399px;
-    height: 89px;
 }
 .generalalertrectangle {
     position: absolute;
-    top: 409px;
+    height: 9.61%;
+    width: calc(100% - 29px);
+    top: 44.17%;
+    right: 12px;
+    bottom: 46.22%;
     left: 17px;
     border-radius: 0px 10px 10px 0px;
     background-color: #fff6f6;
-    width: 399px;
-    height: 89px;
 }
 .updatesrectangle {
     position: absolute;
-    top: 309px;
+    height: 9.61%;
+    width: calc(100% - 29px);
+    top: 33.37%;
+    right: 12px;
+    bottom: 57.02%;
     left: 17px;
     border-radius: 0px 10px 10px 0px;
     background-color: #fff6f6;
-    width: 399px;
-    height: 89px;
 }
 .updatesrectangle1 {
     position: absolute;
-    top: 508px;
+    height: 9.61%;
+    width: calc(100% - 29px);
+    top: 54.86%;
+    right: 12px;
+    bottom: 35.53%;
     left: 17px;
     border-radius: 0px 10px 10px 0px;
     background-color: #fff6f6;
-    width: 399px;
-    height: 89px;
 }
 .updatesrectangle2 {
     position: absolute;
-    top: 607px;
+    height: 9.61%;
+    width: calc(100% - 29px);
+    top: 65.55%;
+    right: 12px;
+    bottom: 24.84%;
     left: 17px;
     border-radius: 0px 10px 10px 0px;
     background-color: #fff6f6;
-    width: 399px;
-    height: 89px;
 }
 .newicolaunchsidebar {
     position: absolute;
-    top: 210px;
+    height: 9.61%;
+    top: 22.68%;
+    bottom: 67.71%;
     left: 17px;
     background-color: #ffe100;
     width: 7px;
-    height: 89px;
 }
 .newicolaunchsidebar1 {
     position: absolute;
-    top: 706px;
+    height: 9.61%;
+    top: 76.24%;
+    bottom: 14.15%;
     left: 17px;
     background-color: #ffe100;
     width: 7px;
-    height: 89px;
 }
 .generalalertsidebar {
     position: absolute;
-    top: 409px;
+    height: 9.61%;
+    top: 44.17%;
+    bottom: 46.22%;
     left: 17px;
     background-color: #f13e11;
     width: 7px;
-    height: 89px;
 }
 .updatessidebar {
     position: absolute;
-    top: 309px;
+    height: 9.61%;
+    top: 33.37%;
+    bottom: 57.02%;
     left: 17px;
     background-color: #00d9ff;
     width: 7px;
-    height: 89px;
 }
 .updatessidebar1 {
     position: absolute;
-    top: 508px;
+    height: 9.61%;
+    top: 54.86%;
+    bottom: 35.53%;
     left: 17px;
     background-color: #00d9ff;
     width: 7px;
-    height: 89px;
 }
 .updatessidebar2 {
     position: absolute;
-    top: 607px;
+    height: 9.61%;
+    top: 65.55%;
+    bottom: 24.84%;
     left: 17px;
     background-color: #00d9ff;
     width: 7px;
-    height: 89px;
 }
 .newicolaunchellipse {
     position: absolute;
-    top: 226px;
+    height: 6.05%;
+    top: 77.97%;
+    bottom: 15.98%;
     left: 40px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #ffe100;
     width: 56px;
-    height: 56px;
-}
-.newicolaunchellipse1 {
-    position: absolute;
-    top: 722px;
-    left: 40px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #ffe100;
-    width: 56px;
-    height: 56px;
 }
 .generalalertsidebarellipse {
     position: absolute;
-    top: 425px;
+    height: 6.05%;
+    top: 45.9%;
+    bottom: 48.06%;
     left: 40px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #f13e11;
     width: 56px;
-    height: 56px;
 }
 .updatesellipse {
     position: absolute;
-    top: 325px;
+    height: 6.05%;
+    top: 35.1%;
+    bottom: 58.86%;
     left: 40px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #00d9ff;
     width: 56px;
-    height: 56px;
 }
 .updatesellipse1 {
     position: absolute;
-    top: 524px;
+    height: 6.05%;
+    top: 56.59%;
+    bottom: 37.37%;
     left: 40px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #00d9ff;
     width: 56px;
-    height: 56px;
 }
 .notification6Child {
     position: absolute;
-    top: 623px;
+    height: 6.05%;
+    top: 67.28%;
+    bottom: 26.67%;
     left: 40px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #00d9ff;
     width: 56px;
-    height: 56px;
 }
 .newIcoLaunches {
     margin: 0;
@@ -295,19 +285,20 @@
 }
 .newIcoLaunchesContainer {
     position: absolute;
-    top: 227px;
+    height: 4.43%;
+    top: 24.51%;
     left: 91px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
     display: flex;
     text-align: center;
     align-items: center;
-    width: 227px;
-    height: 41px;
+    width: 226px;
 }
 .newIcoLaunchesContainer2 {
     position: absolute;
-    top: 723px;
+    height: 4.43%;
+    top: 78.08%;
     left: 91px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -315,11 +306,11 @@
     text-align: center;
     align-items: center;
     width: 227px;
-    height: 41px;
 }
 .updatesOnUserContainer {
     position: absolute;
-    top: 334px;
+    height: 3.13%;
+    top: 36.07%;
     left: 46px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -327,11 +318,11 @@
     text-align: center;
     align-items: center;
     width: 341px;
-    height: 29px;
 }
 .updatesOnUserContainer2 {
     position: absolute;
-    top: 533px;
+    height: 3.13%;
+    top: 57.56%;
     left: 46px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -339,11 +330,11 @@
     text-align: center;
     align-items: center;
     width: 341px;
-    height: 29px;
 }
 .updatesOnUserContainer4 {
     position: absolute;
-    top: 632px;
+    height: 3.13%;
+    top: 68.25%;
     left: 46px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -351,23 +342,23 @@
     text-align: center;
     align-items: center;
     width: 341px;
-    height: 29px;
 }
 .newIcoLaunchContainer {
     position: absolute;
-    top: 256px;
+    height: 2.81%;
+    top: 27.65%;
     left: 119px;
     font-size: 13px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
     display: flex;
     align-items: center;
-    width: 259px;
-    height: 26px;
+    width: 297px;
 }
 .newIcoLaunchContainer2 {
     position: absolute;
-    top: 752px;
+    height: 2.81%;
+    top: 81.21%;
     left: 119px;
     font-size: 13px;
     letter-spacing: -0.01em;
@@ -375,11 +366,11 @@
     display: flex;
     align-items: center;
     width: 259px;
-    height: 26px;
 }
 .alertStayUpdated {
     position: absolute;
-    top: 455px;
+    height: 2.81%;
+    top: 49.14%;
     left: 119px;
     font-size: 13px;
     letter-spacing: -0.01em;
@@ -387,11 +378,11 @@
     display: flex;
     align-items: center;
     width: 259px;
-    height: 26px;
 }
 .generalAlertsAndContainer {
     position: absolute;
-    top: 406px;
+    height: 11.88%;
+    top: 43.84%;
     left: 108px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -399,11 +390,11 @@
     text-align: center;
     align-items: center;
     width: 308px;
-    height: 110px;
 }
 .updateAlertCheck {
     position: absolute;
-    top: 355px;
+    height: 2.81%;
+    top: 38.34%;
     left: 119px;
     font-size: 13px;
     letter-spacing: -0.01em;
@@ -411,11 +402,11 @@
     display: flex;
     align-items: center;
     width: 259px;
-    height: 26px;
 }
 .updateAlertCheck1 {
     position: absolute;
-    top: 554px;
+    height: 2.81%;
+    top: 59.83%;
     left: 119px;
     font-size: 13px;
     letter-spacing: -0.01em;
@@ -423,11 +414,11 @@
     display: flex;
     align-items: center;
     width: 259px;
-    height: 26px;
 }
 .updateAlertCheck2 {
     position: absolute;
-    top: 653px;
+    height: 2.81%;
+    top: 70.52%;
     left: 119px;
     font-size: 13px;
     letter-spacing: -0.01em;
@@ -435,79 +426,71 @@
     display: flex;
     align-items: center;
     width: 259px;
-    height: 26px;
+}
+.newicolaunchellipse1 {
+    position: absolute;
+    height: 6.05%;
+    top: 24.41%;
+    bottom: 69.55%;
+    left: 40px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #ffe100;
+    width: 56px;
 }
 .newicolaunchicon {
     position: absolute;
     height: 3%;
-    width: 6.5%;
     top: 26.05%;
-    right: 80.6%;
     bottom: 70.94%;
-    left: 12.91%;
-    max-width: 100%;
-    overflow: hidden;
+    left: 55.25px;
     max-height: 100%;
+    width: 27.8px;
 }
 .newicolaunchicon1 {
     position: absolute;
     height: 3%;
-    width: 6.5%;
     top: 79.62%;
-    right: 80.6%;
     bottom: 17.38%;
-    left: 12.91%;
-    max-width: 100%;
-    overflow: hidden;
+    left: 55.25px;
     max-height: 100%;
+    width: 27.8px;
 }
 .updatesicon {
     position: absolute;
     height: 3.05%;
-    width: 9.02%;
     top: 36.81%;
-    right: 79.84%;
     bottom: 60.14%;
-    left: 11.14%;
-    max-width: 100%;
-    overflow: hidden;
+    left: 47.68px;
     max-height: 100%;
+    width: 38.6px;
 }
 .updatesicon1 {
     position: absolute;
     height: 3.05%;
-    width: 9.02%;
     top: 57.99%;
-    right: 80%;
     bottom: 38.96%;
-    left: 10.98%;
-    max-width: 100%;
-    overflow: hidden;
+    left: 47px;
     max-height: 100%;
+    width: 38.6px;
 }
 .updatesicon2 {
     position: absolute;
     height: 3.05%;
-    width: 9.02%;
     top: 68.68%;
-    right: 80%;
     bottom: 28.27%;
-    left: 10.98%;
-    max-width: 100%;
-    overflow: hidden;
+    left: 47px;
     max-height: 100%;
+    width: 38.6px;
 }
 .alerticon {
     position: absolute;
     height: 3.42%;
-    width: 8.57%;
     top: 46.9%;
-    right: 79.82%;
     bottom: 49.67%;
-    left: 11.6%;
-    max-width: 100%;
-    overflow: hidden;
+    left: 49.67px;
     max-height: 100%;
+    width: 36.7px;
 }
 .downnotificationIcon {
     position: absolute;
@@ -524,11 +507,17 @@
 }
 .buttonsBackground {
     position: absolute;
-    top: 855px;
-
-
-   
-    
+    height: 7.78%;
+    width: 100%;
+    top: 92.33%;
+    right: -428px;
+    bottom: -0.11%;
+    left: 428px;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+    background-color: #fff;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
 }
 .homeButtonIcon {
     position: absolute;
@@ -569,19 +558,29 @@
 }
 .icoButtonIcon {
     position: absolute;
-    top: 846px;
-    left: 75px;
-    width: 119px;
-    height: 77px;
+    height: 6.37%;
+    width: 23.6%;
+    top: 92.55%;
+    right: 58.18%;
+    bottom: 1.08%;
+    left: 18.22%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
     cursor: pointer;
 }
 .nftButtonIcon {
     position: absolute;
-    top: 847px;
-    left: 158px;
-    width: 114px;
-    height: 87px;
+    height: 7.24%;
+    width: 26.64%;
+    top: 92.66%;
+    right: 36.45%;
+    bottom: 0.11%;
+    left: 36.92%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
     cursor: pointer;
 }

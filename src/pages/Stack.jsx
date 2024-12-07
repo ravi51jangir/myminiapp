@@ -10,7 +10,7 @@ const Stack = () => {
     const router = useRouter();
     return (
         <div className={styles.stack9}>
-              <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src}  />
+             
               
               <img className={styles.cursorBendIcon} alt="" src={images.cursorbend.src} />
               <div className={styles.cursorButton} />
