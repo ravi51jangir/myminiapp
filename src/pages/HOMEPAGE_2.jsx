@@ -25,24 +25,60 @@ const router = useRouter();
       <img className={styles.days12leftIcon} alt="" src={images.Days12Left.src} />
       <b className={styles.gpt360}>GPT360</b>
 
-      <div
-        className={styles.homePage2Item}
-        onClick={() => navigate('/')}
+      <div 
+        className={styles.homePage1Child} 
+        onClick={() => router.push('/')}
         style={{ cursor: 'pointer' }}
       />
-      <div
-        className={styles.homePage2Child}
-        onClick={() => navigate('/home2')}
+      <div 
+        className={styles.homePage1Item} 
+        onClick={() => router.push('/home2')}
         style={{ cursor: 'pointer' }}
       />
-      <div
-        className={styles.homePage2Inner}
-        onClick={() => navigate('/home3')}
+      <div 
+        className={styles.homePage1Inner} 
+        onClick={() => router.push('/home3')}
         style={{ cursor: 'pointer' }}
       />
 
      
+<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
       <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
+      <img
+        className={styles.homeButtonIcon}
+        src={images.HomeButton.src}
+        alt="Home"
+        onClick={() => router.push('/')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.icoButtonIcon}
+        src={images.ICOButton.src}
+        alt="ICO"
+        onClick={() => router.push('/ico')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.nftButtonIcon}
+        src={images.NFTButton.src}
+        alt="NFT"
+        onClick={() => router.push('/nft')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.stackButtonIcon}
+        src={images.StackButton.src}
+        alt="Stack"
+        onClick={() => router.push('/stack')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.notificationButtonIcon}
+        src={images.NotificationButton.src}
+        alt="Notifications"
+        onClick={() => router.push('/notification')}
+        style={{ cursor: "pointer" }}
+      />
       <b className={styles.apply}>Apply To Organize ICO</b>
       <div className={styles.apply1}>
         Apply to organize an ICO by ensuring compliance with legal and regulatory requirements.

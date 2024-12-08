@@ -14,16 +14,43 @@ const HOMEPAGE_3 = () => {
         <img className={styles.neutonimagebg1Icon} alt="" src={images.NeutonImageBg1.src} />
         <img className={styles.neutonimagebg2Icon} alt="" src={images.NeutonImageBg2.src} />
         <img className={styles.neutonimagebg3Icon} alt="" src={images.NeutonImageBg3.src} />
-        <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground} />
-        <img
-          className={styles.homeButtonIcon}
-          alt=""
-          src={images.HomeButton}
-          onClick={onHomeButtonIconClick}
-        />
-        <img className={styles.notificationButtonIcon} alt="" src={images.NotificationButton.src} />
-        <img className={styles.stackButtonIcon} alt="" src={images.StackButton.src} />
-        <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
+        <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
+      <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
+      <img
+        className={styles.homeButtonIcon}
+        src={images.HomeButton.src}
+        alt="Home"
+        onClick={() => router.push('/')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.icoButtonIcon}
+        src={images.ICOButton.src}
+        alt="ICO"
+        onClick={() => router.push('/ico')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.nftButtonIcon}
+        src={images.NFTButton.src}
+        alt="NFT"
+        onClick={() => router.push('/nft')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.stackButtonIcon}
+        src={images.StackButton.src}
+        alt="Stack"
+        onClick={() => router.push('/stack')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.notificationButtonIcon}
+        src={images.NotificationButton.src}
+        alt="Notifications"
+        onClick={() => router.push('/notification')}
+        style={{ cursor: "pointer" }}
+      />
         <div className={styles.listingDetails}>LISTING DETAILS</div>
         <div className={styles.bitmart}>Bitmart</div>
         <div className={styles.neuton}>NEUTON</div>
@@ -37,18 +64,7 @@ const HOMEPAGE_3 = () => {
         <b className={styles.b}>.........................................................................</b>
         <b className={styles.b1}>.........................................................................</b>
         <div className={styles.buynewtonrec} />
-        <img
-          className={styles.icoButtonIcon}
-          alt=""
-          src={images.ICOButton}
-          onClick={onHomeButtonIconClick}
-        />
-        <img
-          className={styles.nftButtonIcon}
-          alt=""
-          src={images.NFTButton}
-          onClick={onHomeButtonIconClick}
-        />
+
         <div className={styles.hardcap} />
         <div className={styles.softcap} />
         <div className={styles.ton600} />

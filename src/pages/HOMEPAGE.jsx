@@ -42,12 +42,47 @@ const HOMEPAGE = () => {
       
       <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
       <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
+      <img
+        className={styles.homeButtonIcon}
+        src={images.HomeButton.src}
+        alt="Home"
+        onClick={() => router.push('/')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.icoButtonIcon}
+        src={images.ICOButton.src}
+        alt="ICO"
+        onClick={() => router.push('/ico')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.nftButtonIcon}
+        src={images.NFTButton.src}
+        alt="NFT"
+        onClick={() => router.push('/nft')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.stackButtonIcon}
+        src={images.StackButton.src}
+        alt="Stack"
+        onClick={() => router.push('/stack')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.notificationButtonIcon}
+        src={images.NotificationButton.src}
+        alt="Notifications"
+        onClick={() => router.push('/notification')}
+        style={{ cursor: "pointer" }}
+      />
       <b className={styles.apply}>Apply To Organize ICO</b>
       <div className={styles.apply1}>Apply to organize an ICO by ensuring compliance with legal and regulatory requirements.</div>
       <img className={styles.altcoinimgIcon} alt="" src={images.AltcoinImg.src} />
       <img className={styles.activeborderimageIcon} alt="" src={images.ActiveBorderImage.src} />
       <b className={styles.active}>ACTIVE</b>
-      
+      <img className={styles.applynowIcon} alt="" src={images.ApplyNow.src} />
       <b className={styles.tokenPrice}>TOKEN PRICE</b>
       <b className={styles.b}>
         <span className={styles.txt}>

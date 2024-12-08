@@ -17,12 +17,13 @@
     top: 2.92%;
     bottom: 92.87%;
     left: 13px;
+    width: 140px;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
     background-color: #434242;
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
-    width: 140px;
+    
 }
 .userlogoIcon {
     position: absolute;
@@ -56,13 +57,44 @@
     object-fit: contain;
 }
 .walletButton {
-    position: absolute; /* Ensures it floats over other elements */
+
+    position: absolute;
     height: 4.22%;
     top: 2.92%;
     bottom: 92.87%;
-    right: 20%;
-    width: 8%;
+   
+    width: 140px;
+    right: 2%;
+ 
   }
+  .homePage1Child {
+    position: absolute;
+    top: 378px;
+    left: 184px;
+    border-radius: 50%;
+    background-color: #fff6f6;
+    width: 10px;
+    height: 10px;
+}
+.homePage1Item {
+    position: absolute;
+    top: 378px;
+    left: 208px;
+    border-radius: 50%;
+    background-color: #acaeb0;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+.homePage1Inner {
+    position: absolute;
+    top: 378px;
+    left: 230px;
+    border-radius: 50%;
+    background-color: #acaeb0;
+    width: 10px;
+    height: 10px;
+}
   
   .walletButton button {
     background-color: #20232a; /* Matches dark UI */

@@ -45,10 +45,10 @@
 }
 .walletButton {
     position: absolute; /* Ensures it floats over other elements */
-    height: 4.22%;
+    height: 6.22%;
     top: 2.92%;
     bottom: 92.87%;
-    right: 20%;
+    right: 23%;
     width: 8%;
   }
 .useropenicon {
