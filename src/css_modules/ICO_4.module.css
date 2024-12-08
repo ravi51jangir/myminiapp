@@ -1,8 +1,8 @@
 .goalrectangle {
-    position: absolute;
+    position: fixed;
     height: 3.67%;
     top: 23.43%;
-    right: 25px;
+    right: 20px;
     bottom: 72.89%;
     background-color: #000;
     border: 1px solid #fff;
@@ -10,7 +10,7 @@
     width: 130px;
 }
 .profilerectangle {
-    position: absolute;
+    position: fixed;
     height: 4.21%;
     top: 3.13%;
     bottom: 92.66%;
@@ -24,7 +24,7 @@
 }
 
 .userlogoIcon {
-    position: absolute;
+    position: fixed;
     height: 3.55%;
     top: 3.57%;
     bottom: 92.87%;
@@ -33,7 +33,7 @@
     width: 36.8px;
 }
 .wxyz {
-    position: absolute;
+    position: fixed;
     height: 2.38%;
     top: 4.32%;
     left: 76px;
@@ -41,9 +41,17 @@
     display: inline-block;
     width: 51px;
 }
-
+.connectWallet {
+    position: fixed;
+    height: 2.38%;
+    top: 4.54%;
+    right: 39px;
+    font-size: 14px;
+    display: inline-block;
+    width: 135px;
+}
 .useropenicon {
-    position: absolute;
+    position: fixed;
     height: 0.97%;
     top: 4.7%;
     bottom: 94.33%;
@@ -52,185 +60,61 @@
     width: 6.8px;
     object-fit: contain;
 }
-
+.walleticon {
+    position: fixed;
+    height: 2.06%;
+    top: 4.45%;
+    right: 24.5px;
+    bottom: 93.49%;
+    max-height: 100%;
+    width: 21px;
+}
 .goalNotSet {
-    position: absolute;
+    position: fixed;
     height: 2.48%;
     top: 24.08%;
-    right: 18px;
+    right: 13px;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
     width: 131px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.bovinverse {
-    position: absolute;
-    height: 2.7%;
-    top: 22.89%;
-    left: 108px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.chirplay {
-    position: absolute;
-    height: 2.7%;
-    top: 40.6%;
-    left: 106px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.metacloud {
-    position: absolute;
-    height: 2.7%;
-    top: 58.42%;
-    left: 106px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.inshape {
-    position: absolute;
-    height: 2.7%;
-    top: 75.81%;
-    left: 106px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.plateform {
-    position: absolute;
-    height: 2.7%;
-    top: 25.81%;
-    left: 109px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.marketplace {
-    position: absolute;
-    height: 2.7%;
-    top: 43.52%;
-    left: 107px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.vr {
-    position: absolute;
-    height: 2.7%;
-    top: 61.34%;
-    left: 107px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.blockchainService {
-    position: absolute;
-    height: 2.7%;
-    top: 78.73%;
-    left: 107px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt {
-    position: absolute;
-    height: 2.7%;
-    top: 31.32%;
-    left: 41px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt1 {
-    position: absolute;
-    height: 2.7%;
-    top: 49.03%;
-    left: 39px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt2 {
-    position: absolute;
-    height: 2.7%;
-    top: 66.85%;
-    left: 39px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt3 {
-    position: absolute;
-    height: 2.7%;
-    top: 84.23%;
-    left: 39px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 .progress {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 35.64%;
-    right: 29px;
+    right: 24px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 27.86%;
-    right: 14px;
+    right: 9px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dec {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 30.02%;
-    right: -6px;
+    right: -11px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .goalrectangle1 {
-    position: absolute;
+    position: fixed;
     height: 3.67%;
     top: 41.14%;
-    right: 25px;
+    right: 20px;
     bottom: 55.18%;
     background-color: #000;
     border: 1px solid #fff;
@@ -238,10 +122,10 @@
     width: 130px;
 }
 .goalrectangle2 {
-    position: absolute;
+    position: fixed;
     height: 3.67%;
     top: 58.96%;
-    right: 26px;
+    right: 21px;
     bottom: 37.37%;
     background-color: #000;
     border: 1px solid #fff;
@@ -249,10 +133,10 @@
     width: 130px;
 }
 .goalrectangle3 {
-    position: absolute;
+    position: fixed;
     height: 3.67%;
     top: 76.35%;
-    right: 26px;
+    right: 21px;
     bottom: 19.98%;
     background-color: #000;
     border: 1px solid #fff;
@@ -260,10 +144,10 @@
     width: 130px;
 }
 .goal50000 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 41.79%;
-    right: 10px;
+    right: 5px;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
@@ -271,10 +155,10 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .goal20000 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 59.61%;
-    right: 3px;
+    right: -2px;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
@@ -282,10 +166,10 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .goal25000 {
-    position: absolute;
+    position: fixed;
     height: 1.84%;
     top: 77%;
-    right: -4px;
+    right: -9px;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
@@ -293,87 +177,87 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress1 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 53.35%;
-    right: 25px;
+    right: 20px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress2 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 71.17%;
-    right: 25px;
+    right: 20px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress3 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 88.55%;
-    right: 25px;
+    right: 20px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated1 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 45.57%;
-    right: 14px;
+    right: 9px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated2 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 63.39%;
-    right: 14px;
+    right: 9px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated3 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 80.78%;
-    right: 14px;
+    right: 9px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dec1 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 47.73%;
-    right: -8px;
+    right: -13px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dec2 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 65.55%;
-    right: -4px;
+    right: -9px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dec3 {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 82.94%;
     right: -4px;
@@ -383,86 +267,16 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .bovinverseimageborder {
-    position: absolute;
+    position: fixed;
     height: 6.05%;
     top: 22.68%;
     bottom: 71.27%;
-    left: 35px;
+    left: 21px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #fff;
     width: 56px;
-}
-.chirplayimageborder {
-    position: absolute;
-    height: 6.05%;
-    top: 40.39%;
-    bottom: 53.56%;
-    left: 33px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
-}
-.metacloudimageborder {
-    position: absolute;
-    height: 6.05%;
-    top: 58.21%;
-    bottom: 35.75%;
-    left: 33px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
-}
-.inshapeimageborder {
-    position: absolute;
-    height: 6.05%;
-    top: 75.59%;
-    bottom: 18.36%;
-    left: 35px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
-}
-.b {
-    position: absolute;
-    height: 1.19%;
-    width: calc(100% - 67px);
-    top: 38.01%;
-    left: 43px;
-    font-size: 9px;
-    letter-spacing: 0.29em;
-    display: inline-block;
-    font-family: 'Times New Roman';
-    color: rgba(255, 255, 255, 0.53);
-}
-.b1 {
-    position: absolute;
-    height: 1.51%;
-    width: calc(100% - 67px);
-    top: 55.83%;
-    left: 40px;
-    font-size: 9px;
-    letter-spacing: 0.29em;
-    display: inline-block;
-    font-family: 'Times New Roman';
-    color: rgba(255, 255, 255, 0.53);
-}
-.b2 {
-    position: absolute;
-    height: 1.19%;
-    width: calc(100% - 67px);
-    top: 73.54%;
-    left: 41px;
-    font-size: 9px;
-    letter-spacing: 0.29em;
-    display: inline-block;
-    font-family: 'Times New Roman';
-    color: rgba(255, 255, 255, 0.53);
-}
-.buttonsBackground {
+}.buttonsBackground {
     position: fixed;
     height: 8.18%;
     width: 100%;
@@ -550,7 +364,7 @@
 }
 .walletButton {
 
-    position: absolute;
+    position: fixed;
     height: 4.22%;
     top: 2.92%;
     bottom: 92.87%;
@@ -560,111 +374,61 @@
  
   }
 .bovinversedark {
-    position: absolute;
+    position: fixed;
     height: 0.86%;
     width: calc(100% - 67px);
     top: 34.02%;
-    right: 26px;
+    right: 21px;
     bottom: 65.12%;
-    left: 41px;
+    left: 46px;
     border-radius: 10px;
     background-color: #434242;
 }
 .chirplaydark {
-    position: absolute;
+    position: fixed;
     height: 0.86%;
     width: calc(100% - 62px);
     top: 51.73%;
-    right: 23px;
+    right: 18px;
     bottom: 47.41%;
-    left: 39px;
+    left: 44px;
     border-radius: 10px;
     background-color: #434242;
 }
 .metaclouddark {
-    position: absolute;
+    position: fixed;
     height: 0.86%;
     width: calc(100% - 60px);
     top: 69.55%;
-    right: 21px;
+    right: 16px;
     bottom: 29.59%;
-    left: 39px;
+    left: 44px;
     border-radius: 10px;
     background-color: #434242;
 }
 .inshapedark {
-    position: absolute;
+    position: fixed;
     height: 0.86%;
     width: calc(100% - 60px);
     top: 86.93%;
-    right: 21px;
+    right: 16px;
     bottom: 12.2%;
-    left: 39px;
+    left: 44px;
     border-radius: 10px;
     background-color: #434242;
 }
-.bovinverse1 {
-    position: absolute;
+.chirplay {
+    position: fixed;
     height: 0.86%;
-    top: 34.02%;
-    bottom: 65.12%;
-    left: 41px;
-    border-radius: 10px;
-    background-color: #fff;
-    width: 130px;
-}
-.chirplay1 {
-    position: absolute;
-    height: 0.86%;
-    top: 51.73%;
+    top: 35.73%;
     bottom: 47.41%;
-    left: 39px;
+    left: 100px;
     border-radius: 10px;
     background-color: #fff;
     width: 76px;
 }
-.metacloud1 {
-    position: absolute;
-    height: 0.86%;
-    top: 69.55%;
-    bottom: 29.59%;
-    left: 39px;
-    border-radius: 10px;
-    background-color: #fff;
-    width: 155px;
-}
-.inshape1 {
-    position: absolute;
-    height: 0.86%;
-    top: 86.93%;
-    bottom: 12.2%;
-    left: 39px;
-    border-radius: 10px;
-    background-color: #fff;
-    width: 155px;
-}
-.metacloudimageIcon {
-    position: absolute;
-    height: 4.75%;
-    top: 58.86%;
-    bottom: 36.39%;
-    left: 39px;
-    max-height: 100%;
-    width: 45px;
-    object-fit: cover;
-}
-.inshapeimageIcon {
-    position: absolute;
-    height: 3.78%;
-    top: 76.89%;
-    bottom: 19.33%;
-    left: 45px;
-    max-height: 100%;
-    width: 32px;
-    object-fit: cover;
-}
 .dropdownico4Icon {
-    position: absolute;
+    position: fixed;
     height: 0.81%;
     width: 2.99%;
     top: 90.19%;
@@ -677,7 +441,7 @@
     object-fit: contain;
 }
 .auerectangle {
-    position: absolute;
+    position: fixed;
     height: 9.05%;
     width: 100%;
     top: 10.12%;
@@ -686,21 +450,20 @@
    
 }
 .upcomingrectangle {
-    position: absolute;
+    position: fixed;
     height: 3.78%;
-    width: calc(100% - 269px);
-    top: 12.42%;
-    right: 121px;
+    top: 12.53%;
+    right: 129px;
     bottom: 83.69%;
-    left: 148px;
     border-radius: 20px;
     background-color: #000;
+    width: 144px;
 }
 .active {
-    position: absolute;
+    position: fixed;
     height: 2.05%;
-    top: 13.17%;
-    left: 16px;
+    top: 13.19%;
+    left: 8px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -712,10 +475,10 @@
     width: 96px;
 }
 .upcoming {
-    position: absolute;
+    position: fixed;
     height: 2.05%;
-    top: 13.37%;
-    left: 40%;
+    top: 13.17%;
+    right: 153px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -723,13 +486,13 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 96px;
+    width: 120px;
 }
 .ended {
-    position: absolute;
+    position: fixed;
     height: 2.05%;
-    top: 13.28%;
-    right: 3px;
+    top: 13.3%;
+    right: -1px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -739,19 +502,18 @@
     align-items: center;
     justify-content: center;
     width: 131px;
-    cursor: pointer;
 }
 .upcomingicon {
-    position: absolute;
+    position: fixed;
     height: 2.04%;
     top: 13.17%;
-    right: 133px;
+    right: 138px;
     bottom: 84.78%;
     max-height: 100%;
     width: 18px;
 }
 .auerectangleborder {
-    position: absolute;
+    position: fixed;
     height: 0.54%;
     width: 100%;
     top: 17%;
@@ -761,7 +523,7 @@
     background-color: rgba(223, 220, 220, 0.71);
 }
 .auerectanglestatus {
-    position: absolute;
+    position: fixed;
     height: 0.54%;
     width: calc(100% - 274px);
     top: 17%;
@@ -770,22 +532,273 @@
     left: 149px;
     background-color: #0048ff;
 }
-.bovinverseimageIcon {
+.inshape {
+    position: fixed;
+    height: 2.7%;
+    top: 75.81%;
+    left: 89px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bovinverse {
+    position: fixed;
+    height: 2.7%;
+    top: 22.89%;
+    left: 89px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.chirplay1 {
     position: absolute;
+    height: 2.7%;
+    top: 40.6%;
+    left: 189px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.metacloud {
+    position: fixed;
+    height: 2.7%;
+    top: 58.42%;
+    left: 87px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.plateform {
+    position: fixed;
+    height: 2.7%;
+    width: calc(100% - 268px);
+    top: 25.81%;
+    left: 90px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.marketplace {
+    position: fixed;
+    height: 2.7%;
+    width: calc(100% - 268px);
+    top: 43.52%;
+    left: 88px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vr {
+    position: fixed;
+    height: 2.7%;
+    width: calc(100% - 268px);
+    top: 61.34%;
+    left: 88px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blockchainService {
+    position: fixed;
+    height: 2.7%;
+    width: calc(100% - 268px);
+    top: 78.73%;
+    left: 89px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt {
+    position: fixed;
+    height: 2.7%;
+    top: 31.32%;
+    left: 27px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt1 {
+    position: fixed;
+    height: 2.7%;
+    top: 49.03%;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt2 {
+    position: fixed;
+    height: 2.7%;
+    top: 66.85%;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt3 {
+    position: fixed;
+    height: 2.7%;
+    top: 84.23%;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.chirplayimageborder {
+    position: fixed;
+    height: 6.05%;
+    top: 40.39%;
+    bottom: 53.56%;
+    left: 19px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+}
+.metacloudimageborder {
+    position: fixed;
+    height: 6.05%;
+    top: 58.21%;
+    bottom: 35.75%;
+    left: 19px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+}
+.inshapeimageborder {
+    position: fixed;
+    height: 6.05%;
+    top: 75.59%;
+    bottom: 18.36%;
+    left: 21px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+}
+.b {
+    position: fixed;
+    height: 1.19%;
+    width: calc(100% - 67px);
+    top: 38.01%;
+    left: 34px;
+    font-size: 9px;
+    letter-spacing: 0.29em;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+}
+.b1 {
+    position: fixed;
+    height: 1.51%;
+    width: calc(100% - 67px);
+    top: 55.83%;
+    left: 31px;
+    font-size: 9px;
+    letter-spacing: 0.29em;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+}
+.b2 {
+    position: fixed;
+    height: 1.19%;
+    width: calc(100% - 67px);
+    top: 73.54%;
+    left: 32px;
+    font-size: 9px;
+    letter-spacing: 0.29em;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+}
+.bovinverse1 {
+    position: fixed;
+    height: 0.86%;
+    top: 34.02%;
+    bottom: 65.12%;
+    left: 27px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 130px;
+}
+.metacloud1 {
+    position: fixed;
+    height: 0.86%;
+    top: 69.55%;
+    bottom: 29.59%;
+    left: 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 155px;
+}
+.inshape1 {
+    position: fixed;
+    height: 0.86%;
+    top: 86.93%;
+    bottom: 12.2%;
+    left: 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 155px;
+}
+.metacloudimageIcon {
+    position: fixed;
+    height: 4.75%;
+    top: 58.86%;
+    bottom: 36.39%;
+    left: 25px;
+    max-height: 100%;
+    width: 45px;
+    object-fit: cover;
+}
+.inshapeimageIcon {
+    position: fixed;
+    height: 3.78%;
+    top: 76.89%;
+    bottom: 19.33%;
+    left: 31px;
+    max-height: 100%;
+    width: 32px;
+    object-fit: cover;
+}
+.bovinverseimageIcon {
+    position: fixed;
     height: 5.72%;
     top: 22.79%;
     bottom: 71.49%;
-    left: 32px;
+    left: 18px;
     max-height: 100%;
     width: 61px;
     object-fit: cover;
 }
 .chirplayimageIcon {
-    position: absolute;
+    position: fixed;
     height: 4.64%;
     top: 41.04%;
     bottom: 54.32%;
-    left: 40px;
+    left: 26px;
     max-height: 100%;
     width: 42px;
     object-fit: cover;

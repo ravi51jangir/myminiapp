@@ -13,7 +13,7 @@
 }
 .walletrectangle {
     position: fixed;
-    height: 4.32%;
+    height: 4.31%;
     top: 3.13%;
     right: 11px;
     bottom: 92.55%;
@@ -55,8 +55,8 @@
     position: fixed;
     height: 0.97%;
     top: 4.81%;
-    bottom: 94.22%;
-    left: 129.37px;
+    bottom: 94.23%;
+    left: 129.38px;
     max-height: 100%;
     width: 6.8px;
     object-fit: contain;
@@ -81,18 +81,19 @@
 }
 .endedrectangle {
     position: fixed;
-    height: 3.67%;
+    height: 3.68%;
     top: 12.31%;
     right: 3px;
-    bottom: 84.02%;
+    bottom: 84.01%;
     border-radius: 20px;
     background-color: #000;
     width: 123px;
 }
 .active {
     position: fixed;
-    top: calc(50% - 341px);
-    left: 5px;
+    height: 1.51%;
+    top: 13.5%;
+    left: 6px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -102,13 +103,13 @@
     align-items: center;
     justify-content: center;
     width: 96px;
-    height: 19px;
     cursor: pointer;
 }
 .upcoming {
     position: fixed;
-    top: calc(50% - 341px);
-    left: calc(50% - 69px);
+    height: 2.05%;
+    top: 13.17%;
+    right: 136px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -118,7 +119,6 @@
     align-items: center;
     justify-content: center;
     width: 110px;
-    height: 19px;
     cursor: pointer;
 }
 .ended {
@@ -168,7 +168,7 @@
 }
 .inshapepricerectangle {
     position: fixed;
-    height: 3.67%;
+    height: 3.68%;
     top: 23.43%;
     right: 23px;
     bottom: 72.89%;
@@ -179,7 +179,7 @@
 }
 .arrakispricerectangle {
     position: fixed;
-    height: 3.67%;
+    height: 3.68%;
     top: 41.14%;
     right: 25px;
     bottom: 55.18%;
@@ -190,10 +190,10 @@
 }
 .metacloudpricerectangle {
     position: fixed;
-    height: 3.67%;
+    height: 3.68%;
     top: 58.96%;
     right: 25px;
-    bottom: 37.37%;
+    bottom: 37.36%;
     background-color: #000;
     border: 1px solid #fff;
     box-sizing: border-box;
@@ -201,10 +201,10 @@
 }
 .inshapepricerectangle1 {
     position: fixed;
-    height: 3.67%;
+    height: 3.68%;
     top: 76.35%;
     right: 25px;
-    bottom: 19.98%;
+    bottom: 19.97%;
     background-color: #000;
     border: 1px solid #fff;
     box-sizing: border-box;
@@ -212,7 +212,7 @@
 }
 .usdt {
     position: fixed;
-    height: 2.27%;
+    height: 2.26%;
     top: 24.08%;
     right: 31px;
     font-size: 18px;
@@ -547,7 +547,7 @@
     width: calc(100% - 64px);
     top: 86.93%;
     right: 25px;
-    bottom: 12.2%;
+    bottom: 12.21%;
     left: 39px;
     border-radius: 10px;
     background-color: #434242;
@@ -688,7 +688,7 @@
     position: fixed;
     height: 6.05%;
     top: 22.68%;
-    bottom: 71.27%;
+    bottom: 71.28%;
     left: 22px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
@@ -772,7 +772,7 @@
     position: fixed;
     height: 0.86%;
     top: 86.93%;
-    bottom: 12.2%;
+    bottom: 12.21%;
     left: 26px;
     border-radius: 10px;
     background-color: #fff;
@@ -810,11 +810,11 @@
 }
 .dropdownico5Icon {
     position: fixed;
-    height: 0.81%;
+    height: 0.82%;
     width: 2.99%;
     top: 90.19%;
     right: 49.42%;
-    bottom: 9%;
+    bottom: 8.99%;
     left: 47.59%;
     max-width: 100%;
     overflow: hidden;
@@ -823,9 +823,9 @@
 }
 .ico5 {
     width: 100%;
-    position: fixed;
+    position: relative;
     background-color: #000;
-    height: 926px;
+    height: 941px;
     overflow: hidden;
     text-align: left;
     font-size: 12px;
