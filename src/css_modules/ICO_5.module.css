@@ -1,52 +1,8 @@
-.pricerectangle {
-    position: absolute;
-    height: 3.67%;
-    top: 23.43%;
-    right: 32px;
-    bottom: 72.89%;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-}
-.pricerectangle1 {
-    position: absolute;
-    height: 3.67%;
-    top: 41.14%;
-    right: 32px;
-    bottom: 55.18%;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-}
-.pricerectangle2 {
-    position: absolute;
-    height: 3.67%;
-    top: 58.96%;
-    right: 32px;
-    bottom: 37.37%;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-}
-.pricerectangle3 {
-    position: absolute;
-    height: 3.67%;
-    top: 76.35%;
-    right: 32px;
-    bottom: 19.98%;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-}
 .profilerectangle {
     position: absolute;
     height: 4.21%;
-    top: 3.24%;
-    bottom: 92.55%;
+    top: 3.13%;
+    bottom: 92.65%;
     left: 14px;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
@@ -55,17 +11,6 @@
     box-sizing: border-box;
     width: 140px;
 }
-.walletButton {
-
-    position: absolute;
-    height: 4.22%;
-    top: 2.92%;
-    bottom: 92.87%;
-   
-    width: 140px;
-    right: 2%;
- 
-  }
 .walletrectangle {
     position: absolute;
     height: 4.32%;
@@ -81,12 +26,12 @@
 }
 .userlogoIcon {
     position: absolute;
-    height: 3.77%;
-    top: 3.57%;
-    bottom: 92.66%;
+    height: 4.2%;
+    top: 3.25%;
+    bottom: 92.54%;
     left: 18.15px;
     max-height: 100%;
-    width: 40.9px;
+    width: 42.5px;
 }
 .wxyz {
     position: absolute;
@@ -100,7 +45,7 @@
 .connectWallet {
     position: absolute;
     height: 2.38%;
-    top: 4.43%;
+    top: 4.32%;
     right: 39px;
     font-size: 14px;
     display: inline-block;
@@ -111,17 +56,17 @@
     height: 0.97%;
     top: 4.81%;
     bottom: 94.22%;
-    left: 129.38px;
+    left: 129.37px;
     max-height: 100%;
     width: 6.8px;
     object-fit: contain;
 }
 .walleticon {
     position: absolute;
-    height: 2.06%;
-    top: 4.34%;
+    height: 2.07%;
+    top: 4.23%;
     right: 24.5px;
-    bottom: 93.6%;
+    bottom: 93.7%;
     max-height: 100%;
     width: 21px;
 }
@@ -134,35 +79,37 @@
    
    
 }
-.activerectangle {
+.endedrectangle {
     position: absolute;
     height: 3.67%;
-    top: 12.42%;
-    bottom: 83.91%;
-    left: 7px;
+    top: 12.31%;
+    right: 3px;
+    bottom: 84.02%;
     border-radius: 20px;
     background-color: #000;
     width: 134px;
 }
 .active {
     position: absolute;
-    height: 2.05%;
+    height: 2.06%;
     top: 13.17%;
     left: 16px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
     display: flex;
+    color: #000;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 96px;
+    cursor: pointer;
 }
 .upcoming {
     position: absolute;
-    height: 2.05%;
+    height: 2.06%;
     width: calc(100% - 297px);
-    top: 13.28%;
+    top: 13.17%;
     left: 152px;
     font-size: 20px;
     letter-spacing: -0.01em;
@@ -176,90 +123,48 @@
 }
 .ended {
     position: absolute;
-    height: 2.05%;
-    top: 13.28%;
-    right: 3px;
+    height: 2.06%;
+    top: 13.17%;
+    right: 15px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
     display: flex;
-    color: #000;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 131px;
-    cursor: pointer;
 }
-.activeicon {
+.endedicon {
     position: absolute;
-    height: 2.04%;
-    top: 13.17%;
-    bottom: 84.78%;
-    left: 110px;
+    height: 2.05%;
+    width: 4.22%;
+    top: 13.07%;
+    right: 3.96%;
+    bottom: 84.89%;
+    left: 91.82%;
+    max-width: 100%;
+    overflow: hidden;
     max-height: 100%;
-    width: 18px;
-}
-.auerectanglestatus {
-    position: absolute;
-    height: 0.54%;
-    top: 17%;
-   
-    left: -2px;
-    background-color: #0048ff;
-    width: 154px;
 }
 .auerectangleborder {
     position: absolute;
     height: 0.54%;
-    top: 17%;
+    width: 100%;
+    top: 16.71%;
     right: 0px;
-  
+    bottom: 81.75%;
+    left: 0px;
     background-color: rgba(223, 220, 220, 0.71);
-    width: 274px;
 }
-.usdt {
+.auerectanglestatus {
     position: absolute;
-    height: 2.27%;
-    top: 24.08%;
-    right: 40px;
-    font-size: 18px;
-    font-family: 'Merriweather Sans';
-    display: inline-block;
-    width: 113px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt1 {
-    position: absolute;
-    height: 1.73%;
-    top: 41.79%;
-    right: 35px;
-    font-size: 18px;
-    font-family: 'Merriweather Sans';
-    display: inline-block;
-    width: 122px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt2 {
-    position: absolute;
-    height: 1.73%;
-    top: 59.61%;
-    right: 31px;
-    font-size: 18px;
-    font-family: 'Merriweather Sans';
-    display: inline-block;
-    width: 122px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt3 {
-    position: absolute;
-    height: 1.73%;
-    top: 77%;
-    right: 31px;
-    font-size: 18px;
-    font-family: 'Merriweather Sans';
-    display: inline-block;
-    width: 122px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 0.54%;
+    top: 16.71%;
+    right: -8px;
+    bottom: 81.75%;
+    background-color: #0048ff;
+    width: 154px;
 }
 .inshape {
     position: absolute;
@@ -349,7 +254,7 @@
     width: 160px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.usdt4 {
+.usdt {
     position: absolute;
     height: 2.7%;
     top: 31.32%;
@@ -360,7 +265,7 @@
     width: 160px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.usdt5 {
+.usdt1 {
     position: absolute;
     height: 2.7%;
     top: 49.03%;
@@ -371,7 +276,7 @@
     width: 160px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.usdt6 {
+.usdt2 {
     position: absolute;
     height: 2.7%;
     top: 66.85%;
@@ -382,7 +287,7 @@
     width: 160px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.usdt7 {
+.usdt3 {
     position: absolute;
     height: 2.7%;
     top: 84.23%;
@@ -393,11 +298,99 @@
     width: 160px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.inshapepricerectangle {
+    position: absolute;
+    height: 3.67%;
+    top: 23.43%;
+    right: 23px;
+    bottom: 72.9%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.arrakispricerectangle {
+    position: absolute;
+    height: 3.67%;
+    top: 41.14%;
+    right: 25px;
+    bottom: 55.19%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.metacloudpricerectangle {
+    position: absolute;
+    height: 3.67%;
+    top: 58.96%;
+    right: 25px;
+    bottom: 37.37%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.inshapepricerectangle1 {
+    position: absolute;
+    height: 3.67%;
+    top: 76.35%;
+    right: 25px;
+    bottom: 19.98%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.usdt4 {
+    position: absolute;
+    height: 2.27%;
+    top: 24.08%;
+    right: 31px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 113px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt5 {
+    position: absolute;
+    height: 1.73%;
+    top: 41.79%;
+    right: 24px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 122px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt6 {
+    position: absolute;
+    height: 1.73%;
+    top: 59.61%;
+    right: 20px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 122px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt7 {
+    position: absolute;
+    height: 1.73%;
+    top: 77%;
+    right: 20px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 122px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .progress {
     position: absolute;
     height: 1.73%;
     top: 35.64%;
-    right: 30px;
+    right: 22px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
@@ -407,7 +400,7 @@
     position: absolute;
     height: 1.73%;
     top: 53.35%;
-    right: 32px;
+    right: 24px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
@@ -417,7 +410,7 @@
     position: absolute;
     height: 1.73%;
     top: 71.17%;
-    right: 32px;
+    right: 24px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
@@ -427,7 +420,7 @@
     position: absolute;
     height: 1.73%;
     top: 88.55%;
-    right: 28px;
+    right: 20px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
@@ -437,7 +430,7 @@
     position: absolute;
     height: 1.73%;
     top: 27.86%;
-    right: 23px;
+    right: 11px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
@@ -447,7 +440,7 @@
     position: absolute;
     height: 1.73%;
     top: 45.57%;
-    right: 23px;
+    right: 13px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
@@ -457,7 +450,7 @@
     position: absolute;
     height: 1.73%;
     top: 63.39%;
-    right: 23px;
+    right: 13px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
@@ -467,58 +460,69 @@
     position: absolute;
     height: 1.73%;
     top: 80.78%;
-    right: 25px;
+    right: 13px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dLeft {
+.ended15Dec {
     position: absolute;
-    height: 1.73%;
+    height: 2.59%;
     top: 30.02%;
-    right: 3px;
+    right: -9px;
     font-weight: 500;
     display: inline-block;
-    width: 68px;
+    width: 110px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dLeft1 {
+.ended19Dec {
     position: absolute;
-    height: 1.73%;
-    top: 47.73%;
-    right: 7px;
+    height: 2.59%;
+    top: 47.62%;
+    right: -5px;
     font-weight: 500;
     display: inline-block;
-    width: 68px;
+    width: 110px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dLeft2 {
+.ended25Dec {
     position: absolute;
-    height: 1.73%;
-    top: 65.55%;
-    right: 10px;
+    height: 2.59%;
+    top: 65.44%;
+    right: -6px;
     font-weight: 500;
     display: inline-block;
-    width: 68px;
+    width: 110px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dLeft3 {
+.ended30Dec {
     position: absolute;
-    height: 1.73%;
-    top: 82.94%;
-    right: 7px;
+    height: 2.59%;
+    top: 82.83%;
+    right: -5px;
     font-weight: 500;
     display: inline-block;
-    width: 68px;
+    width: 110px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inshapeimageborder {
+    position: absolute;
+    height: 6.04%;
+    top: 22.68%;
+    bottom: 71.28%;
+    left: 35px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
 }
 .arrakisimageborder {
     position: absolute;
-    height: 6.05%;
+    height: 6.04%;
     top: 40.39%;
-    bottom: 53.56%;
-    left: 38px;
+    bottom: 53.57%;
+    left: 33px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #fff;
@@ -526,21 +530,21 @@
 }
 .metacloudimageborder {
     position: absolute;
-    height: 6.05%;
-    top: 58.32%;
-    bottom: 35.64%;
-    left: 40px;
+    height: 6.04%;
+    top: 58.21%;
+    bottom: 35.75%;
+    left: 33px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #fff;
     width: 56px;
 }
-.inshapeimageborder {
+.inshapeimageborder1 {
     position: absolute;
-    height: 6.05%;
+    height: 6.04%;
     top: 75.59%;
     bottom: 18.36%;
-    left: 38px;
+    left: 33px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #fff;
@@ -551,7 +555,7 @@
     height: 1.19%;
     width: calc(100% - 67px);
     top: 38.12%;
-    left: 44px;
+    left: 42px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
@@ -563,7 +567,7 @@
     height: 1.51%;
     width: calc(100% - 67px);
     top: 55.83%;
-    left: 44px;
+    left: 45px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
@@ -573,25 +577,14 @@
 .b2 {
     position: absolute;
     height: 1.19%;
-    width: calc(100% - 67px);
+    width: calc(100% - 52px);
     top: 73.54%;
-    left: 41px;
+    left: 35px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
-}
-.inshapeimageborder1 {
-    position: absolute;
-    height: 6.05%;
-    top: 22.68%;
-    bottom: 71.27%;
-    left: 35px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
 }
 .inshapeimageIcon {
     position: absolute;
@@ -691,34 +684,44 @@
     object-fit: cover;
     cursor: pointer;
 }
+.walletButton {
+
+    position: absolute;
+    height: 4.22%;
+    top: 2.92%;
+    bottom: 92.87%;
+   
+    width: 140px;
+    right: 2%;
+ 
+  }
 .inshapedark {
     position: absolute;
-    height: 0.86%;
-    width: calc(100% - 73px);
+    height: 0.87%;
     top: 34.02%;
-    right: 32px;
-    bottom: 65.12%;
-    left: 41px;
+    right: 25px;
+    bottom: 65.11%;
     border-radius: 10px;
     background-color: #434242;
+    width: 362px;
 }
 .arrakisdark {
     position: absolute;
-    height: 0.86%;
-    width: calc(100% - 71px);
+    height: 0.87%;
+    width: calc(100% - 64px);
     top: 51.73%;
-    right: 32px;
-    bottom: 47.41%;
+    right: 25px;
+    bottom: 47.4%;
     left: 39px;
     border-radius: 10px;
     background-color: #434242;
 }
 .metaclouddark {
     position: absolute;
-    height: 0.86%;
-    width: calc(100% - 71px);
+    height: 0.87%;
+    width: calc(100% - 64px);
     top: 69.55%;
-    right: 32px;
+    right: 25px;
     bottom: 29.59%;
     left: 39px;
     border-radius: 10px;
@@ -726,10 +729,10 @@
 }
 .inshapedark1 {
     position: absolute;
-    height: 0.86%;
-    width: calc(100% - 71px);
+    height: 0.87%;
+    width: calc(100% - 64px);
     top: 86.93%;
-    right: 32px;
+    right: 25px;
     bottom: 12.2%;
     left: 39px;
     border-radius: 10px;
@@ -737,9 +740,9 @@
 }
 .inshape2 {
     position: absolute;
-    height: 0.86%;
+    height: 0.87%;
     top: 34.02%;
-    bottom: 65.12%;
+    bottom: 65.11%;
     left: 41px;
     border-radius: 10px;
     background-color: #fff;
@@ -747,9 +750,9 @@
 }
 .arrakis1 {
     position: absolute;
-    height: 0.86%;
+    height: 0.87%;
     top: 51.73%;
-    bottom: 47.41%;
+    bottom: 47.4%;
     left: 39px;
     border-radius: 10px;
     background-color: #fff;
@@ -757,7 +760,7 @@
 }
 .metacloud1 {
     position: absolute;
-    height: 0.86%;
+    height: 0.87%;
     top: 69.55%;
     bottom: 29.59%;
     left: 39px;
@@ -767,7 +770,7 @@
 }
 .inshape3 {
     position: absolute;
-    height: 0.86%;
+    height: 0.87%;
     top: 86.93%;
     bottom: 12.2%;
     left: 39px;
@@ -780,7 +783,7 @@
     height: 4%;
     top: 41.79%;
     bottom: 54.21%;
-    left: 46px;
+    left: 43px;
     max-height: 100%;
     width: 38px;
     object-fit: cover;
@@ -790,7 +793,7 @@
     height: 4.75%;
     top: 58.86%;
     bottom: 36.39%;
-    left: 46px;
+    left: 39px;
     max-height: 100%;
     width: 45px;
     object-fit: cover;
@@ -800,18 +803,18 @@
     height: 3.78%;
     top: 76.89%;
     bottom: 19.33%;
-    left: 46px;
+    left: 44px;
     max-height: 100%;
     width: 32px;
     object-fit: cover;
 }
-.dropdownico4Icon {
+.dropdownico5Icon {
     position: absolute;
-    height: 0.81%;
+    height: 0.82%;
     width: 2.99%;
     top: 90.19%;
     right: 49.42%;
-    bottom: 9%;
+    bottom: 8.99%;
     left: 47.59%;
     max-width: 100%;
     overflow: hidden;
@@ -822,7 +825,7 @@
     width: 100%;
     position: relative;
     background-color: #000;
-    height: 926px;
+    height: 968px;
     overflow: hidden;
     text-align: left;
     font-size: 12px;
