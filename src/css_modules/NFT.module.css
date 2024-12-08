@@ -1,87 +1,89 @@
-.buttonBackground {
-  
-  width: 100%; /* Full width of the screen */
-  
-  bottom: 0; /* Always stick to the bottom */
-  left: 0; /* Align to the left */
-  right: 0; /* Align to the right */
+
+.buttonsBackground {
+  position: fixed;
+  height: 7.78%;
+  width: 100%;
+ 
+  bottom: 0%;
+
   box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px 15px 0px 0px;
-  background-color: #796e6e;
-
+  background-color: #fff;
  
 }
-
 .homeButtonIcon {
-  position: absolute;
-  height: 3.64%;
-  top: 94.74%;
-  bottom: 1.62%;
-  left: 25px;
-  max-height: 100%;
-  width: 37px;
-  cursor: pointer;
-}
-.notificationButtonIcon {
-  position: absolute;
-  height: 3.79%;
-  top: 94.51%;
-  right: 36.6px;
-  bottom: 1.7%;
-  max-height: 100%;
-  width: 31.9px;
-}
-.stackButtonIcon {
-  position: absolute;
-  height: 4.23%;
-  top: 94.28%;
-  right: 107px;
-  bottom: 1.49%;
-  max-height: 100%;
-  width: 39px;
-}
-.nftButtonIcon {
-  position: absolute;
-  height: 8.5%;
-  top: 92.01%;
-  bottom: 1.4%;
-  left: calc(50% - 54px);
-  max-height: 100%;
-  width: 108px;
-  object-fit: cover;
-}
-.cursorBendIcon {
-  position: absolute;
-  height: 1.43%;
-  width: 5.16%;
-  top: 91.89%;
-  right: 47.64%;
-  bottom: 6.68%;
-  left: 47.2%;
+  position: fixed;
+  height: 3.89%;
+  width: 8.64%;
+ 
+  right: 84.81%;
+  bottom: 1.94%;
+  left: 6.54%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
-  object-fit: contain;
+  cursor: pointer;
 }
-.cursorButton {
-  position: absolute;
-  height: 1.08%;
-  width: 2.34%;
-  top: 91.69%;
-  right: 49.05%;
-  bottom: 7.23%;
-  left: 48.61%;
-  border-radius: 50%;
-  background-color: #fff;
+.notificationButtonIcon {
+  position: fixed;
+  height: 4.05%;
+  width: 7.45%;
+ 
+  right: 7.85%;
+  bottom: 2.02%;
+  left: 84.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.stackButtonIcon {
+  position: fixed;
+  height: 4.52%;
+  width: 9.11%;
+  
+  right: 23.6%;
+  bottom: 1.50%;
+  left: 67.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cursorbuttonsIcon {
+  position: fixed;
+  height: 1.63%;
+  width: 5.16%;
+  
+  right: 66.81%;
+  bottom: 6.79%;
+  left: 28.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 .icoButtonIcon {
-  position: absolute;
-  height: 6.33%;
-  top: 92.8%;
-  bottom: 0.87%;
-  left: 76px;
+  position: fixed;
+  height: 7.34%;
+  width: 27.8%;
+  
+  right: 53.97%;
+  bottom: 0.44%;
+  left: 18.22%;
+  max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
-  width: 119px;
+  object-fit: cover;
+}
+.nftButtonIcon {
+  position: fixed;
+  height: 6.7%;
+  width: 26.64%;
+ 
+  right: 35.75%;
+  bottom: 0.4%;
+  left: 37.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
   cursor: pointer;
 }
@@ -166,100 +168,4 @@
   font-size: 24px;
   color: #fff;
   font-family: Krub;
-}
-/* General styles for smaller screens */
-@media screen and (max-width: 375px) {
-  .nft7 {
-    height: auto;
-  }
-
-  .comingSoonIcon {
-    height: 25%;
-    width: 100%;
-    top: 5%;
-  }
-
-  .nftimageboxIcon {
-    height: 30%;
-    top: 20%;
-  }
-
-  .discoverExclusive {
-    font-size: 16px;
-    top: 55%;
-    width: 90%;
-    left: 5%;
-  }
-
-  .nfts {
-    font-size: 48px;
-    top: 60%;
-    width: 90%;
-    left: 5%;
-  }
-
-  .buttonsBackground {
-    position: fixed; /* Ensures it stays at the bottom of the viewport */
-    height: 60px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #f8f8f8; /* Adjust as needed */
-    transform: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-top: 1px solid #ddd; /* Optional border for separation */
-  }
-
-
-}
-
-/* Adjustments for mid-size screens (360px to 400px) */
-@media screen and (min-width: 360px) and (max-width: 400px) {
-  .comingSoonIcon {
-    height: 28%;
-    top: 4%;
-  }
-
-  .nfts {
-    font-size: 56px;
-    top: 65%;
-  }
-
-  .buttonsBackground {
-    height: 65px;
-  }
-
-
-
-  .discoverExclusive {
-    font-size: 18px;
-  }
-}
-
-/* Additional styles for very small screens (320px to 359px) */
-@media screen and (max-width: 359px) {
-  .comingSoonIcon {
-    height: 22%;
-    top: 3%;
-  }
-
-  .nfts {
-    font-size: 42px;
-    top: 60%;
-  }
-
-  .buttonsBackground {
-    height: 55px;
-    background-color: #eaeaea; /* Adjust as necessary */
-  }
-
-
-
-  .discoverExclusive {
-    font-size: 14px;
-    width: 80%;
-    left: 10%;
-  }
 }

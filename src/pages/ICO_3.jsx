@@ -37,7 +37,7 @@ const ICO = () => {
       <img
         className={styles.auerectangle}
         alt=""
-        src={images.AUERectangle}
+        src={images.AUERectangle.src}
       />
       <div className={styles.activerectangle} />
       <b className={styles.active}>{`ACTIVE `}</b>
@@ -94,7 +94,7 @@ const ICO = () => {
       <img
         className={styles.inshapeimageIcon}
         alt=""
-        src={images.inShapeImage}
+        src={images.inShapeImage.src}
       />
 <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
       <div className={styles.inshapedark} />
@@ -120,12 +120,45 @@ const ICO = () => {
         alt=""
         src={images.inShapeImage.src}
       />
-      <b className={styles.b3}>
-        <span className={styles.txt}>
-          <p className={styles.p}>{`30/11/2024         `}</p>
-          <p className={styles.p1}>16:30</p>
-        </span>
-      </b>
+
+<img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
+      <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
+      <img
+        className={styles.homeButtonIcon}
+        src={images.HomeButton.src}
+        alt="Home"
+        onClick={() => router.push('/')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.icoButtonIcon}
+        src={images.ICOButton.src}
+        alt="ICO"
+        onClick={() => router.push('/ico')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.nftButtonIcon}
+        src={images.NFTButton.src}
+        alt="NFT"
+        onClick={() => router.push('/nft')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.stackButtonIcon}
+        src={images.StackButton.src}
+        alt="Stack"
+        onClick={() => router.push('/stack')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.notificationButtonIcon}
+        src={images.NotificationButton.src}
+        alt="Notifications"
+        onClick={() => router.push('/notification')}
+        style={{ cursor: "pointer" }}
+      />
+
     </div>
   );
 };

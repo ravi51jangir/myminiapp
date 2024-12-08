@@ -11,7 +11,7 @@ import {
 import { useBackButton, useClosingBehavior, useViewport } from "@telegram-apps/sdk-react";
 import Homepage from "../pages/HOMEPAGE";
 import Homepage2 from "../pages/HOMEPAGE_2";
-import Homepage3 from "../HOMEPAGE_3"
+import Homepage3 from "../pages/HOMEPAGE_3"
 import Nftpage from "../pages/NFT";
 import Stackpage from "../pages/Stack";
 import Notificationpage from "../pages/NOTIFICATION";
@@ -84,7 +84,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/home2" element={<Homepage2 />} />
-          {/* <Route path="/home3" element={<Homepage3 />} /> */}
+          <Route path="/home3" element={<Homepage3 />} />
           <Route path={routes.nft} element={<Nftpage />} />
           <Route path={routes.stack} element={<Stackpage />} />
           <Route path={routes.notification} element={<Notificationpage />} />
