@@ -20,7 +20,7 @@ const HOMEPAGE_3 = () => {
         className={styles.homeButtonIcon}
         src={images.HomeButton.src}
         alt="Home"
-        onClick={() => router.push('/')}
+        onClick={() => router.push('/home')}
         style={{ cursor: "pointer" }}
       />
       <img

@@ -24,7 +24,8 @@ import Head from "next/head"; // Import the Head component
 
 
 export const routes = {
-  home: "/",
+  home:"/",
+  home: "/home",
   home2: "/home2",
   home3: "/home3",
   nft: "/nft",
@@ -87,9 +88,10 @@ const App = () => {
       </Head>
       <Router>
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/home2" element={<Homepage2 />} />
-          <Route path="/home3" element={<Homepage3 />} />
+        <Route path="/" element={<Homepage />} />
+          <Route path={routes.home} element={<Homepage />} />
+          <Route path={routes.home2} element={<Homepage2 />} />
+          <Route path={routes.home3} element={<Homepage3 />} />
           <Route path={routes.nft} element={<Nftpage />} />
           <Route path={routes.stack} element={<Stackpage />} />
           <Route path={routes.notification} element={<Notificationpage />} />

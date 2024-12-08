@@ -27,7 +27,7 @@ const router = useRouter();
 
       <div 
         className={styles.homePage2Child} 
-        onClick={() => router.push('/')}
+        onClick={() => router.push('/home')}
         style={{ cursor: 'pointer' }}
       />
       <div 

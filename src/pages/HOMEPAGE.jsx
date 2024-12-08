@@ -26,7 +26,7 @@ const HOMEPAGE = () => {
       <b className={styles.altcoinist}>ALTCOINIST</b>
       <div 
         className={styles.homePage1Child} 
-        onClick={() => router.push('/')}
+        onClick={() => router.push('/home')}
         style={{ cursor: 'pointer' }}
       />
       <div 
