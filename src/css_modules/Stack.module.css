@@ -82,12 +82,12 @@
 }
 
 .stackimageIcon {
-  position: absolute;
+  position: fixed;
   height: 48.71%;
   width: 100%;
   top: 24.79%;
   right: 0px;
-  bottom: 26.5%;
+  bottom: 24.5%;
   left: 0px;
   max-width: 100%;
   overflow: hidden;
@@ -95,7 +95,7 @@
   object-fit: cover;
 }
 .stackBack1Icon {
-  position: absolute;
+  position: fixed;
   height: 22.21%;
   width: 100%;
   top: 20.35%;
@@ -108,7 +108,7 @@
   object-fit: cover;
 }
 .stackBack2Icon {
-  position: absolute;
+  position: fixed;
   height: 14.37%;
   width: 100%;
   top: 60.41%;
@@ -121,11 +121,11 @@
   object-fit: cover;
 }
 .comingSoonBackRectangle {
-  position: absolute;
-  top: 0px;
-  left: 46px;
-  width: 337px;
-  height: 297px;
+  position: fixed;
+  top: 20%;
+  left: 52px;
+  width: 280px;
+  height: 67px;
 }
 .earn {
   font-size: 32px;
@@ -137,16 +137,16 @@
   font-size: 24px;
 }
 .earnRewardsEffortlesslyContainer {
-  position: absolute;
+  position: fixed;
   width: calc(100% - 32px);
-  top: calc(50% + 258px);
-  left: 25px;
+  bottom: 18%;
+  left: 10%;
   font-weight: 600;
   display: inline-block;
   height: 84px;
 }
 .comingSoonIcon {
-  position: absolute;
+  position: fixed;
   height: 33.69%;
   width: 100%;
   top: 3.43%;
@@ -160,9 +160,9 @@
 }
 .stack9 {
   width: 100%;
-  position: relative;
+  position: fixed;
   background-color: #000;
-  height: 926px;
+  height: 900px;
   overflow: hidden;
   text-align: left;
   font-size: 24px;
@@ -170,3 +170,60 @@
   font-family: Krub;
 }
 
+@media  (max-width: 400px)and(max-height:750px){
+
+  .comingSoonIcon{
+    height: 30%;
+    width: 100%;
+    top: 5%;
+  }
+  .comingSoonBackRectangle{
+    top: 5%;
+    left: 46px;
+    width: 337px;
+    height: 250px;
+
+  }
+  .stackimageIcon{
+    top:24%;
+    height: 35%;
+    width: 100%;
+    
+
+  }
+  .stackBack1Icon{
+    position: fixed;
+    height: 18.21%;
+    width: 100%;
+    top: 20.35%;
+    right: 0px;
+    left: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .stackBack2Icon{
+    position: fixed;
+    height: 10.37%;
+    width: 100%;
+    top:50%;
+    right: 0px; 
+    left: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+
+  }
+  .stack9{
+ 
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+  }
+  .buttonsBackground{
+    position: fixed;
+  }
+
+}
