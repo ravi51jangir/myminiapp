@@ -593,3 +593,24 @@
     font-family: Krub;
 }
 
+@media(max-width:780px){
+    .homePage1{
+        height:100vh;
+    }
+    .apply {
+        text-wrap:nowrap;
+        font-size:1rem;
+        top:80%;
+      }
+
+    .applynowIcon {
+        top: 83%;
+        height: 5.55%;
+    }
+
+}
+@media(max-width:450px){
+   .altcoinist{
+    font-size:1.5rem;
+}
+}
