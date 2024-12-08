@@ -86,7 +86,7 @@
   cursor: pointer;
 }
 .nftimageboxIcon {
-  position: absolute;
+  position: fixed;
   height: 38.57%;
   width: calc(100% - 2px);
   top: 27.32%;
@@ -99,7 +99,7 @@
   object-fit: cover;
 }
 .nftboxBack2Icon {
-  position: absolute;
+  position: fixed;
   height: 22.43%;
   width: 100%;
   top: 50.94%;
@@ -111,7 +111,7 @@
   object-fit: cover;
 }
 .nftboxBack1Icon {
-  position: absolute;
+  position: fixed;
   height: 22.43%;
   width: 100%;
   top: 23.86%;
@@ -124,28 +124,28 @@
   object-fit: cover;
 }
 .discoverExclusive {
-  position: absolute;
+  position: fixed;
   height: 3.06%;
-  width: calc(100% - 158px);
+  width:100%;
   top: 68.92%;
-  left: 107px;
+  left: 20%;
   display: inline-block;
 }
 .nfts {
-  position: absolute;
+  position: fixed;
   height: 13.09%;
   width: calc(100% - 105px);
-  top: 73.83%;
-  left: 100px;
-  font-size: 96px;
+  top: 69.83%;
+  left: 20%;
+  font-size: 80px;
   display: inline-block;
   text-shadow: 0px 3px 5px 4px #fff;
 }
 .comingSoonIcon {
-  position: absolute;
+  position: fixed;
   height: 29.9%;
   width: calc(100% + 1px);
-  top: 5.1%;
+  top: 3.1%;
   right: 2px;
   bottom: 65%;
   left: -3px;
@@ -157,7 +157,7 @@
 
 .nft7 {
   width: 100%;
-  position: relative;
+  position: fixed;
   background-color: #000;
   height: 926px;
   overflow: hidden;
@@ -166,3 +166,4 @@
   color: #fff;
   font-family: Krub;
 }
+
