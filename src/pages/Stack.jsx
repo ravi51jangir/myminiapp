@@ -10,6 +10,43 @@ const Stack = () => {
     const router = useRouter();
     return (
         <div className={styles.stack9}>
+                          <img className={styles.buttonsBackground} alt="" src={images.ButtonsBackground.src} />
+      <img className={styles.cursorbuttonsIcon} alt="" src={images.CursorButtons.src} />
+      <img
+        className={styles.homeButtonIcon}
+        src={images.HomeButton.src}
+        alt="Home"
+        onClick={() => router.push('/')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.icoButtonIcon}
+        src={images.ICOButton.src}
+        alt="ICO"
+        onClick={() => router.push('/ico')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.nftButtonIcon}
+        src={images.NFTButton.src}
+        alt="NFT"
+        onClick={() => router.push('/nft')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.stackButtonIcon}
+        src={images.StackButton.src}
+        alt="Stack"
+        onClick={() => router.push('/stack')}
+        style={{ cursor: "pointer" }}
+      />
+      <img
+        className={styles.notificationButtonIcon}
+        src={images.NotificationButton.src}
+        alt="Notifications"
+        onClick={() => router.push('/notification')}
+        style={{ cursor: "pointer" }}
+      />
              
               
               <img className={styles.cursorBendIcon} alt="" src={images.cursorbend.src} />
