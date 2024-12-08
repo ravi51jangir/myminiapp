@@ -70,30 +70,27 @@ const NOTIFICATION = () => {
           </b>
           <div className={styles.newIcoLaunchContainer}>
                 <span className={styles.newIcoLaunchesContainer1}>
-                      <p className={styles.newIcoLaunches}>{`New ICO Launch Alert: Explore the latest `}</p>
-                      <p className={styles.newIcoLaunches}>opportunity in the crypto world today!</p>
+                   
                 </span>
           </div>
           <div className={styles.newIcoLaunchContainer2}>
                 <span className={styles.newIcoLaunchesContainer1}>
-                      <p className={styles.newIcoLaunches}>{`New ICO Launch Alert: Explore the latest `}</p>
-                      <p className={styles.newIcoLaunches}>opportunity in the crypto world today!</p>
+                     
+                     
                 </span>
           </div>
-          <div className={styles.alertStayUpdated}>Alert: Stay updated with the latest system messages and notifications!</div>
+
           <b className={styles.generalAlertsAndContainer}>
                 <span className={styles.newIcoLaunchesContainer1}>
-                      <p className={styles.newIcoLaunches}>General alerts and system msg</p>
+                      <p className={styles.newIcoLaunches}>General alerts and msg</p>
                       <p className={styles.newIcoLaunches}>&nbsp;</p>
                 </span>
           </b>
 
 
-          <div className={styles.updateAlertCheck}>Update Alert: Check out the latest progress on your ICOs now!</div>
-          <div className={styles.updateAlertCheck1}>Update Alert: Check out the latest progress on your ICOs now!</div>
-          <div className={styles.updateAlertCheck2}>Update Alert: Check out the latest progress on your ICOs now!</div>
+          
           <img className={styles.newicolaunchicon} alt="" src={images.NewIcoLaunchIcon.src}  />
-          <img className={styles.newicolaunchicon} alt="" src={images.NewIcoLaunchIcon.src} />
+          <img className={styles.newicolaunchicons} alt="" src={images.NewIcoLaunchIcon.src} />
           <img className={styles.updatesicon} alt="" src={images.UpdatesIcon.src}  />
           <img className={styles.updatesicon1} alt="" src={images.UpdatesIcon.src} />
           <img className={styles.updatesicon2} alt="" src={images.UpdatesIcon.src}  />

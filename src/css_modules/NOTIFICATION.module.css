@@ -44,12 +44,15 @@
     width: 51px;
 }
 .walletButton {
-    position: absolute; /* Ensures it floats over other elements */
-    height: 6.22%;
+
+    position: absolute;
+    height: 4.22%;
     top: 2.92%;
     bottom: 92.87%;
-    right: 23%;
-    width: 8%;
+   
+    width: 140px;
+    right: 2%;
+ 
   }
   .buttonsBackground {
     position: fixed;
@@ -153,7 +156,7 @@
     width: 21px;
 }
 .notificationrectangle {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     width: 100%;
     top: 12.68%;
@@ -163,7 +166,7 @@
 
 }
 .notifications {
-    position: absolute;
+    position: fixed;
     height: 1.94%;
     top:16%;
     left: 54px;
@@ -176,7 +179,7 @@
     width: 164px;
 }
 .notificationtexticon {
-    position: absolute;
+    position: fixed;
     height: 2.87%;
     top: 15.49%;
     bottom: 84.44%;
@@ -185,7 +188,7 @@
     width: 23.8px;
 }
 .newicolaunchrectangle {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     width: calc(100% - 29px);
     top: 22.68%;
@@ -196,7 +199,7 @@
     background-color: #fff6f6;
 }
 .newicolaunchrectangle1 {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     width: calc(100% - 29px);
     top: 76.24%;
@@ -207,7 +210,7 @@
     background-color: #fff6f6;
 }
 .generalalertrectangle {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     width: calc(100% - 29px);
     top: 44.17%;
@@ -218,7 +221,7 @@
     background-color: #fff6f6;
 }
 .updatesrectangle {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     width: calc(100% - 29px);
     top: 33.37%;
@@ -229,7 +232,7 @@
     background-color: #fff6f6;
 }
 .updatesrectangle1 {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     width: calc(100% - 29px);
     top: 54.86%;
@@ -240,7 +243,7 @@
     background-color: #fff6f6;
 }
 .updatesrectangle2 {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     width: calc(100% - 29px);
     top: 65.55%;
@@ -251,7 +254,7 @@
     background-color: #fff6f6;
 }
 .newicolaunchsidebar {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     top: 22.68%;
     bottom: 67.71%;
@@ -260,7 +263,7 @@
     width: 7px;
 }
 .newicolaunchsidebar1 {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     top: 76.24%;
     bottom: 14.15%;
@@ -269,7 +272,7 @@
     width: 7px;
 }
 .generalalertsidebar {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     top: 44.17%;
     bottom: 46.22%;
@@ -278,7 +281,7 @@
     width: 7px;
 }
 .updatessidebar {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     top: 33.37%;
     bottom: 57.02%;
@@ -287,7 +290,7 @@
     width: 7px;
 }
 .updatessidebar1 {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     top: 54.86%;
     bottom: 35.53%;
@@ -296,7 +299,7 @@
     width: 7px;
 }
 .updatessidebar2 {
-    position: absolute;
+    position: fixed;
     height: 9.61%;
     top: 65.55%;
     bottom: 24.84%;
@@ -305,7 +308,7 @@
     width: 7px;
 }
 .newicolaunchellipse {
-    position: absolute;
+    position: fixed;
     height: 6.05%;
     top: 77.97%;
     bottom: 15.98%;
@@ -316,7 +319,7 @@
     width: 56px;
 }
 .generalalertsidebarellipse {
-    position: absolute;
+    position: fixed;
     height: 6.05%;
     top: 45.9%;
     bottom: 48.06%;
@@ -327,7 +330,7 @@
     width: 56px;
 }
 .updatesellipse {
-    position: absolute;
+    position: fixed;
     height: 6.05%;
     top: 35.1%;
     bottom: 58.86%;
@@ -338,7 +341,7 @@
     width: 56px;
 }
 .updatesellipse1 {
-    position: absolute;
+    position: fixed;
     height: 6.05%;
     top: 56.59%;
     bottom: 37.37%;
@@ -349,7 +352,7 @@
     width: 56px;
 }
 .notification6Child {
-    position: absolute;
+    position: fixed;
     height: 6.05%;
     top: 67.28%;
     bottom: 26.67%;
@@ -360,13 +363,14 @@
     width: 56px;
 }
 .newIcoLaunches {
-    margin: 0;
+    font-size: 1.3rem;
+    
 }
 .newIcoLaunchesContainer1 {
     width: 100%;
 }
 .newIcoLaunchesContainer {
-    position: absolute;
+    position: fixed;
     height: 4.43%;
     top: 24.51%;
     left: 91px;
@@ -378,7 +382,7 @@
     width: 226px;
 }
 .newIcoLaunchesContainer2 {
-    position: absolute;
+    position: fixed;
     height: 4.43%;
     top: 78.08%;
     left: 91px;
@@ -390,7 +394,7 @@
     width: 227px;
 }
 .updatesOnUserContainer {
-    position: absolute;
+    position: fixed;
     height: 3.13%;
     top: 36.07%;
     left: 46px;
@@ -402,7 +406,7 @@
     width: 341px;
 }
 .updatesOnUserContainer2 {
-    position: absolute;
+    position: fixed;
     height: 3.13%;
     top: 57.56%;
     left: 46px;
@@ -414,7 +418,7 @@
     width: 341px;
 }
 .updatesOnUserContainer4 {
-    position: absolute;
+    position: fixed;
     height: 3.13%;
     top: 68.25%;
     left: 46px;
@@ -426,7 +430,7 @@
     width: 341px;
 }
 .newIcoLaunchContainer {
-    position: absolute;
+    position: fixed;
     height: 2.81%;
     top: 27.65%;
     left: 119px;
@@ -438,7 +442,7 @@
     width: 297px;
 }
 .newIcoLaunchContainer2 {
-    position: absolute;
+    position: fixed;
     height: 2.81%;
     top: 81.21%;
     left: 119px;
@@ -450,7 +454,7 @@
     width: 259px;
 }
 .alertStayUpdated {
-    position: absolute;
+    position: fixed;
     height: 2.81%;
     top: 49.14%;
     left: 119px;
@@ -462,10 +466,10 @@
     width: 259px;
 }
 .generalAlertsAndContainer {
-    position: absolute;
+    position: fixed;
     height: 11.88%;
     top: 43.84%;
-    left: 108px;
+    left: 73px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
     display: flex;
@@ -474,7 +478,7 @@
     width: 308px;
 }
 .updateAlertCheck {
-    position: absolute;
+    position: fixed;
     height: 2.81%;
     top: 38.34%;
     left: 119px;
@@ -486,7 +490,7 @@
     width: 259px;
 }
 .updateAlertCheck1 {
-    position: absolute;
+    position: fixed;
     height: 2.81%;
     top: 59.83%;
     left: 119px;
@@ -498,7 +502,7 @@
     width: 259px;
 }
 .updateAlertCheck2 {
-    position: absolute;
+    position: fixed;
     height: 2.81%;
     top: 70.52%;
     left: 119px;
@@ -510,7 +514,7 @@
     width: 259px;
 }
 .newicolaunchellipse1 {
-    position: absolute;
+    position: fixed;
     height: 6.05%;
     top: 24.41%;
     bottom: 69.55%;
@@ -521,7 +525,7 @@
     width: 56px;
 }
 .newicolaunchicon {
-    position: absolute;
+    position: fixed;
     height: 3%;
     top: 26.05%;
     bottom: 70.94%;
@@ -529,8 +533,17 @@
     max-height: 100%;
     width: 27.8px;
 }
+.newicolaunchicons {
+    position: fixed;
+    height: 3%;
+    bottom: 17.5%;
+    
+    left: 55.25px;
+    max-height: 100%;
+    width: 27.8px;
+}
 .newicolaunchicon1 {
-    position: absolute;
+    position: fixed;
     height: 3%;
     top: 79.62%;
     bottom: 17.38%;
@@ -539,7 +552,7 @@
     width: 27.8px;
 }
 .updatesicon {
-    position: absolute;
+    position: fixed;
     height: 3.05%;
     top: 36.81%;
     bottom: 60.14%;
@@ -548,7 +561,7 @@
     width: 38.6px;
 }
 .updatesicon1 {
-    position: absolute;
+    position: fixed;
     height: 3.05%;
     top: 57.99%;
     bottom: 38.96%;
@@ -557,7 +570,7 @@
     width: 38.6px;
 }
 .updatesicon2 {
-    position: absolute;
+    position: fixed;
     height: 3.05%;
     top: 68.68%;
     bottom: 28.27%;
@@ -566,7 +579,7 @@
     width: 38.6px;
 }
 .alerticon {
-    position: absolute;
+    position: fixed;
     height: 3.42%;
     top: 46.9%;
     bottom: 49.67%;
@@ -575,7 +588,7 @@
     width: 36.7px;
 }
 .downnotificationIcon {
-    position: absolute;
+    position: fixed;
     height: 0.81%;
     width: 2.99%;
     top: 87.71%;
@@ -589,7 +602,7 @@
 }
 .notification6 {
     width: 100%;
-    position: relative;
+    position: fixed;
     background-color: #000;
     height: 926px;
     overflow: hidden;
@@ -598,4 +611,6 @@
     color: #000;
     font-family: Krub;
 }
+
+
 
