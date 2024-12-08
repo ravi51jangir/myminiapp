@@ -197,6 +197,7 @@
 }
 .b {
     position: absolute;
+    height: 1.19%;
     width: calc(100% - 43px);
     top: 59.72%;
     left: 25px;
@@ -208,6 +209,7 @@
 }
 .b1 {
     position: absolute;
+    height: 1.19%;
     width: calc(100% - 43px);
     top: 67.39%;
     left: 23px;
@@ -364,6 +366,48 @@
     display: inline-block;
     width: 51px;
 }
+
+.activeborderimageIcon {
+    position: absolute;
+ 
+    top: 10.83%;
+    
+    left: 0px;
+    max-height: 100%;
+    width: 336px;
+    object-fit: cover;
+}
+.active {
+    position: absolute;
+    height: 49.88%;
+    top: 12%;
+    left: 63px;
+    letter-spacing: 0.08em;
+    display: inline-block;
+    width: 141px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.activeborderimageParent {
+    position: absolute;
+    height: 4.54%;
+    top: 11.45%;
+    bottom: 84.01%;
+    left: -92px;
+    width: 336px;
+}
+.applynowIcon {
+    position: absolute;
+    height: 4.78%;
+    width: 100%;
+    top: 81.42%;
+    right: 0px;
+    bottom: 10.8%;
+    left: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
 .walletButton {
 
     position: absolute;
@@ -375,6 +419,15 @@
     right: 2%;
  
   }
+.connectWallet {
+    position: absolute;
+    height: 2.38%;
+    top: 4.1%;
+    right: 39px;
+    font-size: 14px;
+    display: inline-block;
+    width: 135px;
+}
 .useropenicon {
     position: absolute;
     height: 0.75%;
@@ -633,7 +686,8 @@
 }
 .softCap {
     position: absolute;
-    top: 299px;
+    height: 1.4%;
+    top: 32.29%;
     right: 50px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -643,7 +697,6 @@
     align-items: center;
     justify-content: center;
     width: 95px;
-    height: 13px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .kTon1 {

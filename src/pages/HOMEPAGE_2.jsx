@@ -26,17 +26,17 @@ const router = useRouter();
       <b className={styles.gpt360}>GPT360</b>
 
       <div 
-        className={styles.homePage1Child} 
+        className={styles.homePage2Child} 
         onClick={() => router.push('/')}
         style={{ cursor: 'pointer' }}
       />
       <div 
-        className={styles.homePage1Item} 
+        className={styles.homePage2Item} 
         onClick={() => router.push('/home2')}
         style={{ cursor: 'pointer' }}
       />
       <div 
-        className={styles.homePage1Inner} 
+        className={styles.homePage2Inner} 
         onClick={() => router.push('/home3')}
         style={{ cursor: 'pointer' }}
       />

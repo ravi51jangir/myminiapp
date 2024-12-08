@@ -11,7 +11,9 @@
 }
 .profilerectangle {
     position: absolute;
-    top: 23px;
+    height: 4.21%;
+    top: 2.48%;
+    bottom: 93.3%;
     left: 12px;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
@@ -19,52 +21,77 @@
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 140px;
-    height: 39px;
 }
 .walletrectangle {
     position: absolute;
-    top: 23px;
+    height: 4.32%;
+    top: 2.48%;
     right: 27px;
+    bottom: 93.2%;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
     background-color: #434242;
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 172px;
-    height: 40px;
 }
 .userlogoIcon {
     position: absolute;
-    top: 28px;
+    height: 3.83%;
+    top: 3.02%;
+    bottom: 93.14%;
     left: 18px;
+    max-height: 100%;
     width: 38.5px;
-    height: 35.5px;
 }
 .wxyz {
     position: absolute;
-    top: 37px;
+    height: 2.38%;
+    top: 4%;
     left: 71px;
     font-size: 14px;
     display: inline-block;
     width: 51px;
-    height: 22px;
-}
-.connectWallet {
+}.activeborderimageIcon {
     position: absolute;
-    top: 35px;
-    right: 54px;
-    font-size: 14px;
+ 
+    top: 10.83%;
+    
+    left: 0px;
+    max-height: 100%;
+    width: 336px;
+    object-fit: cover;
+}
+.active {
+    position: absolute;
+    height: 49.88%;
+    top: 12%;
+    left: 63px;
+    letter-spacing: 0.08em;
     display: inline-block;
-    width: 135px;
-    height: 22px;
+    width: 141px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.useropenicon {
+.activeborderimageParent {
     position: absolute;
-    top: 42px;
-    left: 128px;
-    width: 10.7px;
-    height: 7.9px;
-    object-fit: contain;
+    height: 4.54%;
+    top: 11.45%;
+    bottom: 84.01%;
+    left: -92px;
+    width: 336px;
+}
+.applynowIcon {
+    position: absolute;
+    height: 4.78%;
+    width: 100%;
+    top: 81.42%;
+    right: 0px;
+    bottom: 10.8%;
+    left: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
 }
 .walletButton {
 
@@ -77,12 +104,33 @@
     right: 2%;
  
   }
+.connectWallet {
+    position: absolute;
+    height: 2.38%;
+    top: 3.78%;
+    right: 54px;
+    font-size: 14px;
+    display: inline-block;
+    width: 135px;
+}
+.useropenicon {
+    position: absolute;
+    height: 0.85%;
+    top: 4.54%;
+    bottom: 94.61%;
+    left: 128px;
+    max-height: 100%;
+    width: 10.7px;
+    object-fit: contain;
+}
 .walleticon {
     position: absolute;
-    top: 33px;
+    height: 2.38%;
+    top: 3.56%;
     right: 38.3px;
+    bottom: 94.06%;
+    max-height: 100%;
     width: 24.7px;
-    height: 22px;
 }
 .altcoinrec {
     position: absolute;
@@ -122,31 +170,34 @@
 }
 .homePage1Child {
     position: absolute;
-    top: 378px;
+    height: 1.08%;
+    top: 40.82%;
+    bottom: 58.1%;
     left: 184px;
     border-radius: 50%;
     background-color: #fff6f6;
     width: 10px;
-    height: 10px;
 }
 .homePage1Item {
     position: absolute;
-    top: 378px;
+    height: 1.08%;
+    top: 40.82%;
+    bottom: 58.1%;
     left: 208px;
     border-radius: 50%;
     background-color: #acaeb0;
     width: 10px;
-    height: 10px;
     cursor: pointer;
 }
 .homePage1Inner {
     position: absolute;
-    top: 378px;
+    height: 1.08%;
+    top: 40.82%;
+    bottom: 58.1%;
     left: 230px;
     border-radius: 50%;
     background-color: #acaeb0;
     width: 10px;
-    height: 10px;
 }
 .buttonsBackground {
     position: absolute;
@@ -227,39 +278,6 @@
     border-radius: 50%;
     max-height: 100%;
     width: 43px;
-    object-fit: cover;
-}
-.activeborderimageIcon {
-    position: absolute;
- 
-    top: 10.83%;
-    
-    left: 0px;
-    max-height: 100%;
-    width: 336px;
-    object-fit: cover;
-}
-.active {
-    position: absolute;
-    height: 49.88%;
-    top: 12%;
-    left: 63px;
-    letter-spacing: 0.08em;
-    display: inline-block;
-    width: 141px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.applynowIcon {
-    position: absolute;
-    height: 7.78%;
-    width: 100%;
-    top: 79.59%;
-    right: 0px;
-    bottom: 12.63%;
-    left: 0px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
     object-fit: cover;
 }
 .icoButtonIcon {
