@@ -826,3 +826,13 @@
     font-family: Krub;
 }
 
+
+
+@media(max-width:780px){
+    .homePage3{
+        height:100vh;
+        overflow-x:hidden;
+        overflow-y: auto;
+    }
+
+}
