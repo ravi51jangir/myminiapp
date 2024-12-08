@@ -1,6 +1,52 @@
+.pricerectangle {
+    position: absolute;
+    height: 3.67%;
+    top: 23.43%;
+    right: 32px;
+    bottom: 72.89%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.pricerectangle1 {
+    position: absolute;
+    height: 3.67%;
+    top: 41.14%;
+    right: 32px;
+    bottom: 55.18%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.pricerectangle2 {
+    position: absolute;
+    height: 3.67%;
+    top: 58.96%;
+    right: 32px;
+    bottom: 37.37%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.pricerectangle3 {
+    position: absolute;
+    height: 3.67%;
+    top: 76.35%;
+    right: 32px;
+    bottom: 19.98%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
 .profilerectangle {
     position: absolute;
-    top: 58px;
+    height: 4.21%;
+    top: 3.24%;
+    bottom: 92.55%;
     left: 14px;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
@@ -8,516 +54,572 @@
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 140px;
-    height: 39px;
 }
-.goalrectangle {
+.walletButton {
+
     position: absolute;
-    top: 217px;
-    left: 263px;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-    height: 34px;
-}
-.goalrectangle1 {
-    position: absolute;
-    top: 381px;
-    left: 261px;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-    height: 34px;
-}
-.goalrectangle2 {
-    position: absolute;
-    top: 546px;
-    left: 261px;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-    height: 34px;
-}
-.goalrectangle3 {
-    position: absolute;
-    top: 707px;
-    left: 261px;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-    height: 34px;
-}
+    height: 4.22%;
+    top: 2.92%;
+    bottom: 92.87%;
+   
+    width: 140px;
+    right: 2%;
+ 
+  }
 .walletrectangle {
     position: absolute;
-    top: 57px;
-    left: 245px;
+    height: 4.32%;
+    top: 3.13%;
+    right: 11px;
+    bottom: 92.55%;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
     background-color: #434242;
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 172px;
-    height: 40px;
 }
 .userlogoIcon {
     position: absolute;
-    height: 4.63%;
-    width: 10.49%;
-    top: 6.06%;
-    right: 86.44%;
-    bottom: 89.31%;
-    left: 3.07%;
-    max-width: 100%;
-    overflow: hidden;
+    height: 3.77%;
+    top: 3.57%;
+    bottom: 92.66%;
+    left: 18.15px;
     max-height: 100%;
+    width: 40.9px;
 }
 .wxyz {
     position: absolute;
-    top: 68px;
+    height: 2.38%;
+    top: 4.32%;
     left: 76px;
     font-size: 14px;
     display: inline-block;
     width: 51px;
-    height: 22px;
 }
-.walletButton {
-    position: absolute; /* Ensures it floats over other elements */
-    top: 58px;
-    Right: 14px;
-  }
-  
-  .walletButton button {
-    background-color: #20232a; /* Matches dark UI */
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-  }
 .connectWallet {
     position: absolute;
-    top: 69px;
-    left: 254px;
+    height: 2.38%;
+    top: 4.43%;
+    right: 39px;
     font-size: 14px;
     display: inline-block;
     width: 135px;
-    height: 22px;
 }
 .useropenicon {
     position: absolute;
     height: 0.97%;
-    width: 1.59%;
-    top: 7.83%;
-    right: 68.18%;
-    bottom: 91.2%;
-    left: 30.23%;
-    max-width: 100%;
-    overflow: hidden;
+    top: 4.81%;
+    bottom: 94.22%;
+    left: 129.38px;
     max-height: 100%;
+    width: 6.8px;
     object-fit: contain;
 }
 .walleticon {
     position: absolute;
     height: 2.06%;
-    width: 4.91%;
-    top: 7.37%;
-    right: 5.72%;
-    bottom: 90.57%;
-    left: 89.37%;
-    max-width: 100%;
-    overflow: hidden;
+    top: 4.34%;
+    right: 24.5px;
+    bottom: 93.6%;
     max-height: 100%;
+    width: 21px;
 }
-.goalNotSet {
+.auerectangle {
     position: absolute;
-    top: 223px;
-    left: 272px;
-    font-size: 16px;
-    font-weight: 500;
-    display: inline-block;
+    height: 9.05%;
+    width: 100%;
+    top: 10.12%;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+   
+   
+}
+.activerectangle {
+    position: absolute;
+    height: 3.67%;
+    top: 12.42%;
+    bottom: 83.91%;
+    left: 7px;
+    border-radius: 20px;
+    background-color: #000;
+    width: 134px;
+}
+.active {
+    position: absolute;
+    height: 2.05%;
+    top: 13.17%;
+    left: 16px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+}
+.upcoming {
+    position: absolute;
+    height: 2.05%;
+    width: calc(100% - 297px);
+    top: 13.28%;
+    left: 152px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    display: flex;
+    color: #000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.ended {
+    position: absolute;
+    height: 2.05%;
+    top: 13.28%;
+    right: 3px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 130.08%;
+    display: flex;
+    color: #000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 131px;
-    height: 23px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
-.goal50000 {
+.activeicon {
     position: absolute;
-    top: 387px;
-    left: 270px;
-    font-size: 16px;
-    font-weight: 500;
+    height: 2.04%;
+    top: 13.17%;
+    bottom: 84.78%;
+    left: 110px;
+    max-height: 100%;
+    width: 18px;
+}
+.auerectanglestatus {
+    position: absolute;
+    height: 0.54%;
+    top: 17%;
+   
+    left: -2px;
+    background-color: #0048ff;
+    width: 154px;
+}
+.auerectangleborder {
+    position: absolute;
+    height: 0.54%;
+    top: 17%;
+    right: 0px;
+  
+    background-color: rgba(223, 220, 220, 0.71);
+    width: 274px;
+}
+.usdt {
+    position: absolute;
+    height: 2.27%;
+    top: 24.08%;
+    right: 40px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
     display: inline-block;
-    width: 137px;
-    height: 16px;
+    width: 113px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.goal20000 {
+.usdt1 {
     position: absolute;
-    top: 552px;
-    left: 271px;
-    font-size: 16px;
-    font-weight: 500;
+    height: 1.73%;
+    top: 41.79%;
+    right: 35px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
     display: inline-block;
-    width: 143px;
-    height: 16px;
+    width: 122px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.goal25000 {
+.usdt2 {
     position: absolute;
-    top: 713px;
-    left: 270px;
-    font-size: 16px;
-    font-weight: 500;
+    height: 1.73%;
+    top: 59.61%;
+    right: 31px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
     display: inline-block;
-    width: 151px;
-    height: 17px;
+    width: 122px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.bovinverse {
+.usdt3 {
     position: absolute;
-    top: 212px;
+    height: 1.73%;
+    top: 77%;
+    right: 31px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
+    display: inline-block;
+    width: 122px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inshape {
+    position: absolute;
+    height: 2.7%;
+    top: 22.89%;
     left: 108px;
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
     width: 112px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.chirplay {
+.arrakis {
     position: absolute;
-    top: 376px;
+    height: 2.7%;
+    top: 40.6%;
     left: 106px;
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
     width: 112px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .metacloud {
     position: absolute;
-    top: 541px;
+    height: 2.7%;
+    top: 58.42%;
     left: 106px;
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
     width: 112px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.inshape {
+.inshape1 {
     position: absolute;
-    top: 702px;
+    height: 2.7%;
+    top: 75.81%;
     left: 106px;
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
     width: 112px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.plateform {
+.blockchainService {
     position: absolute;
-    top: 239px;
+    height: 2.7%;
+    top: 25.81%;
     left: 109px;
     font-size: 15px;
     font-weight: 500;
     display: inline-block;
     width: 160px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.marketplace {
+.protocol {
     position: absolute;
-    top: 403px;
+    height: 2.7%;
+    top: 43.52%;
     left: 107px;
     font-size: 15px;
     font-weight: 500;
     display: inline-block;
     width: 160px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .vr {
     position: absolute;
-    top: 568px;
+    height: 2.7%;
+    top: 61.34%;
     left: 107px;
     font-size: 15px;
     font-weight: 500;
     display: inline-block;
     width: 160px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.blockchainService {
+.blockchainService1 {
     position: absolute;
-    top: 729px;
+    height: 2.7%;
+    top: 78.73%;
     left: 107px;
     font-size: 15px;
     font-weight: 500;
     display: inline-block;
     width: 160px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.usdt {
+.usdt4 {
     position: absolute;
-    top: 290px;
+    height: 2.7%;
+    top: 31.32%;
     left: 41px;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
     width: 160px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.usdt1 {
+.usdt5 {
     position: absolute;
-    top: 454px;
+    height: 2.7%;
+    top: 49.03%;
     left: 39px;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
     width: 160px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.usdt2 {
+.usdt6 {
     position: absolute;
-    top: 619px;
+    height: 2.7%;
+    top: 66.85%;
     left: 39px;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
     width: 160px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.usdt3 {
+.usdt7 {
     position: absolute;
-    top: 780px;
+    height: 2.7%;
+    top: 84.23%;
     left: 39px;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
     width: 160px;
-    height: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress {
     position: absolute;
-    top: 330px;
-    left: 300px;
+    height: 1.73%;
+    top: 35.64%;
+    right: 30px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress1 {
     position: absolute;
-    top: 494px;
-    left: 298px;
+    height: 1.73%;
+    top: 53.35%;
+    right: 32px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress2 {
     position: absolute;
-    top: 659px;
-    left: 298px;
+    height: 1.73%;
+    top: 71.17%;
+    right: 32px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress3 {
     position: absolute;
-    top: 820px;
-    left: 298px;
+    height: 1.73%;
+    top: 88.55%;
+    right: 28px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated {
     position: absolute;
-    top: 258px;
-    left: 337px;
+    height: 1.73%;
+    top: 27.86%;
+    right: 23px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated1 {
     position: absolute;
-    top: 422px;
-    left: 335px;
+    height: 1.73%;
+    top: 45.57%;
+    right: 23px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated2 {
     position: absolute;
-    top: 587px;
-    left: 335px;
+    height: 1.73%;
+    top: 63.39%;
+    right: 23px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated3 {
     position: absolute;
-    top: 748px;
-    left: 335px;
+    height: 1.73%;
+    top: 80.78%;
+    right: 25px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dec {
+.dLeft {
     position: absolute;
-    top: 278px;
-    left: 359px;
+    height: 1.73%;
+    top: 30.02%;
+    right: 3px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dec1 {
+.dLeft1 {
     position: absolute;
-    top: 442px;
-    left: 357px;
+    height: 1.73%;
+    top: 47.73%;
+    right: 7px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dec2 {
+.dLeft2 {
     position: absolute;
-    top: 607px;
-    left: 353px;
+    height: 1.73%;
+    top: 65.55%;
+    right: 10px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dec3 {
+.dLeft3 {
     position: absolute;
-    top: 768px;
-    left: 353px;
+    height: 1.73%;
+    top: 82.94%;
+    right: 7px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.bovinverseimageborder {
+.arrakisimageborder {
     position: absolute;
-    top: 210px;
-    left: 35px;
+    height: 6.05%;
+    top: 40.39%;
+    bottom: 53.56%;
+    left: 38px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #fff;
     width: 56px;
-    height: 56px;
-}
-.chirplayimageborder {
-    position: absolute;
-    top: 374px;
-    left: 33px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
-    height: 56px;
 }
 .metacloudimageborder {
     position: absolute;
-    top: 539px;
-    left: 33px;
+    height: 6.05%;
+    top: 58.32%;
+    bottom: 35.64%;
+    left: 40px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #fff;
     width: 56px;
-    height: 56px;
 }
 .inshapeimageborder {
     position: absolute;
-    top: 700px;
-    left: 33px;
+    height: 6.05%;
+    top: 75.59%;
+    bottom: 18.36%;
+    left: 38px;
     box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
     border-radius: 50%;
     background-color: #fff;
     width: 56px;
-    height: 56px;
 }
 .b {
     position: absolute;
-    top: 352px;
-    left: 35px;
+    height: 1.19%;
+    width: calc(100% - 67px);
+    top: 38.12%;
+    left: 44px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
-    width: 361px;
-    height: 11px;
 }
 .b1 {
     position: absolute;
-    top: 517px;
-    left: 35px;
+    height: 1.51%;
+    width: calc(100% - 67px);
+    top: 55.83%;
+    left: 44px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
-    width: 361px;
-    height: 14px;
 }
 .b2 {
     position: absolute;
-    top: 681px;
-    left: 35px;
+    height: 1.19%;
+    width: calc(100% - 67px);
+    top: 73.54%;
+    left: 41px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
-    width: 361px;
-    height: 11px;
+}
+.inshapeimageborder1 {
+    position: absolute;
+    height: 6.05%;
+    top: 22.68%;
+    bottom: 71.27%;
+    left: 35px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+}
+.inshapeimageIcon {
+    position: absolute;
+    height: 3.78%;
+    top: 23.87%;
+    bottom: 72.35%;
+    left: 46px;
+    max-height: 100%;
+    width: 32px;
+    object-fit: cover;
 }
 .buttonsBackground {
-    position: absolute;
-    top: 855px;
-  
-  
+    position: fixed;
+    height: 7.78%;
+    width: 100%;
    
-    
-  }
+    bottom: 0%;
+  
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+    background-color: #fff;
+   
+}
 .homeButtonIcon {
-    position: absolute;
+    position: fixed;
     height: 3.89%;
     width: 8.64%;
-    top: 94.18%;
+   
     right: 84.81%;
     bottom: 1.94%;
     left: 6.54%;
@@ -527,10 +629,10 @@
     cursor: pointer;
 }
 .notificationButtonIcon {
-    position: absolute;
+    position: fixed;
     height: 4.05%;
     width: 7.45%;
-    top: 93.93%;
+   
     right: 7.85%;
     bottom: 2.02%;
     left: 84.7%;
@@ -539,22 +641,22 @@
     max-height: 100%;
 }
 .stackButtonIcon {
-    position: absolute;
+    position: fixed;
     height: 4.52%;
     width: 9.11%;
-    top: 93.64%;
+    
     right: 23.6%;
-    bottom: 1.84%;
+    bottom: 1.50%;
     left: 67.29%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
 .cursorbuttonsIcon {
-    position: absolute;
+    position: fixed;
     height: 1.63%;
     width: 5.16%;
-    top: 91.58%;
+    
     right: 66.81%;
     bottom: 6.79%;
     left: 28.02%;
@@ -563,108 +665,144 @@
     max-height: 100%;
 }
 .icoButtonIcon {
-    position: absolute;
-    top: 844.07px;
-    left: 78px;
-    width: 119px;
-    height: 77px;
+    position: fixed;
+    height: 7.34%;
+    width: 27.8%;
+    
+    right: 53.97%;
+    bottom: 0.44%;
+    left: 18.22%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
 }
 .nftButtonIcon {
-    position: absolute;
-    top: 845.07px;
-    left: 161px;
-    width: 114px;
-    height: 87px;
+    position: fixed;
+    height: 6.7%;
+    width: 26.64%;
+   
+    right: 35.75%;
+    bottom: 0.4%;
+    left: 37.62%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
     cursor: pointer;
 }
-.bovinversedark {
+.inshapedark {
     position: absolute;
-    top: 315px;
+    height: 0.86%;
+    width: calc(100% - 73px);
+    top: 34.02%;
+    right: 32px;
+    bottom: 65.12%;
     left: 41px;
     border-radius: 10px;
     background-color: #434242;
-    width: 348px;
-    height: 8px;
 }
-.chirplaydark {
+.arrakisdark {
     position: absolute;
-    top: 479px;
+    height: 0.86%;
+    width: calc(100% - 71px);
+    top: 51.73%;
+    right: 32px;
+    bottom: 47.41%;
     left: 39px;
     border-radius: 10px;
     background-color: #434242;
-    width: 348px;
-    height: 8px;
 }
 .metaclouddark {
     position: absolute;
-    top: 644px;
+    height: 0.86%;
+    width: calc(100% - 71px);
+    top: 69.55%;
+    right: 32px;
+    bottom: 29.59%;
     left: 39px;
     border-radius: 10px;
     background-color: #434242;
-    width: 348px;
-    height: 8px;
 }
-.inshapedark {
+.inshapedark1 {
     position: absolute;
-    top: 805px;
+    height: 0.86%;
+    width: calc(100% - 71px);
+    top: 86.93%;
+    right: 32px;
+    bottom: 12.2%;
     left: 39px;
     border-radius: 10px;
     background-color: #434242;
-    width: 348px;
-    height: 8px;
 }
-.bovinverse1 {
+.inshape2 {
     position: absolute;
-    top: 315px;
+    height: 0.86%;
+    top: 34.02%;
+    bottom: 65.12%;
     left: 41px;
     border-radius: 10px;
     background-color: #fff;
     width: 130px;
-    height: 8px;
 }
-.chirplay1 {
+.arrakis1 {
     position: absolute;
-    top: 479px;
+    height: 0.86%;
+    top: 51.73%;
+    bottom: 47.41%;
     left: 39px;
     border-radius: 10px;
     background-color: #fff;
     width: 76px;
-    height: 8px;
 }
 .metacloud1 {
     position: absolute;
-    top: 644px;
+    height: 0.86%;
+    top: 69.55%;
+    bottom: 29.59%;
     left: 39px;
     border-radius: 10px;
     background-color: #fff;
     width: 155px;
-    height: 8px;
 }
-.inshape1 {
+.inshape3 {
     position: absolute;
-    top: 805px;
+    height: 0.86%;
+    top: 86.93%;
+    bottom: 12.2%;
     left: 39px;
     border-radius: 10px;
     background-color: #fff;
     width: 155px;
-    height: 8px;
+}
+.arrakisimageIcon {
+    position: absolute;
+    height: 4%;
+    top: 41.79%;
+    bottom: 54.21%;
+    left: 46px;
+    max-height: 100%;
+    width: 38px;
+    object-fit: cover;
 }
 .metacloudimageIcon {
     position: absolute;
-    top: 545px;
-    left: 39px;
+    height: 4.75%;
+    top: 58.86%;
+    bottom: 36.39%;
+    left: 46px;
+    max-height: 100%;
     width: 45px;
-    height: 44px;
     object-fit: cover;
 }
-.inshapeimageIcon {
+.inshapeimageIcon1 {
     position: absolute;
-    top: 712px;
-    left: 44px;
+    height: 3.78%;
+    top: 76.89%;
+    bottom: 19.33%;
+    left: 46px;
+    max-height: 100%;
     width: 32px;
-    height: 35px;
     object-fit: cover;
 }
 .dropdownico4Icon {
@@ -679,108 +817,6 @@
     overflow: hidden;
     max-height: 100%;
     object-fit: contain;
-}
-.auerectangle {
-    position: absolute;
-    top: 126px;
-}
-.upcomingrectangle {
-    position: absolute;
-    top: 138px;
-    left: 148px;
-    border-radius: 20px;
-    background-color: #000;
-    width: 159px;
-    height: 33px;
-}
-.active {
-    position: absolute;
-    top: 145px;
-    left: 16px;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    line-height: 130.08%;
-    display: flex;
-    color: #000;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 96px;
-    height: 19px;
-}
-.upcoming {
-    position: absolute;
-    top: 146px;
-    left: 152px;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    line-height: 130.08%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 131px;
-    height: 19px;
-}
-.ended {
-    position: absolute;
-    top: 146px;
-    left: 294px;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    line-height: 130.08%;
-    display: flex;
-    color: #000;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 131px;
-    height: 19px;
-    cursor: pointer;
-}
-.upcomingicon {
-    position: absolute;
-    height: 2.04%;
-    width: 4.21%;
-    top: 15.66%;
-    right: 31.07%;
-    bottom: 82.3%;
-    left: 64.72%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.auerectangleborder {
-    position: absolute;
-    top: 187px;
-    left: 0px;
-    background-color: rgba(223, 220, 220, 0.71);
-    width: 428px;
-    height: 5px;
-}
-.auerectanglestatus {
-    position: absolute;
-    top: 187px;
-    left: 149px;
-    background-color: #0048ff;
-    width: 154px;
-    height: 5px;
-}
-.bovinverseimageIcon {
-    position: absolute;
-    top: 211px;
-    left: 32px;
-    width: 61px;
-    height: 53px;
-    object-fit: cover;
-}
-.chirplayimageIcon {
-    position: absolute;
-    top: 380px;
-    left: 40px;
-    width: 42px;
-    height: 43px;
-    object-fit: cover;
 }
 .ico4 {
     width: 100%;

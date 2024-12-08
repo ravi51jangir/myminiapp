@@ -5,7 +5,7 @@ import { images } from "../StoreImages/StoreImages";
 import ConnectButton from "@/components/shared/ConnectButton";
 import { useRouter } from "next/navigation";
 
-const ICO = () => {
+const ICO_4 = () => {
   const router = useRouter();
 
 
@@ -31,11 +31,11 @@ const ICO = () => {
         src={images.AUERectangle.src}
       />
       <div className={styles.activerectangle} />
- 
-      <b className={styles.active}>{`ACTIVE `}</b>
-      <b className={styles.upcoming}  onClick={() => router.push('/ico4')}
+      <b className={styles.active}>{`UPCOMING `}</b>
+
+      <b className={styles.active}  onClick={() => router.push('/ico')}
         style={{ cursor: "pointer" }}>
-        UPCOMING
+        ACTIVE
       </b>
       <b className={styles.ended}  onClick={() => router.push('/ico5')}
         style={{ cursor: "pointer" }}>
@@ -157,4 +157,4 @@ const ICO = () => {
   );
 };
 
-export default ICO;
+export default ICO_4;

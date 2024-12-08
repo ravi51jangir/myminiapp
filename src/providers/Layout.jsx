@@ -16,6 +16,8 @@ import Nftpage from "../pages/NFT";
 import Stackpage from "../pages/Stack";
 import Notificationpage from "../pages/NOTIFICATION";
 import ICO_3page from "../pages/ICO_3";
+import ICO_4page from "../pages/ICO_4";
+import ICO_5page from "../pages/ICO_5";
 
 
 import Head from "next/head"; // Import the Head component
@@ -29,6 +31,9 @@ export const routes = {
   stack: "/stack",
   notification: "/notification",
   ico: "/ico",
+  ico4: "/ico4",
+  ico5: "/ico5"
+
 };
 
 // Navigation behavior hook
@@ -89,6 +94,8 @@ const App = () => {
           <Route path={routes.stack} element={<Stackpage />} />
           <Route path={routes.notification} element={<Notificationpage />} />
           <Route path={routes.ico} element={<ICO_3page />} />
+          <Route path={routes.ico4} element={<ICO_4page />} /> 
+          <Route path={routes.ico5} element={<ICO_5page />} /> 
         </Routes>
       
       </Router>
