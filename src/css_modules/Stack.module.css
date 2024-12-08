@@ -1,13 +1,9 @@
 .buttonsBackground {
   position: fixed;
-  height: 7.78%;
+  height: 8.18%;
   width: 100%;
- 
   bottom: 0%;
 
-  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
-  background-color: #fff;
  
 }
 .homeButtonIcon {
@@ -51,7 +47,7 @@
   position: fixed;
   height: 1.63%;
   width: 5.16%;
-  bottom: 6.79%;
+  bottom: 6.3%;
   right: 26.02%;
   max-width: 100%;
   overflow: hidden;
@@ -102,9 +98,9 @@
   position: absolute;
   height: 22.21%;
   width: 100%;
-  top: 43.35%;
+  top: 20.35%;
   right: 0px;
-  bottom: 34.44%;
+  
   left: 0px;
   max-width: 100%;
   overflow: hidden;
