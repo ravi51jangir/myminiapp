@@ -1,13 +1,19 @@
+
 .neutonimageIcon {
-    position: absolute;
-    top: 94px;
-    left: 91px;
-    width: 498px;
-    height: 251px;
+    position: fixed;
+    height: 27.11%;
+    width: calc(100% - 114px);
+    top: 10.15%;
+    right: 18px;
+    bottom: 62.74%;
+    left: 96px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
 }
 .neutonimagebg1Icon {
-    position: absolute;
+    position: fixed;
     height: 23.76%;
     width: 100%;
     top: 30.89%;
@@ -20,314 +26,29 @@
     object-fit: cover;
 }
 .neutonimagebg2Icon {
-    position: absolute;
+    position: fixed;
     top: 176px;
-    left: -35px;
-    width: 501px;
+    left: 0px;
+    width: 428px;
     height: 220px;
     object-fit: cover;
 }
 .neutonimagebg3Icon {
-    position: absolute;
+    position: fixed;
     height: 23.76%;
     width: 100%;
-    top: 17.93%;
+    top: 14.15%;
     right: 0px;
-    bottom: 58.32%;
+    bottom: 62.1%;
     left: 0px;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
     object-fit: cover;
 }
-.listingDetails {
-    position: absolute;
-    height: 2.48%;
-    top: 49.46%;
-    left: 23px;
-    font-weight: 500;
-    display: inline-block;
-    width: 188px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.bitmart {
-    position: absolute;
-    height: 2.7%;
-    top: 55.29%;
-    left: 84px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.div {
-    position: absolute;
-    height: 2.7%;
-    top: 55.4%;
-    right: 5px;
-    font-weight: 500;
-    display: inline-block;
-    width: 112px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.div1 {
-    position: absolute;
-    height: 2.7%;
-    top: 62.85%;
-    right: 6px;
-    font-weight: 500;
-    display: inline-block;
-    width: 112px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.coindcx {
-    position: absolute;
-    height: 2.7%;
-    top: 62.85%;
-    left: 84px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.bitmartLogoellipse {
-    position: absolute;
-    height: 4.64%;
-    top: 54.43%;
-    bottom: 40.93%;
-    left: 22px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 43px;
-}
-.coindcxLogoellipse {
-    position: absolute;
-    height: 4.64%;
-    top: 61.99%;
-    bottom: 33.37%;
-    left: 22px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 43px;
-}
-.coindcxLogoIcon {
-    position: absolute;
-    height: 0.97%;
-    top: 63.82%;
-    bottom: 35.21%;
-    left: 24px;
-    max-height: 100%;
-    width: 40px;
-    object-fit: cover;
-}
-.bitmartLogoIcon {
-    position: absolute;
-    height: 4.43%;
-    top: 54.32%;
-    bottom: 41.25%;
-    left: 14px;
-    max-height: 100%;
-    width: 61px;
-    object-fit: cover;
-}
-.b {
-    position: absolute;
-    height: 1.19%;
-    width: calc(100% - 43px);
-    top: 59.72%;
-    left: 25px;
-    font-size: 10px;
-    letter-spacing: 0.28em;
-    display: inline-block;
-    font-family: 'Times New Roman';
-    color: rgba(255, 255, 255, 0.53);
-}
-.b1 {
-    position: absolute;
-    height: 1.19%;
-    width: calc(100% - 43px);
-    top: 67.39%;
-    left: 23px;
-    font-size: 10px;
-    letter-spacing: 0.28em;
-    display: inline-block;
-    font-family: 'Times New Roman';
-    color: rgba(255, 255, 255, 0.53);
-}
-.dropdownIcon {
-    position: absolute;
-    height: 0.81%;
-    top: 69.35%;
-    bottom: 29.84%;
-    left: 208.68px;
-    max-height: 100%;
-    width: 12.8px;
-    object-fit: contain;
-}
-.buynewtonrec {
-    position: absolute;
-    height: 9.83%;
-    top: 74.3%;
-    bottom: 15.87%;
-    left: 35px;
-    border-radius: 10px;
-    background-color: #434242;
-    border: 1px solid #fff8f8;
-    box-sizing: border-box;
-    width: 187px;
-}
-.softcap {
-    position: absolute;
-    height: 9.4%;
-    top: 29.7%;
-    right: 37px;
-    bottom: 60.91%;
-    box-shadow: 0px 2px 9px 4px rgba(223, 220, 220, 0.71);
-    border-radius: 10px;
-    background-color: #000;
-    width: 157px;
-    opacity: 0.2;
-}
-.ton600 {
-    position: absolute;
-    height: 4.64%;
-    top: 77.75%;
-    bottom: 17.6%;
-    left: 35px;
-    background-color: #000;
-    width: 188px;
-    opacity: 0.2;
-}
-.buynewtonrectangle {
-    position: absolute;
-    height: 3.56%;
-    top: 72.79%;
-    bottom: 23.65%;
-    left: 50px;
-    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
-    border-radius: 10px;
-    background-color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    width: 161px;
-}
-.buyNeuton {
-    position: absolute;
-    height: 1.51%;
-    top: 73.33%;
-    left: 69px;
-    display: inline-block;
-    color: #000;
-    width: 154px;
-}
-.b2 {
-    position: absolute;
-    height: 4%;
-    top: 77.32%;
-    left: 79px;
-    font-size: 40px;
-    display: inline-block;
-    width: 95px;
-}
-.ton {
-    position: absolute;
-    height: 4%;
-    top: 78.73%;
-    left: 158px;
-    font-weight: 500;
-    display: inline-block;
-    width: 95px;
-}
-.profilerectangle {
-    position: absolute;
-    height: 4.21%;
-    top: 2.92%;
-    bottom: 92.87%;
-    left: 14px;
-    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
-    border-radius: 10px;
-    background-color: #434242;
-    border: 1px solid rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    width: 140px;
-}
-.walletrectangle {
-    position: absolute;
-    height: 4.32%;
-    top: 2.81%;
-    right: 11px;
-    bottom: 92.87%;
-    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
-    border-radius: 10px;
-    background-color: #434242;
-    border: 1px solid rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    width: 172px;
-}
-.wxyz {
-    position: absolute;
-    height: 2.38%;
-    top: 4%;
-    left: 76px;
-    font-size: 14px;
-    display: inline-block;
-    width: 51px;
-}
 
-.activeborderimageIcon {
-    position: absolute;
- 
-    top: 10.83%;
-    
-    left: 0px;
-    max-height: 100%;
-    width: 336px;
-    object-fit: cover;
-}
-.active {
-    position: absolute;
-    height: 49.88%;
-    top: 12%;
-    left: 63px;
-    letter-spacing: 0.08em;
-    display: inline-block;
-    width: 141px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.activeborderimageParent {
-    position: absolute;
-    height: 4.54%;
-    top: 11.45%;
-    bottom: 84.01%;
-    left: -92px;
-    width: 336px;
-}
-.applynowIcon {
-    position: absolute;
-    height: 4.78%;
-    width: 100%;
-    top: 81.42%;
-    right: 0px;
-    bottom: 10.8%;
-    left: 0px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-}
-.walletButton {
 
-    position: absolute;
-    height: 4.22%;
-    top: 2.92%;
-    bottom: 92.87%;
-   
-    width: 140px;
-    right: 2%;
- 
-  }  .buttonsBackground {
+.buttonsBackground {
     position: fixed;
     height: 8.18%;
     width: 100%;
@@ -335,12 +56,15 @@
 
    
 }
+
 .cursorbuttonsIcon {
     position: fixed;
     height: 1.63%;
     width: 5.16%;
-    bottom: 6.3%;
-    left: 8.02%;
+    top: 91.68%;
+    right: 86.91%;
+    bottom: 6.68%;
+    left: 7.93%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
@@ -410,8 +134,255 @@
     object-fit: cover;
     cursor: pointer;
 }
+.walletButton {
+
+    position: fixed;
+    height: 4.22%;
+    top: 2.92%;
+    bottom: 92.87%;
+   
+    width: 140px;
+    right: 2%;
+ 
+  }
+.listingDetails {
+    position: fixed;
+    height: 2.48%;
+    top: 49.46%;
+    left: 23px;
+    font-weight: 500;
+    display: inline-block;
+    width: 188px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bitmart {
+    position: fixed;
+    height: 2.7%;
+    top: 55.29%;
+    left: 84px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.div {
+    position: fixed;
+    height: 2.7%;
+    top: 55.4%;
+    right: 5px;
+    font-weight: 500;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.div1 {
+    position: fixed;
+    height: 2.7%;
+    top: 62.85%;
+    right: -18px;
+    font-weight: 500;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.coindcx {
+    position: fixed;
+    height: 2.7%;
+    top: 62.85%;
+    left: 84px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bitmartLogoellipse {
+    position: fixed;
+    height: 4.64%;
+    top: 54.43%;
+    bottom: 40.93%;
+    left: 22px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 43px;
+}
+.coindcxLogoellipse {
+    position: fixed;
+    height: 4.64%;
+    top: 61.99%;
+    bottom: 33.37%;
+    left: 22px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 43px;
+}
+.coindcxLogoIcon {
+    position: fixed;
+    height: 0.97%;
+    top: 63.82%;
+    bottom: 35.21%;
+    left: 24px;
+    max-height: 100%;
+    width: 40px;
+    object-fit: cover;
+}
+.bitmartLogoIcon {
+    position: fixed;
+    height: 4.43%;
+    top: 54.32%;
+    bottom: 41.25%;
+    left: 14px;
+    max-height: 100%;
+    width: 61px;
+    object-fit: cover;
+}
+.b {
+    position: fixed;
+    height: 1.19%;
+    width: calc(100% - 43px);
+    top: 59.72%;
+    left: 25px;
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+}
+.b1 {
+    position: fixed;
+    height: 1.19%;
+    width: calc(100% - 43px);
+    top: 67.39%;
+    left: 23px;
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    color: rgba(255, 255, 255, 0.53);
+}
+.dropdownIcon {
+    position: fixed;
+    height: 0.81%;
+    top: 69.35%;
+    bottom: 29.84%;
+    left: 208.68px;
+    max-height: 100%;
+    width: 12.8px;
+    object-fit: contain;
+}
+.buynewtonrec {
+    position: fixed;
+    height: 9.83%;
+    top: 74.3%;
+    bottom: 15.87%;
+    left: 16px;
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid #fff8f8;
+    box-sizing: border-box;
+    width: 175px;
+}
+
+.softcap {
+    position: fixed;
+    height: 9.4%;
+    top: 29.7%;
+    right: 18px;
+    bottom: 60.91%;
+    box-shadow: 0px 2px 9px 4px rgba(223, 220, 220, 0.71);
+    border-radius: 10px;
+    background-color: #000;
+    width: 157px;
+    opacity: 0.2;
+}
+.ton600 {
+    position: fixed;
+    height: 4.64%;
+    top: 77.75%;
+    bottom: 17.6%;
+    left: 23px;
+    background-color: #000;
+    width: 156px;
+    opacity: 0.2;
+}
+.buynewtonrectangle {
+    position: fixed;
+    height: 3.56%;
+    top: 72.79%;
+    bottom: 23.65%;
+    left: 21px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 161px;
+}
+.buyNeuton {
+    position: fixed;
+    height: 1.51%;
+    top: 73.33%;
+    left: 37px;
+    display: inline-block;
+    color: #000;
+    width: 154px;
+}
+.b2 {
+    position: fixed;
+    height: 4%;
+    top: 77.32%;
+    left: 50px;
+    font-size: 40px;
+    display: inline-block;
+    width: 95px;
+}
+.ton {
+    position: fixed;
+    height: 4%;
+    top: 78.73%;
+    left: 128px;
+    font-weight: 500;
+    display: inline-block;
+    width: 95px;
+}
+.profilerectangle {
+    position: fixed;
+    height: 4.21%;
+    top: 2.92%;
+    bottom: 92.87%;
+    left: 14px;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 140px;
+}
+.walletrectangle {
+    position: fixed;
+    height: 4.32%;
+    top: 2.81%;
+    right: 11px;
+    bottom: 92.87%;
+    box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
+    border-radius: 10px;
+    background-color: #434242;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 172px;
+}
+.wxyz {
+    position: fixed;
+    height: 2.38%;
+    top: 4%;
+    left: 76px;
+    font-size: 14px;
+    display: inline-block;
+    width: 51px;
+}
 .connectWallet {
-    position: absolute;
+    position: fixed;
     height: 2.38%;
     top: 4.1%;
     right: 39px;
@@ -420,7 +391,7 @@
     width: 135px;
 }
 .useropenicon {
-    position: absolute;
+    position: fixed;
     height: 0.75%;
     top: 4.68%;
     bottom: 94.58%;
@@ -430,7 +401,7 @@
     object-fit: contain;
 }
 .walleticon {
-    position: absolute;
+    position: fixed;
     height: 2.06%;
     top: 4.02%;
     right: 24.5px;
@@ -439,7 +410,7 @@
     width: 21px;
 }
 .userlogoIcon {
-    position: absolute;
+    position: fixed;
     height: 3.83%;
     top: 3.24%;
     bottom: 92.93%;
@@ -448,7 +419,7 @@
     width: 38.5px;
 }
 .papersIcon {
-    position: absolute;
+    position: fixed;
     height: 2.43%;
     top: 19.22%;
     bottom: 78.35%;
@@ -457,7 +428,7 @@
     width: 22.5px;
 }
 .neuton {
-    position: absolute;
+    position: fixed;
     height: 2.7%;
     top: 11.88%;
     left: 103px;
@@ -469,7 +440,7 @@
     text-shadow: 0px 1px 4px #fff;
 }
 .telegramIcon {
-    position: absolute;
+    position: fixed;
     height: 2.59%;
     top: 19.33%;
     bottom: 78.08%;
@@ -478,7 +449,7 @@
     width: 28px;
 }
 .twitterIcon {
-    position: absolute;
+    position: fixed;
     height: 2.59%;
     top: 19.44%;
     bottom: 77.97%;
@@ -487,7 +458,7 @@
     width: 27px;
 }
 .webIcon {
-    position: absolute;
+    position: fixed;
     height: 2.81%;
     top: 19.22%;
     bottom: 77.97%;
@@ -496,7 +467,7 @@
     width: 26px;
 }
 .netonimageIcon {
-    position: absolute;
+    position: fixed;
     height: 10.58%;
     top: 8.21%;
     bottom: 81.21%;
@@ -506,10 +477,10 @@
     object-fit: cover;
 }
 .homePage3Child {
-    position: absolute;
+    position: fixed;
     height: 3.67%;
     top: 73.33%;
-    right: 40px;
+    right: 21px;
     bottom: 23%;
     border-radius: 9px;
     background-color: #000;
@@ -518,10 +489,10 @@
     width: 127px;
 }
 .homePage3Item {
-    position: absolute;
+    position: fixed;
     height: 3.46%;
     top: 77.97%;
-    right: 40px;
+    right: 21px;
     bottom: 18.57%;
     border-radius: 9px;
     background-color: #000;
@@ -530,7 +501,7 @@
     width: 127px;
 }
 .homePage3Inner {
-    position: absolute;
+    position: fixed;
     height: 4%;
     width: calc(100% - 98px);
     top: 86.93%;
@@ -543,47 +514,47 @@
     box-sizing: border-box;
 }
 .min10Ton {
-    position: absolute;
+    position: fixed;
     height: 1.73%;
     top: 73.97%;
-    right: -24px;
+    right: -43px;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
     width: 173px;
 }
 .max500Ton {
-    position: absolute;
+    position: fixed;
     height: 1.62%;
     top: 78.51%;
-    right: 0px;
+    right: -19px;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
     width: 153px;
 }
 .tonBalance {
-    position: absolute;
+    position: fixed;
     height: 1.94%;
-    top: 82.51%;
-    right: 13px;
+    width: calc(100% - 292px);
+    top: 82.61%;
+    left: 198px;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
-    width: 178px;
 }
 .ton1 {
-    position: absolute;
+    position: fixed;
     height: 1.94%;
     top: 82.61%;
-    right: -79px;
+    right: 9px;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
-    width: 178px;
+    width: 94px;
 }
 .buy12876321255Neuton {
-    position: absolute;
+    position: fixed;
     height: 1.84%;
     width: calc(100% - 134px);
     top: 87.9%;
@@ -593,7 +564,7 @@
     display: inline-block;
 }
 .rectangleDiv {
-    position: absolute;
+    position: fixed;
     height: 9.4%;
     top: 29.91%;
     right: 42px;
@@ -604,22 +575,22 @@
     opacity: 0.2;
 }
 .full {
-    position: absolute;
+    position: fixed;
     height: 0.76%;
     width: calc(100% - 87px);
     top: 42.01%;
-    right: 40px;
+    right: 19px;
     bottom: 57.24%;
-    left: 47px;
+    left: 68px;
     border-radius: 10px;
     background-color: #fff;
 }
 .hardcap {
-    position: absolute;
+    position: fixed;
     height: 9.4%;
     top: 29.7%;
     bottom: 60.91%;
-    left: 44px;
+    left: 25px;
     box-shadow: 0px 2px 9px 4px rgba(223, 220, 220, 0.71);
     border-radius: 10px;
     background-color: #000;
@@ -627,10 +598,10 @@
     opacity: 0.2;
 }
 .hardCap {
-    position: absolute;
+    position: fixed;
     height: 1.4%;
     top: 32.07%;
-    left: 96px;
+    left: 77px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
     font-weight: 600;
@@ -642,10 +613,10 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .kTon {
-    position: absolute;
+    position: fixed;
     height: 1.62%;
     top: 35.64%;
-    left: 46px;
+    left: 27px;
     font-size: 24px;
     letter-spacing: 0.08em;
     line-height: 130.08%;
@@ -657,29 +628,29 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .hardcapIcon {
-    position: absolute;
+    position: fixed;
     height: 3.42%;
     top: 31.01%;
     bottom: 65.56%;
-    left: 56.17px;
+    left: 37.17px;
     max-height: 100%;
     width: 31.7px;
 }
 .homePage3Child1 {
-    position: absolute;
+    position: fixed;
     height: 9.4%;
     top: 29.7%;
-    right: 39px;
+    right: 20px;
     bottom: 60.91%;
     border-radius: 10px;
     background-color: #000;
     width: 155px;
 }
 .softCap {
-    position: absolute;
+    position: fixed;
     height: 1.4%;
     top: 32.29%;
-    right: 50px;
+    right: 31px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
     font-weight: 600;
@@ -691,10 +662,10 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .kTon1 {
-    position: absolute;
+    position: fixed;
     height: 1.62%;
     top: 35.85%;
-    right: 41px;
+    right: 22px;
     font-size: 24px;
     letter-spacing: 0.08em;
     line-height: 130.08%;
@@ -706,16 +677,16 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .softcapIcon {
-    position: absolute;
+    position: fixed;
     height: 3.42%;
     top: 31.23%;
-    right: 152.13px;
+    right: 133.13px;
     bottom: 65.35%;
     max-height: 100%;
     width: 31.7px;
 }
 .full80 {
-    position: absolute;
+    position: fixed;
     height: 0.76%;
     top: 42.01%;
     bottom: 57.24%;
@@ -738,7 +709,7 @@
     width: 100%;
 }
 .b3 {
-    position: absolute;
+    position: fixed;
     height: 3.24%;
     top: 44.17%;
     left: 65px;
@@ -749,10 +720,10 @@
     width: 117px;
 }
 .b4 {
-    position: absolute;
+    position: fixed;
     height: 3.24%;
     top: 44.06%;
-    right: 0px;
+    right: -21px;
     font-size: 9px;
     line-height: 130.08%;
     display: flex;
@@ -760,7 +731,7 @@
     width: 95px;
 }
 .calenderIcon {
-    position: absolute;
+    position: fixed;
     height: 0.81%;
     top: 44.63%;
     bottom: 54.56%;
@@ -769,16 +740,16 @@
     width: 8.3px;
 }
 .calenderIcon1 {
-    position: absolute;
+    position: fixed;
     height: 0.81%;
     top: 44.52%;
-    right: 102.32px;
+    right: 81.32px;
     bottom: 54.67%;
     max-height: 100%;
     width: 8.3px;
 }
 .clockIcon {
-    position: absolute;
+    position: fixed;
     height: 0.9%;
     top: 46.02%;
     bottom: 53.08%;
@@ -787,32 +758,34 @@
     width: 8.3px;
 }
 .clockIcon1 {
-    position: absolute;
+    position: fixed;
     height: 0.9%;
     top: 45.91%;
-    right: 102.33px;
+    right: 81.33px;
     bottom: 53.19%;
     max-height: 100%;
     width: 8.3px;
 }
 .d02h20m {
-    position: absolute;
+    position: fixed;
     height: 1.08%;
-    top: 44.49%;
-    left: 168px;
+    width: calc(100% - 275px);
+    top: 45.03%;
+    left: 172px;
     font-size: 9px;
     letter-spacing: 0.07em;
     line-height: 130.08%;
     display: flex;
     align-items: center;
-    width: 129px;
 }
 .timerIcon {
-    position: absolute;
-    top: calc(50% - 50.55px);
+    position: fixed;
+    height: 0.98%;
+    top: 44.97%;
+    bottom: 54.04%;
     left: 151.34px;
+    max-height: 100%;
     width: 9.2px;
-    height: 9.1px;
 }
 .homePage3 {
     width: 100%;
@@ -826,13 +799,3 @@
     font-family: Krub;
 }
 
-
-
-@media(max-width:780px){
-    .homePage3{
-        height:100vh;
-        overflow-x:hidden;
-        overflow-y: auto;
-    }
-
-}
