@@ -214,7 +214,7 @@
     position: fixed;
     height: 2.26%;
     top: 24.08%;
-    right: 31px;
+    right: 25px;
     font-size: 18px;
     font-family: 'Merriweather Sans';
     display: inline-block;
@@ -225,7 +225,7 @@
     position: fixed;
     height: 1.73%;
     top: 41.79%;
-    right: 24px;
+    right: 17px;
     font-size: 18px;
     font-family: 'Merriweather Sans';
     display: inline-block;
@@ -236,22 +236,22 @@
     position: fixed;
     height: 1.73%;
     top: 59.61%;
-    right: 20px;
+    right: 17px;
     font-size: 18px;
     font-family: 'Merriweather Sans';
     display: inline-block;
-    width: 122px;
+    width: 110px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .usdt3 {
     position: fixed;
     height: 1.73%;
     top: 77%;
-    right: 20px;
+    right: 16px;
     font-size: 18px;
     font-family: 'Merriweather Sans';
     display: inline-block;
-    width: 122px;
+    width: 110px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress {
