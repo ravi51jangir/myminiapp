@@ -539,7 +539,7 @@
     position: fixed;
     height: 4.43%;
     top: 57.13%;
-    right: 35px;
+    right: 34px;
     bottom: 38.44%;
     background-color: #000;
     border: 1px solid #fff;
@@ -549,7 +549,7 @@
 .nft {
     position: fixed;
     height: 3.78%;
-    top: 57.88%;
+    top: 56.88%;
     left: 68px;
     font-size: 24px;
     letter-spacing: 0.09em;
@@ -561,8 +561,8 @@
 .stake {
     position: fixed;
     height: 3.78%;
-    top: 57.78%;
-    right: 16px;
+    top: 56.8%;
+    right: 17px;
     font-size: 24px;
     letter-spacing: 0.09em;
     display: inline-block;

@@ -112,6 +112,7 @@ const HOMEPAGE = () => {
       <img className={styles.nftimageIcon} alt="" src={images.NftImage.src} />
       <img className={styles.stakeimageIcon} alt="" src={images.StakeImage.src} />
       <div className={styles.nfttextrec} />
+      <div className={styles.staketextrec} />
       <div className={styles.rectangleDiv}/>
       <b className={styles.nft}>NFT</b>
       <b className={styles.stake}>STAKE</b>
