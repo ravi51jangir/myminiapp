@@ -1,5 +1,6 @@
+
 .gpt360bgIcon {
-    position: absolute;
+    position: fixed;
     height: 24.3%;
     width: 100%;
     top: 4.97%;
@@ -12,7 +13,7 @@
     object-fit: cover;
 }
 .profilerectangle {
-    position: absolute;
+    position: fixed;
     height: 4.21%;
     top: 2.92%;
     bottom: 92.87%;
@@ -25,7 +26,7 @@
     width: 140px;
 }
 .walletrectangle {
-    position: absolute;
+    position: fixed;
     height: 4.32%;
     top: 2.81%;
     right: 12px;
@@ -38,16 +39,16 @@
     width: 172px;
 }
 .userlogoIcon {
-    position: absolute;
-    height: 3.83%;
+    position: fixed;
+    height: 3.84%;
     top: 3.35%;
-    bottom: 92.82%;
+    bottom: 92.81%;
     left: 22px;
     max-height: 100%;
     width: 38.5px;
 }
 .wxyz {
-    position: absolute;
+    position: fixed;
     height: 2.38%;
     top: 4.21%;
     left: 68px;
@@ -55,59 +56,71 @@
     display: inline-block;
     width: 51px;
 }
-
-.activeborderimageIcon {
-    position: absolute;
- 
-    top: 10.83%;
-    
-    left: 0px;
-    max-height: 100%;
-    width: 336px;
-    object-fit: cover;
-}
-.active {
-    position: absolute;
-    height: 49.88%;
-    top: 12%;
-    left: 63px;
-    letter-spacing: 0.08em;
+.connectWallet {
+    position: fixed;
+    height: 2.38%;
+    top: 4.1%;
+    right: 40px;
+    font-size: 14px;
     display: inline-block;
-    width: 141px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 135px;
 }
-.activeborderimageParent {
-    position: absolute;
-    height: 4.54%;
-    top: 11.45%;
-    bottom: 84.01%;
-    left: -92px;
-    width: 336px;
+.useropenicon {
+    position: fixed;
+    height: 0.74%;
+    top: 4.68%;
+    bottom: 94.58%;
+    left: 127.05px;
+    max-height: 100%;
+    width: 9.1px;
+    object-fit: contain;
 }
-.applynowIcon {
-    position: absolute;
-    height: 4.78%;
-    width: 100%;
-    top: 81.42%;
-    right: 0px;
-    bottom: 10.8%;
-    left: 0px;
+.walleticon {
+    position: fixed;
+    height: 2.07%;
+    width: 4.91%;
+    top: 4.02%;
+    right: 5.96%;
+    bottom: 93.91%;
+    left: 89.14%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-    object-fit: cover;
 }
-.walletButton {
+.homePage2Child {
+    position: fixed;
+    height: 1.08%;
+    top: 40.17%;
+    bottom: 58.74%;
+    left: calc(50% - 5.5px);
+    border-radius: 50%;
+    background-color: #fff6f6;
+    width: 10px;
+}
+.homePage2Item {
+    position: fixed;
+    height: 1.08%;
+    top: 40.17%;
+    bottom: 58.74%;
+    left: 150px;
+    border-radius: 50%;
+    background-color: #acaeb0;
+    width: 10px;
+    cursor: pointer;
+}
+.homePage2Inner {
+    position: fixed;
+    height: 1.08%;
+    top: 40.17%;
+    right: 151px;
+    bottom: 58.74%;
+    border-radius: 50%;
+    background-color: #acaeb0;
+    width: 10px;
+    cursor: pointer;
+}
 
-    position: absolute;
-    height: 4.22%;
-    top: 2.92%;
-    bottom: 92.87%;
-   
-    width: 140px;
-    right: 2%;
- 
-  }  .buttonsBackground {
+.buttonsBackground {
     position: fixed;
     height: 8.18%;
     width: 100%;
@@ -115,12 +128,15 @@
 
    
 }
+
 .cursorbuttonsIcon {
     position: fixed;
     height: 1.63%;
     width: 5.16%;
-    bottom: 6.3%;
-    left: 8.02%;
+    top: 91.68%;
+    right: 86.91%;
+    bottom: 6.68%;
+    left: 7.93%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
@@ -190,81 +206,29 @@
     object-fit: cover;
     cursor: pointer;
 }
-.connectWallet {
-    position: absolute;
-    height: 2.38%;
-    top: 4.1%;
-    right: 39px;
-    font-size: 14px;
-    display: inline-block;
-    width: 135px;
-}
-.useropenicon {
-    position: absolute;
-    height: 0.75%;
-    top: 4.68%;
-    bottom: 94.58%;
-    left: 127.05px;
-    max-height: 100%;
-    width: 9.1px;
-    object-fit: contain;
-}
-.walleticon {
-    position: absolute;
-    height: 2.06%;
-    width: 4.91%;
-    top: 4.02%;
-    right: 5.96%;
-    bottom: 93.92%;
-    left: 89.14%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.homePage2Child {
-    position: absolute;
-    height: 1.08%;
-    top: 40.17%;
-    bottom: 58.75%;
-    left: 208px;
-    border-radius: 50%;
-    background-color: #fff6f6;
-    width: 10px;
-}
-.homePage2Item {
-    position: absolute;
-    height: 1.08%;
-    top: 40.17%;
-    bottom: 58.75%;
-    left: 186px;
-    border-radius: 50%;
-    background-color: #acaeb0;
-    width: 10px;
-    cursor: pointer;
-}
-.homePage2Inner {
-    position: absolute;
-    height: 1.08%;
-    top: 40.17%;
-    bottom: 58.75%;
-    left: 230px;
-    border-radius: 50%;
-    background-color: #acaeb0;
-    width: 10px;
-    cursor: pointer;
-}
+.walletButton {
+
+    position: fixed;
+    height: 4.22%;
+    top: 2.92%;
+    bottom: 92.87%;
+   
+    width: 140px;
+    right: 2%;
+ 
+  }
 .apply {
-    position: absolute;
-    height: 2.48%;
-    width: calc(100% - 222px);
-    top: 76.45%;
-    left: 109px;
+    position: fixed;
+    height: 2.49%;
+    top: 76.24%;
+    right: 91px;
     display: inline-block;
     font-family: 'Times New Roman';
+    width: 206px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .apply1 {
-    position: absolute;
+    position: fixed;
     height: 6.37%;
     width: calc(100% - 83px);
     top: 65.76%;
@@ -274,70 +238,108 @@
     display: inline-block;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-
-
+.activeborderimageIcon {
+    position: fixed;
+    height: 4.54%;
+    top: 12%;
+    bottom: 83.69%;
+    left: 5px;
+    max-height: 100%;
+    width: 250px;
+    object-fit: cover;
+}
+.active {
+    position: fixed;
+    height: 2.27%;
+    top: 12.28%;
+    left: 10%;
+    letter-spacing: 0.08em;
+    display: inline-block;
+    width: 141px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.activeborderimageParent {
+    position: fixed;
+    height: 4.68%;
+    top: 11.23%;
+    bottom: 84.09%;
+    left: -79px;
+    width: 336px;
+}
+.applynowIcon {
+    position: fixed;
+    height: 4.86%;
+    width: 100%;
+    top: 83.26%;
+    right: 0px;
+    bottom: 11.87%;
+    left: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
 
 .gpt360rec {
-    position: absolute;
-    height: 12.53%;
-    width: calc(100% - 78px);
+    position: fixed;
+    height: 12.52%;
+    width: calc(100% - 52px);
     top: 18.25%;
-    right: 37px;
+    right: 25px;
     bottom: 69.22%;
-    left: 41px;
+    left: 27px;
     border-radius: 15px;
     background-color: #434242;
     border: 1px solid #fff8f8;
     box-sizing: border-box;
 }
 .tokenpricerec {
-    position: absolute;
+    position: fixed;
     height: 11.77%;
-    width: calc(100% - 101px);
+    width: calc(100% - 80px);
     top: 26.03%;
-    right: 49px;
+    right: 40px;
     bottom: 62.2%;
-    left: 52px;
+    left: 40px;
     box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     background-color: #fff;
 }
 .days12leftIcon {
-    position: absolute;
+    position: fixed;
     height: 31.75%;
     top: 10.15%;
     right: 0px;
     bottom: 58.1%;
     max-height: 100%;
-    width: 155px;
+    width: 134px;
     object-fit: cover;
 }
 .gpt360 {
-    position: absolute;
+    position: fixed;
     height: 3.78%;
-    width: calc(100% - 205px);
-    top: 20.09%;
-    left: 133px;
+    top: 19.3%;
+    left: 110px;
     font-size: 32px;
     display: inline-block;
     font-family: Rambla;
+    width: 223px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .gpt360imageIcon {
-    position: absolute;
+    position: fixed;
     height: 4.64%;
-    top: 19.87%;
-    bottom: 75.49%;
-    left: 63px;
+    top: 20.3%;
+    bottom: 75.05%;
+    left: 50px;
     border-radius: 50%;
     max-height: 100%;
     width: 43px;
     object-fit: cover;
 }
 .tokenPrice {
-    position: absolute;
-    height: 1.73%;
+    position: fixed;
+    height: 1.72%;
     top: 27.11%;
     left: 106px;
     font-size: 15px;
@@ -363,7 +365,7 @@
     width: 100%;
 }
 .b {
-    position: absolute;
+    position: fixed;
     height: 2.16%;
     top: 34.67%;
     left: 88px;
@@ -375,7 +377,7 @@
     width: 78px;
 }
 .b1 {
-    position: absolute;
+    position: fixed;
     height: 2.16%;
     top: 34.67%;
     right: 37px;
@@ -387,10 +389,10 @@
     width: 78px;
 }
 .d02h20m {
-    position: absolute;
+    position: fixed;
     height: 1.08%;
     width: calc(100% - 314px);
-    top: 34.77%;
+    top: 35.1%;
     left: 180px;
     font-size: 7px;
     letter-spacing: 0.07em;
@@ -400,10 +402,10 @@
     align-items: center;
 }
 .usdt {
-    position: absolute;
+    position: fixed;
     height: 2.7%;
     top: 29.05%;
-    left: 106px;
+    right: 42px;
     font-size: 24px;
     letter-spacing: 0.05em;
     line-height: 130.08%;
@@ -415,39 +417,39 @@
     width: 212px;
 }
 .mutliplediscIcon {
-    position: absolute;
+    position: fixed;
     height: 3.6%;
-    top: 27.21%;
-    bottom: 69.19%;
-    left: 81.13px;
+    top: 28.08%;
+    bottom: 68.33%;
+    left: 70px;
     max-height: 100%;
     width: 16.9px;
 }
 .discIcon {
-    position: absolute;
-    height: 2.31%;
-    top: 29.01%;
-    bottom: 68.68%;
-    left: 68px;
+    position: fixed;
+    height: 2.3%;
+    top: 29.55%;
+    bottom: 68.15%;
+    left: 63px;
     max-height: 100%;
     width: 16.9px;
 }
 .full {
-    position: absolute;
-    height: 0.76%;
+    position: fixed;
+    height: 0.75%;
     width: calc(100% - 150px);
     top: 33.15%;
     right: 74px;
-    bottom: 66.09%;
+    bottom: 66.1%;
     left: 76px;
     border-radius: 10px;
     background-color: #434242;
 }
 .full80 {
-    position: absolute;
-    height: 0.76%;
+    position: fixed;
+    height: 0.75%;
     top: 33.15%;
-    bottom: 66.09%;
+    bottom: 66.1%;
     left: 76px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -455,127 +457,127 @@
     width: 187px;
 }
 .calenderIcon {
-    position: absolute;
+    position: fixed;
     height: 0.57%;
     top: 34.98%;
-    bottom: 64.45%;
+    bottom: 64.46%;
     left: 77.88px;
     max-height: 100%;
     width: 5.3px;
 }
 .calenderIcon1 {
-    position: absolute;
+    position: fixed;
     height: 0.57%;
     top: 34.98%;
     right: 120.82px;
-    bottom: 64.45%;
+    bottom: 64.46%;
     max-height: 100%;
     width: 5.3px;
 }
 .clockIcon {
-    position: absolute;
+    position: fixed;
     height: 0.57%;
     top: 35.93%;
-    bottom: 63.49%;
+    bottom: 63.5%;
     left: 77.87px;
     max-height: 100%;
     width: 5.3px;
 }
 .clockIcon1 {
-    position: absolute;
+    position: fixed;
     height: 0.57%;
     top: 35.93%;
     right: 120.83px;
-    bottom: 63.49%;
+    bottom: 63.5%;
     max-height: 100%;
     width: 5.3px;
 }
 .timerIcon {
-    position: absolute;
+    position: fixed;
     height: 0.69%;
-    top: 34.92%;
-    bottom: 64.39%;
-    left: calc(50% - 44.76px);
+    top: 35.24%;
+    bottom: 64.07%;
+    left: 169.24px;
     max-height: 100%;
     width: 8.4px;
 }
 .nftimagerec {
-    position: absolute;
-    height: 12.85%;
+    position: fixed;
+    height: 12.84%;
     top: 45.46%;
-    bottom: 41.68%;
-    left: 42px;
+    bottom: 41.69%;
+    left: 23px;
     box-shadow: 0px 2px 3px 5px #0048ff;
     border-radius: 10px;
     background-color: #000;
     border: 1px solid #0048ff;
     box-sizing: border-box;
-    width: 158px;
+    width: 140px;
     opacity: 0.2;
 }
 .stakeimagerec {
-    position: absolute;
-    height: 12.85%;
+    position: fixed;
+    height: 12.84%;
     top: 45.46%;
-    right: 39px;
-    bottom: 41.68%;
+    right: 25px;
+    bottom: 41.69%;
     box-shadow: 0px 2px 3px 5px #0048ff;
     border-radius: 10px;
     background-color: #000;
     border: 1px solid #0048ff;
     box-sizing: border-box;
-    width: 158px;
+    width: 140px;
     opacity: 0.2;
 }
 .nftimageIcon {
-    position: absolute;
+    position: fixed;
     height: 7.67%;
-    top: 46.65%;
-    bottom: 45.68%;
-    left: 85px;
+    top: 47.19%;
+    bottom: 45.14%;
+    left: 56px;
     border-radius: 50%;
     max-height: 100%;
     width: 71px;
     object-fit: cover;
 }
 .stakeimageIcon {
-    position: absolute;
+    position: fixed;
     height: 7.67%;
-    top: 46.65%;
-    right: 83px;
-    bottom: 45.68%;
+    top: 47.3%;
+    right: 61px;
+    bottom: 45.03%;
     border-radius: 50%;
     max-height: 100%;
     width: 71px;
     object-fit: cover;
 }
 .nfttextrec {
-    position: absolute;
+    position: fixed;
     height: 4.43%;
-    top: 56.48%;
-    bottom: 39.09%;
-    left: 55px;
+    top: 57.13%;
+    bottom: 38.44%;
+    left: 35px;
     background-color: #000;
     border: 1px solid #fff;
     box-sizing: border-box;
-    width: 135px;
+    width: 116px;
 }
 .staketextrec {
-    position: absolute;
+    position: fixed;
     height: 4.43%;
-    top: 56.48%;
-    right: 51px;
-    bottom: 39.09%;
+    top: 57.13%;
+    right: 34px;
+    bottom: 38.44%;
     background-color: #000;
     border: 1px solid #fff;
     box-sizing: border-box;
-    width: 135px;
+    width: 116px;
 }
 .nft {
-    position: absolute;
+    position: fixed;
     height: 3.78%;
-    top: 57.13%;
-    left: 96px;
+    top: 57.88%;
+    left: 71px;
     font-size: 24px;
     letter-spacing: 0.09em;
     display: inline-block;
@@ -584,10 +586,10 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .stake {
-    position: absolute;
+    position: fixed;
     height: 3.78%;
-    top: 57.13%;
-    right: 38px;
+    top: 57.78%;
+    right: 14px;
     font-size: 24px;
     letter-spacing: 0.09em;
     display: inline-block;
@@ -599,29 +601,11 @@
     width: 100%;
     position: relative;
     background-color: #000;
-    height: 926px;
+    height: 812px;
     overflow: hidden;
     text-align: left;
     font-size: 20px;
     color: #fff;
     font-family: Krub;
-}
-
-
-@media(max-width:780px){
-    .homePage2{
-        height:100vh;
-    }
-    .apply {
-        text-wrap:nowrap;
-        font-size:1rem;
-        top:80%;
-      }
-
-    .applynowIcon {
-        top: 83%;
-        height: 5.55%;
-    }
-
 }
 
