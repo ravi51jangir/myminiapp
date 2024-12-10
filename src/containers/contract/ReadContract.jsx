@@ -1,21 +1,21 @@
 "use client";
 import { useReadContract } from "wagmi";
-import { counterAbi } from "@/constants/abi";
-import { counterAddress } from "@/constants/index";
+import { presaleAbi } from "@/constants/abi";
+import { presaleAddress } from "@/constants/index";
 
 export function ReadContract() {
   const {
-    data: counter,
+    data: price,
     status,
     isLoading,
     error,
   } = useReadContract({
-    abi: counterAbi,
-    address: counterAddress,
-    functionName: "number",
+    abi: presaleAbi,
+    address: presaleAddress,
+    functionName: "price",
   });
 
-  console.log(counter, status, isLoading, error);
+  console.log(price, status, isLoading, error);
 
   return (
     <div className="text-left my-8">
@@ -26,7 +26,7 @@ export function ReadContract() {
       ) : (
         <div className="text-2xl">
           Current Number:{" "}
-          <span className="text-rabble">{counter?.toString()}</span>
+          <span className="text-rabble">{price?.toString()}</span>
         </div>
       )}
     </div>

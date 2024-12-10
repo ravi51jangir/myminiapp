@@ -10,7 +10,7 @@ function ContractExample() {
     <div className="">
       {isConnected ? (
         <>
-          <ReadContract />
+          {/* <ReadContract /> */}
           <WriteContract />
         </>
       ) : (

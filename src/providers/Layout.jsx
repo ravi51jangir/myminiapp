@@ -18,8 +18,6 @@ import Notificationpage from "../pages/NOTIFICATION";
 import ICO_3page from "../pages/ICO_3";
 import ICO_4page from "../pages/ICO_4";
 import ICO_5page from "../pages/ICO_5";
-
-
 import Head from "next/head"; // Import the Head component
 
 
