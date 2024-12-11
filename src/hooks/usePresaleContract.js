@@ -5,6 +5,8 @@ import { parseEther, formatEther } from 'viem';
 import { presaleAbi, usdtAbi } from "@/constants/abi";
 import { presaleAddress, usdtAddress } from "@/constants/index";
 import { useAccount } from "wagmi";
+import { toast } from "sonner";
+import { useState, useEffect } from "react";
 
 export const usePresaleContract = () => {
     const { address } = useAccount();
@@ -74,37 +76,67 @@ export const usePresaleContract = () => {
     });
 
     // Write contract setup
-    const { writeContract: writeApprove, data: approveHash } = useWriteContract();
-    const { writeContract: writeBuy, data: buyHash } = useWriteContract();
+    const { 
+        writeContract: writeApprove, 
+        data: approveHash,
+        isPending: isApprovePending,
+        isError: approveWriteError
+    } = useWriteContract();
+
+    const { 
+        writeContract: writeBuy, 
+        data: buyHash,
+        isPending: isBuyPending,
+        isError: buyWriteError
+    } = useWriteContract();
     
-    const { isLoading: isApproveConfirming } = useWaitForTransactionReceipt({
+    const { 
+        isLoading: isApproveConfirming,
+        isSuccess: isApproveSuccess,
+        error: approveError
+    } = useWaitForTransactionReceipt({
         hash: approveHash,
     });
-    const { isLoading: isBuyConfirming } = useWaitForTransactionReceipt({
+
+    const { 
+        isLoading: isBuyConfirming,
+        isSuccess: isBuySuccess,
+        error: buyError
+    } = useWaitForTransactionReceipt({
         hash: buyHash,
     });
 
+
+     // Transaction status effects
+     useEffect(() => {
+        if (isApproveSuccess) {
+            toast.success("Token approval successful");
+        }
+        if (approveError || approveWriteError) {
+            toast.error("Token approval failed");
+        }
+    }, [isApproveSuccess, approveError, approveWriteError]);
+
+    useEffect(() => {
+        if (isBuySuccess) {
+            toast.success("Purchase successful");
+        }
+        if (buyError || buyWriteError) {
+            toast.error("Purchase failed");
+        }
+    }, [isBuySuccess, buyError, buyWriteError]);
+
+
     const approveUSDT = async (amount) => {
-        if (!address) throw new Error("Wallet not connected");
+        if (!address) return;
         try {
             const amountInWei = parseEther(amount);
-            const config = {
+            await writeApprove({
                 abi: usdtAbi,
                 address: usdtAddress,
                 functionName: 'approve',
                 args: [presaleAddress, amountInWei],
-            };
-            
-            console.log("Sending approval transaction:", config);
-            const hash = await writeApprove(config);
-            console.log("Approval transaction hash:", hash);
-            
-            // Wait for approval confirmation
-            while (isApproveConfirming) {
-                await new Promise(resolve => setTimeout(resolve, 1000));
-            }
-            
-            return hash;
+            });
         } catch (err) {
             console.error('Approval failed:', err);
             throw err;
@@ -112,27 +144,23 @@ export const usePresaleContract = () => {
     };
 
     const buyTokens = async (amount) => {
-        if (!amount || !address) throw new Error("Invalid amount or wallet not connected");
+        if (!amount || !address) return;
         try {
             const amountInWei = parseEther(amount);
-            
-            // Always check allowance first
-            if (currentAllowance === undefined || currentAllowance < amountInWei) {
-                console.log("Insufficient allowance, requesting approval");
+            console.log('check1');
+            // Check allowance
+            //if (currentAllowance === undefined || currentAllowance < amountInWei) {
+                toast.info("Approving tokens...");
                 await approveUSDT(amount);
-            }
+            //     return;
+            // }
 
-            const config = {
+            await writeBuy({
                 abi: presaleAbi,
                 address: presaleAddress,
                 functionName: 'buyTokens',
                 args: [amountInWei],
-            };
-            
-            console.log("Sending buy transaction:", config);
-            const hash = await writeBuy(config);
-            console.log("Buy transaction hash:", hash);
-            return hash;
+            });
         } catch (err) {
             console.error('Buy failed:', err);
             throw err;
@@ -153,8 +181,9 @@ export const usePresaleContract = () => {
         },
         buyTokens,
         approveUSDT,
+        isPending: isApprovePending || isBuyPending,
         isConfirming: isApproveConfirming || isBuyConfirming,
+        isSuccess: isApproveSuccess || isBuySuccess,
         currentAllowance,
-        hash: buyHash || approveHash
     };
 };
