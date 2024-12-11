@@ -74,23 +74,37 @@ export const usePresaleContract = () => {
     });
 
     // Write contract setup
-    const { writeContract, data: hash } = useWriteContract();
-    const { isLoading: isConfirming } = useWaitForTransactionReceipt({
-        hash,
+    const { writeContract: writeApprove, data: approveHash } = useWriteContract();
+    const { writeContract: writeBuy, data: buyHash } = useWriteContract();
+    
+    const { isLoading: isApproveConfirming } = useWaitForTransactionReceipt({
+        hash: approveHash,
+    });
+    const { isLoading: isBuyConfirming } = useWaitForTransactionReceipt({
+        hash: buyHash,
     });
 
     const approveUSDT = async (amount) => {
-        if (!address) return;
+        if (!address) throw new Error("Wallet not connected");
         try {
-            console.log("Approving amount:", amount);
-            console.log("Presale address:", presaleAddress);
-            const result = await writeContract({
+            const amountInWei = parseEther(amount);
+            const config = {
                 abi: usdtAbi,
                 address: usdtAddress,
                 functionName: 'approve',
-                args: [presaleAddress, parseEther(amount)],
-            });
-            return result;
+                args: [presaleAddress, amountInWei],
+            };
+            
+            console.log("Sending approval transaction:", config);
+            const hash = await writeApprove(config);
+            console.log("Approval transaction hash:", hash);
+            
+            // Wait for approval confirmation
+            while (isApproveConfirming) {
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+            
+            return hash;
         } catch (err) {
             console.error('Approval failed:', err);
             throw err;
@@ -98,36 +112,32 @@ export const usePresaleContract = () => {
     };
 
     const buyTokens = async (amount) => {
-        if (!amount || !address) return;
-        console.log("buyToken11");
+        if (!amount || !address) throw new Error("Invalid amount or wallet not connected");
         try {
             const amountInWei = parseEther(amount);
-            console.log("buyToken22");
-            console.log("currentAllowance", currentAllowance);
-            console.log("amountInWei", amountInWei);
             
-            // Check allowance only if we have the value
-            //if (currentAllowance !== undefined && currentAllowance < amountInWei) {
+            // Always check allowance first
+            if (currentAllowance === undefined || currentAllowance < amountInWei) {
                 console.log("Insufficient allowance, requesting approval");
                 await approveUSDT(amount);
-                // Wait for approval transaction
-                await new Promise(resolve => setTimeout(resolve, 1000));
-            //}
+            }
 
-            // Proceed with buying tokens
-            const result = await writeContract({
+            const config = {
                 abi: presaleAbi,
                 address: presaleAddress,
                 functionName: 'buyTokens',
                 args: [amountInWei],
-            });
-            return result;
+            };
+            
+            console.log("Sending buy transaction:", config);
+            const hash = await writeBuy(config);
+            console.log("Buy transaction hash:", hash);
+            return hash;
         } catch (err) {
             console.error('Buy failed:', err);
             throw err;
         }
     };
-
 
     return {
         contractData: {
@@ -143,8 +153,8 @@ export const usePresaleContract = () => {
         },
         buyTokens,
         approveUSDT,
-        isConfirming,
+        isConfirming: isApproveConfirming || isBuyConfirming,
         currentAllowance,
-        hash
+        hash: buyHash || approveHash
     };
 };
