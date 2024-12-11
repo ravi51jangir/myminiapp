@@ -21,11 +21,23 @@ const metadata = {
   icons: ["https://rabble-tg-mini-app-nextjs-js-git-walletconnect-happysingh.vercel.app/butterfly.svg"]
 }
 
+const customSepolia = {
+  ...sepolia,
+  rpcUrls: {
+    default: {
+      http: ['https://sepolia.infura.io/v3/3393af0c942d45f7b89616221a48ac25'],
+    },
+    public: {
+      http: ['https://sepolia.infura.io/v3/3393af0c942d45f7b89616221a48ac25'],
+    },
+  }
+}
+
 // Create the modal
 const modal = createAppKit({
   adapters: [wagmiAdapter],
   projectId,
-  networks: [mainnet, arbitrum, sepolia],
+  networks: [mainnet, arbitrum, customSepolia],
   defaultNetwork: sepolia,
   metadata: metadata,
   features: {

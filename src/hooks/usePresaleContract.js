@@ -150,7 +150,7 @@ export const usePresaleContract = () => {
             console.log('check1');
             // Check allowance
             //if (currentAllowance === undefined || currentAllowance < amountInWei) {
-                toast.info("Approving tokens...");
+                await toast.info("Approving tokens...");
                 await approveUSDT(amount);
             //     return;
             // }
