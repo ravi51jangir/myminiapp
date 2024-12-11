@@ -42,6 +42,8 @@ const HOMEPAGE_3  = dynamic(() => Promise.resolve(({ children }) =>{
       if (!contractData.endTime) return;
 
       const updateTimer = () => {
+
+        
           const now = Math.floor(Date.now() / 1000);
           const remaining = Number(contractData.endTime) - now;
           

@@ -94,13 +94,16 @@ export const usePresaleContract = () => {
 
     const buyTokens = async (amount) => {
         if (!amount) return;
-        
+        console.log("buyToken11");
         try {
             const amountInWei = parseEther(amount);
-            
+            console.log("buyToken22");
+            console.log("currentAllowance",currentAllowance);
+            console.log("amountInWei", amountInWei);
             // Check if current allowance is less than amount
-            if (currentAllowance < amountInWei) {
+            if (0 < amountInWei) {
                 // If insufficient allowance, request approval first
+                console.log("buyToken3");
                 await approveUSDT(amount);
                 // Wait for approval transaction
                 await new Promise(resolve => setTimeout(resolve, 1000)); // Brief delay for transaction
@@ -135,6 +138,7 @@ export const usePresaleContract = () => {
         buyTokens,
         approveUSDT,
         isConfirming,
+        currentAllowance,
         hash
     };
 };
