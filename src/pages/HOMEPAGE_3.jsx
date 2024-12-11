@@ -8,9 +8,9 @@ import ConnectButton from "@/components/shared/ConnectButton";
 import { useRouter } from 'next/navigation';
 import { useAccount } from "wagmi";
 import { usePresaleContract } from '../hooks/usePresaleContract';
+import dynamic from 'next/dynamic';
 
-
-const HOMEPAGE_3 = () => {
+const HOMEPAGE_3  = dynamic(() => Promise.resolve(({ children }) =>{
     const router = useRouter();
     const { isConnected } = useAccount();
     const [amount, setAmount] = useState('');
@@ -239,6 +239,6 @@ const HOMEPAGE_3 = () => {
         <img className={styles.timerIcon} alt="" src={images.Timer.src} />
       </div>
     );
-  };
+  }), { ssr: false });
   
   export default HOMEPAGE_3;
