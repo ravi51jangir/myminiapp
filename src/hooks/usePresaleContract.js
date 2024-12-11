@@ -1,6 +1,7 @@
 // usePresaleContract.js
 "use client";
 import { useReadContract, useWriteContract, useWaitForTransactionReceipt } from 'wagmi';
+import { useState, useEffect } from "react";
 import { parseEther, formatEther } from 'viem';
 import { presaleAbi, usdtAbi } from "@/constants/abi";
 import { presaleAddress, usdtAddress } from "@/constants/index";
@@ -8,6 +9,15 @@ import { useAccount } from "wagmi";
 
 export const usePresaleContract = () => {
     const { address } = useAccount();
+
+    const [metaMaskInstalled, setMetaMaskInstalled] = useState(false);
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            setMetaMaskInstalled(!!window.ethereum);
+        }
+    }, []);
+
 
     // Read Contract States
     const { data: price } = useReadContract({
@@ -65,11 +75,12 @@ export const usePresaleContract = () => {
         args: [address],
     });
 
-    const { data: currentAllowance } = useReadContract({
+   const { data: currentAllowance } = useReadContract({
         abi: usdtAbi,
         address: usdtAddress,
         functionName: "allowance",
-        args: [address, presaleAddress],
+        args: address ? [address, presaleAddress] : undefined,
+        enabled: !!address, // Only run when address is available
     });
 
     // Write contract setup
@@ -78,14 +89,24 @@ export const usePresaleContract = () => {
         hash,
     });
 
-    const approveUSDT = async (amount) => {
+   const approveUSDT = async (amount) => {
+        if (!window.ethereum) {
+            console.error('MetaMask not installed');
+            return;
+        }
+
         try {
-            writeContract({
+            // Request account access if needed
+            await window.ethereum.request({ method: 'eth_requestAccounts' });
+            
+            const result = await writeContract({
                 abi: usdtAbi,
                 address: usdtAddress,
                 functionName: 'approve',
                 args: [presaleAddress, parseEther(amount)],
             });
+            
+            return result;
         } catch (err) {
             console.error('Approval failed:', err);
             throw err;
@@ -93,29 +114,32 @@ export const usePresaleContract = () => {
     };
 
     const buyTokens = async (amount) => {
-        if (!amount) return;
-        console.log("buyToken11");
+        if (!amount || !address || !window.ethereum) {
+            console.error('MetaMask not installed or not connected');
+            return;
+        }
+
         try {
+            // Request account access
+            await window.ethereum.request({ method: 'eth_requestAccounts' });
+            
             const amountInWei = parseEther(amount);
-            console.log("buyToken22");
-            console.log("currentAllowance",currentAllowance);
-            console.log("amountInWei", amountInWei);
-            // Check if current allowance is less than amount
-            if (0 < amountInWei) {
-                // If insufficient allowance, request approval first
-                console.log("buyToken3");
+            
+            // Check allowance and approve if needed
+            if (!currentAllowance || currentAllowance < amountInWei) {
                 await approveUSDT(amount);
-                // Wait for approval transaction
-                await new Promise(resolve => setTimeout(resolve, 1000)); // Brief delay for transaction
+                await new Promise(resolve => setTimeout(resolve, 1000));
             }
 
-            // Proceed with buying tokens
-            writeContract({
+            // Buy tokens
+            const result = await writeContract({
                 abi: presaleAbi,
                 address: presaleAddress,
                 functionName: 'buyTokens',
                 args: [amountInWei],
             });
+            
+            return result;
         } catch (err) {
             console.error('Buy failed:', err);
             throw err;
@@ -139,6 +163,7 @@ export const usePresaleContract = () => {
         approveUSDT,
         isConfirming,
         currentAllowance,
+        metaMaskInstalled,
         hash
     };
 };
