@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../../src/global.css";
 
 import { headers } from "next/headers";
 import { Outfit, Be_Vietnam_Pro } from "next/font/google";

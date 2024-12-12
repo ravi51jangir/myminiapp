@@ -1,68 +1,55 @@
-// "use client";
-// import React, { useEffect } from "react";
-// import { Input } from "@/components/ui/input";
-// import { Button } from "@/components/ui/button";
-// import { useWaitForTransactionReceipt, useWriteContract } from "wagmi";
-// import { toast } from "sonner";
+"use client";
+import React, { useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { usePresaleContract } from "@/hooks/usePresaleContract";  // Import the hook
 
-// import { counterAbi } from "@/constants/abi";
-// import { counterAddress } from "@/constants/index";
+export function WriteContract() {
+  const [amount, setAmount] = useState("");  // State for the amount of tokens to buy
+  const {
+    buyTokens,
+    isPending,
+    isConfirming,
+    isSuccess,
+    currentAllowance,
+  } = usePresaleContract();  // Get contract functions and state from the custom hook
 
-// export function WriteContract() {
-//   const { data: hash, isPending, writeContract } = useWriteContract();
+  const handleBuy = async (e) => {
+    e.preventDefault();
+    try {
+      await buyTokens(amount);
+    } catch (err) {
+      console.error("Error buying tokens:", err);
+    }
+  };
 
-//   async function submit(e) {
-//     e.preventDefault();
-//     const formData = new FormData(e.target);
-//     const tokenId = formData.get("value");
-//     console.log(tokenId);
-//     writeContract({
-//       address: counterAddress,
-//       abi: counterAbi,
-//       functionName: "setNumber",
-//       args: [BigInt(tokenId)],
-//     });
-//   }
+  return (
+    <form onSubmit={handleBuy} className="my-8">
+      <p className="text-sm text-gray-500">Buy tokens during the presale</p>
+      <div className="flex w-full max-w-sm items-center space-x-2">
+        <Input
+          name="amount"
+          placeholder="Amount (USDT)"
+          type="number"
+          required
+          value={amount}
+          onChange={(e) => setAmount(e.target.value)}
+          className="bg-black text-white rounded-full"
+        />
+        <Button
+          disabled={isPending || isConfirming || !amount}
+          type="submit"
+          variant={"rabble"}
+          size={"one-third"}
+        >
+          {isPending ? "Confirming..." : isConfirming ? "Confirming..." : "Buy Tokens"}
+        </Button>
+      </div>
 
-//   const {
-//     isLoading: isConfirming,
-//     error,
-//     isSuccess: isConfirmed,
-//   } = useWaitForTransactionReceipt({
-//     hash,
-//   });
-
-//   useEffect(() => {
-//     if (isConfirmed) {
-//       toast.success("Transaction Successful");
-//     }
-//     if (error) {
-//       toast.error("Transaction Failed");
-//     }
-//   }, [isConfirmed, error]);
-
-//   return (
-//     <form onSubmit={submit}>
-//       <p className="text-sm text-gray-500">
-//         Make this counter your favorite number
-//       </p>
-//       <div className="flex w-full max-w-sm items-center space-x-2">
-//         <Input
-//           name="value"
-//           placeholder="14"
-//           type="number"
-//           required
-//           className="bg-black text-white rounded-full "
-//         />
-//         <Button
-//           disabled={isPending || isConfirming}
-//           type="submit"
-//           variant={"rabble"}
-//           size={"one-third"}
-//         >
-//           {isPending ? "Confirming..." : "Set Number"}
-//         </Button>
-//       </div>
-//     </form>
-//   );
-// }
+      {isSuccess && <p className="text-green-500 mt-4">Transaction Successful</p>}
+      {!isSuccess && currentAllowance && (
+        <p className="text-yellow-500 mt-4">Allowance: {currentAllowance.toString()}</p>
+      )}
+    </form>
+  );
+}

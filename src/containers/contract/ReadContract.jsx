@@ -1,34 +1,47 @@
-"use client";
+"use client"; 
 import { useReadContract } from "wagmi";
-import { counterAbi } from "@/constants/abi";
-import { counterAddress } from "@/constants/index";
+import { presaleAbi } from "@/constants/abi";
+import { presaleAddress } from "@/constants/index";
+import { useEffect, useState } from "react";
 
 export function ReadContract() {
-  const {
-    data: counter,
-    status,
-    isLoading,
-    error,
-  } = useReadContract({
-    abi: counterAbi,
-    address: counterAddress,
-    functionName: "number",
+  // Read contract data
+  const { data: price } = useReadContract({
+    abi: presaleAbi,
+    address: presaleAddress,
+    functionName: "price",
   });
 
-  console.log(counter, status, isLoading, error);
+  const { data: totalRaised } = useReadContract({
+    abi: presaleAbi,
+    address: presaleAddress,
+    functionName: "totalRaised",
+  });
+
+  const { data: softCap } = useReadContract({
+    abi: presaleAbi,
+    address: presaleAddress,
+    functionName: "softCap",
+  });
+
+  const { data: hardCap } = useReadContract({
+    abi: presaleAbi,
+    address: presaleAddress,
+    functionName: "hardCap",
+  });
+
+  useEffect(() => {
+    console.log(price, totalRaised, softCap, hardCap);
+  }, [price, totalRaised, softCap, hardCap]);
 
   return (
     <div className="text-left my-8">
-      {isLoading ? (
-        <div>Loading</div>
-      ) : error ? (
-        <div className="text-red-500">Error</div>
-      ) : (
-        <div className="text-2xl">
-          Current Number:{" "}
-          <span className="text-rabble">{counter?.toString()}</span>
-        </div>
-      )}
+      <div className="text-2xl">
+        <div>Presale Price: {price ? price.toString() : "Loading..."}</div>
+        <div>Total Raised: {totalRaised ? totalRaised.toString() : "Loading..."}</div>
+        <div>Soft Cap: {softCap ? softCap.toString() : "Loading..."}</div>
+        <div>Hard Cap: {hardCap ? hardCap.toString() : "Loading..."}</div>
+      </div>
     </div>
   );
 }
