@@ -1,7 +1,7 @@
 import ButtonsBackground from "../../assets/images/Buttons Background.png";
 import ComingSoon from "../../assets/images/Coming Soon.png";
 import cursorbend from "../../assets/images/cursor bend.png";
-
+import buytonimage from "../../assets/images/Group 3.png"
 import Ellipse28 from "../../assets/images/Ellipse 28.png";
 import Ellipse29 from "../../assets/images/Ellipse 29.png";
 import HomeButton from "../../assets/images/Home Button.png";
@@ -107,6 +107,7 @@ import Web from "../../assets/images/Web.png";
 
 export const images = {
     ButtonsBackground,
+    buytonimage,
     ComingSoon,
     cursorbend,
     Ellipse28,

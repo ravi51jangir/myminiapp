@@ -156,6 +156,8 @@ const HOMEPAGE_3 = dynamic(
             onClick={() => router.push("/notification")}
             style={{ cursor: "pointer" }}
           />
+
+          
           <div className={styles.listingDetails}>LISTING DETAILS</div>
           <div className={styles.bitmart}>Bitmart</div>
           <div className={styles.neuton}>NEUTON</div>
@@ -181,6 +183,7 @@ const HOMEPAGE_3 = dynamic(
             .........................................................................
           </b>
           <div className={styles.buynewtonrec} />
+          
 
           <div className={styles.hardcap} />
           <div className={styles.softcap} />
@@ -229,7 +232,13 @@ const HOMEPAGE_3 = dynamic(
         />
         <span className={styles.tokenLabel}>TON</span>
       </div>
-
+   
+      <img
+            className={styles.newbuyrec}
+            alt=""
+            src={images.buytonimage.src}
+          />
+      
       {/* Buy Button */}
       <div className={styles.buy12876321255Neuton}>
         <button
