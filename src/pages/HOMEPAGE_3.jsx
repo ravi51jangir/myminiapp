@@ -213,7 +213,7 @@ const HOMEPAGE_3 = dynamic(
 
            <div className={styles.max500Ton}v>
        
-          Max: {formatDisplayValue(contractData.maxPurchase)} TON
+          Max:{formatDisplayValue(contractData.maxPurchase)} TON
            </div>
 
 
