@@ -195,33 +195,27 @@ const HOMEPAGE_3 = dynamic(
           <div className={styles.container}>
 
 
-  {/* TON Balance */}
-  <div className={styles.tonBalance}>Ton Balance:</div>
-  <div className={styles.ton1}>
-    {formatDisplayValue(contractData.userBalance)} TON
-  </div>
+          {/* TON Balance */}
+           <div className={styles.tonBalance}>Ton Balance:</div>
+           <div className={styles.ton1}>
+          {formatDisplayValue(contractData.userBalance)} TON
+           </div>
 
 
 
 
 
-{/* Min and Max Buttons */}
-<div className={styles.min10Ton}>
-        <button
-          onClick={() => setAmount("10")} // Static Min Value as String
-          className={styles.min10Ton}
-        >
-          Min: 10TON
-        </button>
-      </div>
-      <div className={styles.max500Ton}>
-        <button
-          onClick={() => setAmount("1000000")} // Static Max Value as String
-          className={styles.max500Ton}
-        >
-          Max:1000000TON
-        </button>
-      </div>
+        {/* Min and Max Buttons */}
+        <div className={styles.min10Ton}>
+          
+         Min: {formatDisplayValue(contractData.minPurchase)} TON
+           </div>
+
+           <div className={styles.max500Ton}v>
+       
+          Max: {formatDisplayValue(contractData.maxPurchase)} TON
+           </div>
+
 
       {/* Input Section for User to Enter Dynamic Amount */}
       <div className={styles.buynewtonrec}>

@@ -512,11 +512,12 @@
     top: 73.33%;
     right: 21px;
     bottom: 23%;
+    color: #000;
     border-radius: 9px;
     background-color: #f4f0f0;
     border: 1px solid #fff8f8;
     box-sizing: border-box;
-    width: 160px;
+    width: 170px;
    
   }
   
@@ -526,6 +527,7 @@
     font-weight: 500;
     display: inline-block;
     height: 3.67%;
+    color: #000;
     top: 78.51%;
     right: 21px;
     bottom: 23%;
@@ -533,7 +535,7 @@
     background-color: #f4f0f0;
     border: 1px solid #fff8f8;
     box-sizing: border-box;
-    width: 160px;
+    width: 170px;
   }
   
 .tonBalance {
